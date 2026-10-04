@@ -34,7 +34,7 @@ export const facilityItems: readonly CatalogItemInput[] = [
     geometryKind: 'point',
     footprint: { widthM: 0.8, depthM: 0.8 },
     heightM: 1,
-    unitCost: { perItemCad: 12000 },
+    unitCost: { perItemCad: 35000 },
     surface: 'pervious',
     modelKey: 'drinking-fountain',
     scalePolicy: 'fixed',

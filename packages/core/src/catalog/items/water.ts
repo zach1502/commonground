@@ -20,7 +20,7 @@ export const waterItems: readonly CatalogItemInput[] = [
     geometryKind: 'area',
     footprint: { minAreaM2: 10, defaultAreaM2: 40 },
     heightM: 0.8,
-    unitCost: { perM2Cad: 250 },
+    unitCost: { perM2Cad: 500 },
     surface: 'pervious',
     modelKey: 'rain-garden',
     scalePolicy: 'tile',

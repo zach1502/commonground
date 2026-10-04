@@ -86,7 +86,7 @@ describe('projectParametersSchema', () => {
 describe('defaultParameters', () => {
   it('returns the Jonathan Rogers demo values', () => {
     const parameters = defaultParameters();
-    expect(parameters.budget.totalCad).toBe(500000);
+    expect(parameters.budget.totalCad).toBe(1500000);
     expect(parameters.canopy.minPercent).toBe(30);
     expect(parameters.impervious.maxPercent).toBe(35);
     expect(parameters.requiredFeatures).toEqual([

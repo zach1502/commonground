@@ -124,6 +124,21 @@ describe('catalog entries', () => {
   });
 });
 
+// Three checks of public sources on 2026-10-04 confirmed these values (costs-sources.md).
+describe('fact-checked values', () => {
+  it.each([
+    ['off-leash-area', { perM2Cad: 370 }],
+    ['drinking-fountain', { perItemCad: 35000 }],
+    ['rain-garden', { perM2Cad: 500 }],
+  ])('prices the %s at %o', (id, unitCost) => {
+    expect(catalogIndex.get(id)?.unitCost).toEqual(unitCost);
+  });
+
+  it('sizes the flowering cherry trunk at 45 cm, the median of Vancouver Kanzan cherries', () => {
+    expect(catalogIndex.get('flowering-cherry')?.matureDbhCm).toBe(45);
+  });
+});
+
 describe('juice round items', () => {
   // The gazebo is an amenity: a shelter category would need a schema change.
   it.each([

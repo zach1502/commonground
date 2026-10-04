@@ -77,10 +77,10 @@ test('turning on Parking adds a legend row, and every layer off clears it', asyn
   await page.screenshot({ path: `${SHOTS}/editor-layers-off.png` });
 });
 
-test('the footer sources carry the TransLink notice', async ({ page }) => {
+test('the footer sources carry the TransLink legend', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('contentinfo')).toContainText(
-    'TransLink does not promise that this data is right or up to date.',
+    'Route and arrival data used in this product or service is provided by permission of TransLink. TransLink assumes no responsibility for the accuracy or currency of the Data used in this product or service.',
   );
 });
 

@@ -20,7 +20,7 @@ import {
 } from './units.js';
 
 // Jonathan Rogers demo values. See packages/core/costs-sources.md for the earthworks rates.
-const DEMO_BUDGET_CAD = 500_000;
+const DEMO_BUDGET_CAD = 1_500_000;
 const DEMO_CUT_PER_M3_CAD = 25;
 const DEMO_FILL_PER_M3_CAD = 35;
 const DEMO_HAUL_PER_M3_CAD = 20;

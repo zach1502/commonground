@@ -6,7 +6,7 @@ These rules cover every word in CommonGround: UI strings, constraint messages, s
 
 Readers are the residents of a city whose park is open for design. Many read English as a second language, and many use the app on a phone. Write at about a grade 8 reading level. Use the active voice and address the reader as "you".
 
-The `readability` check holds each UI string of two or more sentences to Flesch-Kincaid grade 8, and each doc paragraph to grade 10.
+The `readability` check holds each UI string of two or more sentences to Flesch-Kincaid grade 8, and each doc paragraph to grade 10. It leaves out legal text that a licence makes us quote word for word, listed under `verbatim` in `tools/preflight/content-rules.json`. It still grades the words around that text, and every other rule still reads it.
 
 ## Copy budgets
 

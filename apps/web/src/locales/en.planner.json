@@ -146,7 +146,7 @@
         "budgetTotal": {
           "label": "Total budget in dollars",
           "help": "Designs that cost more than this are over budget.",
-          "default": "Default: $500,000"
+          "default": "Default: $1,500,000 (CommonGround 2026 cost estimate)"
         },
         "cutPerM3": {
           "label": "Cut cost per m³ in dollars",

@@ -57,7 +57,7 @@ describe('parameters form', () => {
 describe('parameters form money', () => {
   it('writes money with thousands separators and reads it back with or without them', () => {
     const draft = draftFrom(base);
-    expect(draft.numbers.budgetTotal).toBe('500,000');
+    expect(draft.numbers.budgetTotal).toBe('1,500,000');
     const result = parseDraft(withNumber(draft, 'budgetTotal', '$1,200,000'), base, MESSAGES);
     expect(result.kind === 'valid' ? result.parameters.budget.totalCad : 0).toBe(1_200_000);
   });

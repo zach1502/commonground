@@ -21,6 +21,11 @@ const JITTER_MIN = 0.9;
 const JITTER_SPAN = 0.2;
 const JITTER_DECIMALS = 100;
 const ANNULUS_OUTER = 2;
+/**
+ * Crown radius of the red alder planted when no species is given. The scatter gets its species
+ * as input and does not read the catalog, so the median of 3 checks of the alder's spread is here.
+ */
+const FALLBACK_CROWN_RADIUS_M = 4.5;
 
 export interface TreeSpecies {
   readonly catalogId: string;
@@ -101,7 +106,10 @@ function fits(state: ScatterState, point: PlanePoint, radiusM: number): boolean 
 }
 
 function nextSpecies(state: ScatterState): TreeSpecies {
-  const fallback = state.input.species[0] ?? { catalogId: 'red-alder', radiusM: 1 };
+  const fallback = state.input.species[0] ?? {
+    catalogId: 'red-alder',
+    radiusM: FALLBACK_CROWN_RADIUS_M,
+  };
   return state.queue[0] ?? pick(state.input.species, state.input.random) ?? fallback;
 }
 

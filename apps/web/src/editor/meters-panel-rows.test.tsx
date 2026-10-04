@@ -58,7 +58,7 @@ describe('MetersPanel rows', () => {
       'aria-valuetext',
       '0% of 35%',
     );
-    expect(screen.getByText('$0 of $500,000')).toBeInTheDocument();
+    expect(screen.getByText('$0 of $1,500,000')).toBeInTheDocument();
   });
 
   it('writes no status line under a met gauge, and the status under one off target', () => {

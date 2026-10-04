@@ -90,3 +90,17 @@ describe('scatterTrees', () => {
     expect(tree?.scaleJitter).toBeLessThanOrEqual(1.1);
   });
 });
+
+describe('scatterTrees with no species', () => {
+  it('falls back to red alders spaced for a 4.5 m crown', () => {
+    const result = scatterTrees(inputFor({ species: [] }));
+    expect(result.items.length).toBeGreaterThan(0);
+    expect(new Set(result.items.map((item) => item.catalogId))).toEqual(new Set(['red-alder']));
+    const points = positions(result);
+    points.forEach((a, i) => {
+      points.slice(i + 1).forEach((b) => {
+        expect(Math.hypot(a.x - b.x, a.y - b.y)).toBeGreaterThanOrEqual(minimumSpacing(4.5, 4.5));
+      });
+    });
+  });
+});

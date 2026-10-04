@@ -78,7 +78,7 @@ describe('MetersPanel budget', () => {
     );
     expect(screen.getByRole('meter', { name: strings.labels.budget ?? '' })).toHaveAttribute(
       'aria-valuetext',
-      '$0 of $500,000',
+      '$0 of $1,500,000',
     );
     rerender(
       <Harness ctx={makeContext(fortyTrees)} parameters={defaultParameters()} client={client} />,

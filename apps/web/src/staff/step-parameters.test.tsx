@@ -86,7 +86,8 @@ describe('parameters step layout', () => {
       .filter((field) => !(more?.contains(field) ?? false));
     expect(outside).toHaveLength(5);
     const budget = screen.getByRole('textbox', { name: strings.fields.budgetTotal.label });
-    expect(budget).toHaveValue('500,000');
+    expect(budget).toHaveValue('1,500,000');
+    expect(screen.getByText('Default: $1,500,000 (CommonGround 2026 cost estimate)')).toBeVisible();
     expect(budget.closest('.ps-field__row')).toHaveClass('ps-field__row--money');
     expect(document.querySelector('[placeholder]')).toBeNull();
   });
@@ -94,7 +95,7 @@ describe('parameters step layout', () => {
   it('sums up the chosen rules beside the form', async () => {
     const { user } = renderStep();
     const summary = screen.getByRole('complementary', { name: strings.summaryHeading });
-    expect(summary).toHaveTextContent('$500,000');
+    expect(summary).toHaveTextContent('$1,500,000');
     expect(summary).toHaveTextContent('30%');
     const canopy = canopyField();
     await user.clear(canopy);

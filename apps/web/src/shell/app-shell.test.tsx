@@ -44,13 +44,13 @@ describe('footer', () => {
     expect(footer).not.toHaveTextContent('\u00a9');
   });
 
-  it('keeps the TransLink notice inside the folded sources', async () => {
+  it('keeps the TransLink legend, word for word, inside the folded sources', async () => {
     await withProject();
     renderApp(PATHS.home);
     await screen.findByRole('heading', { level: 1 });
     const details = screen.getByRole('contentinfo').querySelector('details');
     expect(details).toHaveTextContent(
-      'TransLink does not promise that this data is right or up to date.',
+      'Route and arrival data used in this product or service is provided by permission of TransLink. TransLink assumes no responsibility for the accuracy or currency of the Data used in this product or service.',
     );
   });
 

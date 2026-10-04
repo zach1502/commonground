@@ -9,7 +9,7 @@ Jonathan Rogers Park is a 1.4 ha neighbourhood park in Mount Pleasant, Vancouver
 - The survey ran from April 14 to May 3, 2026 and got 815 responses. A pop-up in the park on April 18, 2026 had over 100 visitors.
 - A refined concept plan goes to the public and then to the Park Board in late 2026 or early 2027.
 
-The recorded site in this repo has 22 public trees, 12 of them over 30 cm across the trunk, and a community garden with 56 plots. The ground falls about 9 m from south to north across a 176 by 86 m grid.
+The recorded site in this repo has 22 public trees, 12 of them over 30 cm across the trunk, and a community garden with 56 plots. The ground falls about 5 m from south to north, and 9 m from the south-east corner to the north-west corner. The grid is 176 by 86 m.
 
 We chose this park because the scope is real and small. The rules that decide a design here are budget, garden plots, accessible path grades and tree protection, and all of them fit on one screen.
 

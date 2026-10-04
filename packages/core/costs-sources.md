@@ -2,7 +2,7 @@
 
 These are the unit costs in `src/catalog/items` and the earthworks rates in `defaultParameters()`. All amounts are in 2026 Canadian dollars and include supply and install.
 
-No Vancouver Park Board capital report was checked when these numbers were written, because this task had no web access. Every row is marked "estimate" with a range. The catalog uses a value inside the range. Replace a row with a cited figure when someone checks the Park Board capital plan or a tender result, and keep the range until then.
+No Vancouver Park Board capital report was checked when these numbers were written, because this task had no web access. Every row is marked "estimate" with a range. The catalog uses a value inside the range. Replace a row with a cited figure when someone checks the Park Board capital plan or a tender result, and keep the range until then. The off-leash area, rain garden, drinking fountain and flowering cherry rows changed after 3 checks of public sources on 2026-10-04. Their ranges are the span all 3 estimates share.
 
 ## Trees and shrubs
 
@@ -28,12 +28,12 @@ Tree prices assume 6 cm caliper stock, planting, stakes and two years of waterin
 | `path-gravel`       | per square metre | 45            | estimate | 30 to 70     |
 | `path-boardwalk`    | per square metre | 700           | estimate | 450 to 1,000 |
 | `pond`              | per square metre | 400           | estimate | 250 to 700   |
-| `rain-garden`       | per square metre | 250           | estimate | 150 to 400   |
+| `rain-garden`       | per square metre | 500           | estimate | 300 to 700   |
 | `lawn`              | per square metre | 15            | estimate | 8 to 25      |
 | `meadow`            | per square metre | 20            | estimate | 10 to 35     |
 | `plaza`             | per square metre | 300           | estimate | 200 to 500   |
 | `parking-lot-small` | per square metre | 150           | estimate | 100 to 220   |
-| `off-leash-area`    | per square metre | 40            | estimate | 25 to 70     |
+| `off-leash-area`    | per square metre | 370           | estimate | 280 to 500   |
 
 ## Play, sports and seating
 
@@ -55,7 +55,7 @@ Tree prices assume 6 cm caliper stock, planting, stakes and two years of waterin
 | ------------------- | -------- | ------------- | -------- | -------------------- |
 | `washroom-building` | per item | 900,000       | estimate | 600,000 to 1,500,000 |
 | `path-light`        | per item | 6,000         | estimate | 4,000 to 10,000      |
-| `drinking-fountain` | per item | 12,000        | estimate | 8,000 to 20,000      |
+| `drinking-fountain` | per item | 35,000        | estimate | 25,000 to 45,000     |
 | `waste-bin`         | per item | 1,500         | estimate | 800 to 3,000         |
 | `bike-rack`         | per item | 1,200         | estimate | 600 to 2,500         |
 
@@ -90,5 +90,5 @@ Each tree entry has a `matureDbhCm`, which sets the protected root zone of a loc
 | Douglas fir       | 90            | estimate |
 | Western red cedar | 90            | estimate |
 | Garry oak         | 60            | estimate |
-| Flowering cherry  | 30            | estimate |
+| Flowering cherry  | 45            | estimate |
 | Vine maple        | 10            | estimate |

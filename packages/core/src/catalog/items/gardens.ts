@@ -33,7 +33,7 @@ const fencedAreas: readonly CatalogItemInput[] = [
       perimeter: { postSpacingM: 2.4, gateCount: 1 },
     },
     heightM: 1.2,
-    unitCost: { perM2Cad: 40 },
+    unitCost: { perM2Cad: 370 },
     surface: 'pervious',
     modelKey: 'off-leash-area',
     scalePolicy: 'tile',

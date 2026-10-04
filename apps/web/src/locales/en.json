@@ -10,7 +10,7 @@
     "navLogin": "Log in",
     "navLogout": "Log out",
     "loading": "Loading the page",
-    "attribution": "Site data, streets, sidewalks, bike routes and parking meters are from Vancouver Open Data (Open Government Licence - Vancouver). Bus stops are from TransLink, used by permission of TransLink. TransLink does not promise that this data is right or up to date. Map data is by OpenStreetMap contributors (ODbL). Heights are from NRCan HRDEM and NRCan MRDEM (Open Government Licence - Canada). The 3D models are from Kenney, Quaternius and Poly Pizza (CC0). The other models are our own. We made them as procedural placeholders (CC0). The ground textures are from ambientCG (CC0).",
+    "attribution": "Site data, streets, sidewalks, bike routes and parking meters are from Vancouver Open Data (Open Government Licence - Vancouver). Bus stops are from TransLink. Route and arrival data used in this product or service is provided by permission of TransLink. TransLink assumes no responsibility for the accuracy or currency of the Data used in this product or service. Map data is by OpenStreetMap contributors (ODbL). Heights are from NRCan HRDEM and NRCan MRDEM (Open Government Licence - Canada). The 3D models are from Kenney, Quaternius and Poly Pizza (CC0). The other models are our own. We made them as procedural placeholders (CC0). The ground textures are from ambientCG (CC0).",
     "sourcesLink": "Data and model sources",
     "demoStatus": "DEMO"
   },

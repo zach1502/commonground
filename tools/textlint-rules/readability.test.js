@@ -164,3 +164,28 @@ describe('isDocFile', () => {
     expect(['packages/ui/README.md', 'docs/sub/a.md', 'e2e/README.md'].some(isDocFile)).toBe(false);
   });
 });
+
+describe('verbatim legal text', () => {
+  // TransLink's GTFS terms ask for this legend word for word; content-rules.json lists it.
+  const legend =
+    'Route and arrival data used in this product or service is provided by permission of TransLink. TransLink assumes no responsibility for the accuracy or currency of the Data used in this product or service.';
+  const hard =
+    'Accessibility considerations necessitate comprehensive evaluation. Participation requires registration.';
+
+  it('leaves a listed legend out of the grade of a locale string', () => {
+    const text = `Bus stops are from TransLink. ${legend} Map data is from OpenStreetMap.`;
+    expect(localeReadabilityFindings(text)).toEqual([]);
+  });
+
+  it('still grades the rest of a locale string that quotes the legend', () => {
+    expect(localeReadabilityFindings(`${hard} ${legend}`)).toHaveLength(1);
+  });
+
+  it('grades a legend that is not word for word', () => {
+    expect(localeReadabilityFindings(legend.replace('assumes', 'takes'))).toHaveLength(1);
+  });
+
+  it('leaves a listed legend out of the grade of a doc paragraph', () => {
+    expect(paragraphReadabilityFindings(`Plain words here.\n\n> ${legend}\n`)).toEqual([]);
+  });
+});

@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+
 import { maskMarkdown } from './content-checker.js';
 
 /**
@@ -7,6 +9,7 @@ import { maskMarkdown } from './content-checker.js';
  * Lingua::EN::Syllable, which is right for most English words and close for the rest.
  */
 
+const RULES_URL = new URL('../preflight/content-rules.json', import.meta.url);
 export const LOCALE_GRADE_LIMIT = 8;
 export const DOC_GRADE_LIMIT = 10;
 /** Doc paragraphs over the limit are errors; every doc paragraph passed when the check landed. */
@@ -127,9 +130,30 @@ function finding({ index, length, grade, limit, severity, subject }) {
   };
 }
 
-/** A multi-sentence locale string above grade 8 is an error. One-sentence strings are skipped. */
+let cachedVerbatim;
+
+/** Legal text a licence makes us quote word for word: the `verbatim` list in content-rules.json. */
+function verbatimQuotes() {
+  cachedVerbatim ??= (JSON.parse(readFileSync(RULES_URL, 'utf8')).verbatim ?? []).map(
+    ({ text }) => text,
+  );
+  return cachedVerbatim;
+}
+
+/**
+ * The text with each listed quote taken out. The licence fixes those words, so the grade measures
+ * only the words around them. A quote that differs by one word stays in and is graded.
+ */
+function withoutVerbatim(text) {
+  return verbatimQuotes().reduce((rest, quote) => rest.replaceAll(quote, ' '), text);
+}
+
+/**
+ * A multi-sentence locale string above grade 8 is an error. One-sentence strings are skipped,
+ * and listed verbatim legal text is left out of the grade.
+ */
 export function localeReadabilityFindings(text, limit = LOCALE_GRADE_LIMIT) {
-  const stats = textStats(text);
+  const stats = textStats(withoutVerbatim(text));
   const grade = gradeLevel(stats);
   if (stats.sentences <= 1 || grade <= limit) {
     return [];
@@ -227,13 +251,13 @@ export function markdownParagraphs(source) {
     .filter(({ text }) => WORD_CHAR.test(text));
 }
 
-/** A finding for each paragraph above `limit`. */
+/** A finding for each paragraph above `limit`; listed verbatim legal text is not graded. */
 export function paragraphReadabilityFindings(
   source,
   { limit = DOC_GRADE_LIMIT, severity = DOC_SEVERITY } = {},
 ) {
   return markdownParagraphs(source).flatMap(({ index, length, text }) => {
-    const grade = gradeLevel(textStats(text));
+    const grade = gradeLevel(textStats(withoutVerbatim(text)));
     return grade > limit
       ? [finding({ index, length, grade, limit, severity, subject: 'Paragraph' })]
       : [];

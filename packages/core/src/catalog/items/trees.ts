@@ -80,7 +80,7 @@ export const treeItems: readonly CatalogItemInput[] = [
     footprint: { widthM: 0.6, depthM: 0.6 },
     heightM: 8,
     crownRadiusMatureM: 4,
-    matureDbhCm: 30,
+    matureDbhCm: 45,
     unitCost: { perItemCad: 1000 },
     surface: 'pervious',
     modelKey: 'tree-flowering-cherry',
