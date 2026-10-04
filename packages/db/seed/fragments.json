@@ -1,0 +1,40 @@
+{
+  "$comment": "Hand-written fragments. Seed titles and blurbs are put together from these and nothing else. Slots in braces take numbers from the solved design.",
+  "titleLeads": {
+    "dog": ["Dog run", "Off-leash corner", "Room for dogs"],
+    "play": ["Play corner", "Swings and slides", "Room to play"],
+    "water": ["Pond", "Rain garden", "Water by the path"],
+    "garden": ["Bigger garden", "Garden beds", "More garden plots"],
+    "trees": ["Shade trees", "Cedar shade", "More canopy"],
+    "open": ["Open lawn", "Picnic lawn", "Open field"]
+  },
+  "titleTails": {
+    "loop": ["on a loop", "with a loop path"],
+    "connect-all": ["with paths to each gate", "with paths to every corner"],
+    "minimal": ["with one short path", "with few paths"]
+  },
+  "openers": {
+    "dog": [
+      "I gave dogs their own fenced run.",
+      "I put the off-leash area away from the play space."
+    ],
+    "play": ["I put the play space near a gate.", "I made room for kids to play on flat ground."],
+    "water": [
+      "I added water you can see from the path.",
+      "I put the water on the low side, where rain collects."
+    ],
+    "garden": ["I made the community garden bigger.", "I moved the garden beds into the sun."],
+    "trees": ["I planted for shade first.", "I added trees along the edges of the park."],
+    "open": [
+      "I kept the middle open for games and picnics.",
+      "I left a big lawn open for everyone."
+    ]
+  },
+  "details": [
+    "I kept all {lockedTrees} large trees where they stand.",
+    "My plan adds {newTrees} new trees.",
+    "The garden in my plan has {plots} plots.",
+    "My plan costs {cost}.",
+    "The paths add up to {pathM} m."
+  ]
+}

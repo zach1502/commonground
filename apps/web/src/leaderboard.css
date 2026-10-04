@@ -1,0 +1,232 @@
+/* The leaderboard, a dense ranked table that stacks into rows on phones, and the gallery cards. */
+.web-board {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-medium);
+  max-width: var(--page-column);
+  padding-block: var(--layout-padding-large);
+}
+
+.web-board__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--layout-margin-small) var(--layout-margin-large);
+}
+
+/* A dense table: 12 rows sit above the fold at 1280 by 800. */
+.web-board__table td {
+  padding-block: var(--layout-padding-xsmall);
+}
+
+.web-board__design {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-small);
+}
+
+/* The title and its badges share a column, so badges wrap under the title. */
+.web-board__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--layout-margin-xsmall) var(--layout-margin-small);
+  min-inline-size: 0;
+}
+
+.web-board__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-xsmall);
+}
+
+/* The score header opens the note on how scores work; it lines up with the numbers under it. */
+.web-board__table th [data-variant='tertiary'] {
+  padding-inline: 0;
+  font: inherit;
+}
+
+.web-board__thumb {
+  display: block;
+  flex: none;
+  inline-size: 3rem;
+  block-size: 1.875rem;
+  object-fit: cover;
+  border-radius: var(--layout-border-radius-small);
+  background: var(--theme-gray-30);
+}
+
+/* One note for every hidden name, instead of the same words under each row. */
+.web-board__table .web-board__caption {
+  padding-block-end: var(--layout-padding-small);
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+  text-align: left;
+}
+
+/* On a wide window the note under By says it, so the caption is for screen readers only. On a
+   phone the header row is hidden and the caption shows above the rows. */
+@media (min-width: 768px) {
+  .web-board__table .web-board__caption {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+
+.web-board__by-note {
+  display: block;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+/* Under 768 px each row stacks: rank, title and score on one line, the author below. */
+.web-board__author--hidden {
+  color: var(--typography-color-secondary);
+}
+
+@media (max-width: 767px) {
+  .web-board__table thead {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+
+  .web-board__table tbody,
+  .web-board__row {
+    display: block;
+  }
+
+  .web-board__row {
+    display: grid;
+    grid-template-columns: 2ch minmax(0, 1fr) 5ch;
+    grid-template-areas:
+      'rank design score'
+      '. author author';
+    column-gap: var(--layout-margin-small);
+    padding-block: var(--layout-padding-small);
+    border-block-end: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  }
+
+  .web-board__row > td {
+    padding: 0;
+    border: 0;
+  }
+
+  .web-board__rank {
+    grid-area: rank;
+  }
+
+  .web-board__cell-design {
+    grid-area: design;
+  }
+
+  .web-board__design {
+    align-items: flex-start;
+  }
+
+  .web-board__title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .web-board__badges .ps-badge {
+    white-space: normal;
+  }
+
+  .web-board__score {
+    grid-area: score;
+  }
+
+  .web-board__author {
+    grid-area: author;
+    font: var(--typography-regular-small-body);
+    color: var(--typography-color-secondary);
+  }
+
+  .web-board__author--hidden,
+  .web-board__row > .web-board__votes,
+  .web-board__change {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  /* The header row is off screen on phones, so the score carries its unit. */
+  .web-board__score::after {
+    content: '%';
+  }
+}
+
+/* Gallery cards hold design thumbnails only. One column on a phone, more as the window widens. */
+.web-gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+  align-items: start;
+  gap: var(--layout-margin-large);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.web-gallery__card {
+  min-inline-size: 0;
+}
+
+.web-gallery__link {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  color: var(--typography-color-primary);
+  text-decoration: none;
+}
+
+.web-gallery__thumb {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-light-blue);
+}
+
+.web-gallery__thumb--none {
+  aspect-ratio: 8 / 5;
+  background: var(--theme-gray-30);
+}
+
+.web-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-large);
+}
+
+.web-gallery__title {
+  margin: 0;
+  font: var(--typography-bold-h5);
+  line-height: var(--line-height-body);
+  color: var(--typography-color-link);
+}
+
+.web-gallery__head,
+.web-gallery__end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-small);
+}
+
+.web-gallery__end p {
+  margin: 0;
+}
+
+/* One plain line of facts under the title: canopy, plots and cost, never votes. */
+.web-gallery__facts {
+  margin: var(--layout-margin-xsmall) 0 0;
+  color: var(--typography-color-secondary);
+}

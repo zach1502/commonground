@@ -1,0 +1,40 @@
+import type { CatalogItemInput } from '../../schema/catalog.js';
+
+export const shrubItems: readonly CatalogItemInput[] = [
+  {
+    id: 'salal',
+    category: 'shrub',
+    name: 'Salal',
+    geometryKind: 'point',
+    footprint: { widthM: 1.54, depthM: 1.38 },
+    heightM: 1,
+    unitCost: { perItemCad: 40 },
+    surface: 'pervious',
+    modelKey: 'shrub-salal',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'red-flowering-currant',
+    category: 'shrub',
+    name: 'Red flowering currant',
+    geometryKind: 'point',
+    footprint: { widthM: 1.44, depthM: 1.44 },
+    heightM: 2.5,
+    unitCost: { perItemCad: 60 },
+    surface: 'pervious',
+    modelKey: 'shrub-red-flowering-currant',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'hedge',
+    category: 'shrub',
+    name: 'Hedge',
+    geometryKind: 'point',
+    footprint: { widthM: 2, depthM: 0.8 },
+    heightM: 1.2,
+    unitCost: { perItemCad: 150 },
+    surface: 'pervious',
+    modelKey: 'hedge',
+    scalePolicy: 'fixed',
+  },
+];

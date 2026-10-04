@@ -1,0 +1,44 @@
+{
+  "name": "@parkshape/db",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./seed": {
+      "@parkshape/source": "./src/seed/index.ts",
+      "types": "./dist/seed/index.d.ts",
+      "import": "./dist/seed/index.js"
+    },
+    "./testing": {
+      "@parkshape/source": "./src/testing/index.ts",
+      "types": "./dist/testing/index.d.ts",
+      "import": "./dist/testing/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "seed": "pnpm --dir ../../tools/seed run seed",
+    "migrate": "tsc -b && node dist/migrate-cli.js",
+    "migrate:down": "tsc -b && node dist/migrate-cli.js down"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@parkshape/config": "workspace:*",
+    "@parkshape/core": "workspace:*",
+    "drizzle-orm": "0.45.3",
+    "postgres": "3.4.9",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "drizzle-kit": "0.31.11"
+  }
+}

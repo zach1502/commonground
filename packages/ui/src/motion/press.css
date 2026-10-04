@@ -1,0 +1,56 @@
+/* Button press feedback. The hover and pressed colours land in the first frame, in and out, so a
+   short phone tap still shows. A held button keeps its pressed colour after the press, such as
+   the vote the reader just cast. */
+.ps-motion-press {
+  transition-property: none;
+  transition-duration: 0s;
+}
+
+.bcds-react-aria-Button.primary:hover:enabled {
+  background-color: var(--surface-color-primary-button-hover);
+}
+
+.bcds-react-aria-Button.primary.danger:hover:enabled {
+  background-color: var(--surface-color-primary-danger-button-hover);
+}
+
+.bcds-react-aria-Button.primary.danger:active:enabled {
+  background-color: var(--support-surface-color-danger);
+  color: var(--surface-color-primary-danger-button-default);
+}
+
+.bcds-react-aria-Button.primary:active:enabled,
+.bcds-react-aria-Button.primary[data-held='true'] {
+  background-color: var(--surface-color-primary-pressed);
+}
+
+.bcds-react-aria-Button.secondary:hover:enabled {
+  background-color: var(--surface-color-secondary-button-hover);
+}
+
+.bcds-react-aria-Button.secondary:active:enabled,
+.bcds-react-aria-Button.secondary[data-held='true'] {
+  background-color: var(--surface-color-secondary-pressed);
+}
+
+.bcds-react-aria-Button.tertiary:hover:enabled {
+  background-color: var(--surface-color-tertiary-button-hover);
+}
+
+.bcds-react-aria-Button.tertiary:active:enabled {
+  background-color: var(--surface-color-tertiary-pressed);
+}
+
+.ps-motion-press[data-press='tile']:hover {
+  background-color: var(--surface-color-secondary-button-hover);
+}
+
+.ps-motion-press[data-press='tile']:active {
+  background-color: var(--surface-color-secondary-pressed);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ps-motion-press {
+    transition: none;
+  }
+}

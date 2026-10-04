@@ -1,0 +1,34 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+    "types": ["node"]
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test-setup.ts"],
+  "references": [
+    {
+      "path": "../../packages/config"
+    },
+    {
+      "path": "../../packages/core"
+    },
+    {
+      "path": "../../packages/db"
+    },
+    {
+      "path": "../../packages/storage"
+    },
+    {
+      "path": "../../packages/auth"
+    },
+    {
+      "path": "../../packages/terrain"
+    },
+    {
+      "path": "../../packages/ai"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Cedar shade walk",
+  "author": 0,
+  "seed": 101,
+  "tags": ["trees", "paths"],
+  "blurb": "TODO(#seed) First-person blurb with one concrete detail.",
+  "intent": {
+    "features": [
+      { "category": "tree", "count": 10, "placement": { "zone": "south" } },
+      { "catalogId": "bench", "count": 4, "placement": { "near": "western red cedar" } },
+      {
+        "catalogId": "community-garden",
+        "count": 1,
+        "size": "medium",
+        "placement": { "zone": "north-east" }
+      }
+    ],
+    "paths": { "style": "loop", "surface": "gravel" },
+    "canopy": "maximize",
+    "character": "natural"
+  }
+}

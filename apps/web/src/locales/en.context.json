@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "menu": "Map layers",
+    "kinds": {
+      "street": "Streets",
+      "sidewalk": "Sidewalks",
+      "busStop": "Bus stops",
+      "bikeway": "Bike routes",
+      "parking": "Parking"
+    },
+    "legend": {
+      "street": "Street",
+      "sidewalk": "Sidewalk",
+      "busStop": "Bus stop",
+      "bikeway": "Bike route",
+      "parking": "Parking"
+    },
+    "failed": "Street data did not load. Reload the page to try again."
+  }
+}

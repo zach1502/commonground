@@ -1,0 +1,330 @@
+{
+  "plannerMeta": {
+    "site": {
+      "title": "Pick the park | New project | CommonGround",
+      "description": "Step 1 of 6: find a Vancouver park by name or draw its outline on the map."
+    },
+    "terrain": {
+      "title": "Load terrain | New project | CommonGround",
+      "description": "Step 2 of 6: load bare-earth elevation for the park outline."
+    },
+    "review": {
+      "title": "Review site features | New project | CommonGround",
+      "description": "Step 3 of 6: lock the trees, gardens and buildings each design must keep."
+    },
+    "parameters": {
+      "title": "Set the rules | New project | CommonGround",
+      "description": "Step 4 of 6: choose the budget, canopy, slope and grading limits designs must meet."
+    },
+    "refine": {
+      "title": "Refine the baseline | New project | CommonGround",
+      "description": "Step 5 of 6: lock items and draw forbidden zones on the park as it is today."
+    },
+    "publish": {
+      "title": "Publish | New project | CommonGround",
+      "description": "Step 6 of 6: name the project and open it for resident designs."
+    }
+  },
+  "planner": {
+    "home": {
+      "newProject": "Start a new project",
+      "close": "Close {name}",
+      "reopen": "Reopen {name}",
+      "insights": "Insights for {name}",
+      "failed": "The status of {name} did not change. Try again."
+    },
+    "wizard": {
+      "heading": "Set up a new project",
+      "stepsLabel": "Setup steps",
+      "done": "Done",
+      "back": "Back",
+      "continue": "Continue",
+      "steps": {
+        "site": "Pick the park",
+        "terrain": "Load terrain",
+        "review": "Review site features",
+        "parameters": "Set the rules",
+        "refine": "Refine the baseline",
+        "publish": "Publish"
+      }
+    },
+    "site": {
+      "lede": "Find the park in Vancouver Open Data, or draw its outline if it is not listed.",
+      "modeLabel": "How to find the park",
+      "modes": {
+        "search": "Search Vancouver parks by name",
+        "draw": "Draw the outline on the map"
+      },
+      "searchLabel": "Park name",
+      "searchHelp": "Spell it as Vancouver parks boundaries data does, such as Jonathan Rogers Park.",
+      "search": "Find park",
+      "searching": "Searching Vancouver Open Data",
+      "found": "Found {name} in Vancouver parks boundaries, from Vancouver Open Data.",
+      "notFound": "No park named {name} in Vancouver Open Data. Confirm the spelling or draw the outline.",
+      "failed": "The park search did not answer. Try again.",
+      "drawn": "Outline drawn with {count} corners.",
+      "needSite": "Find a park or draw its outline to continue.",
+      "map": {
+        "region": "Map of the park outline",
+        "finish": "Finish outline",
+        "clear": "Clear outline",
+        "drawHint": "Mark each corner of the park, then press Finish outline.",
+        "loading": "Loading map"
+      },
+      "osmAttribution": "Map data from OpenStreetMap contributors",
+      "staticAttribution": "Plain test map with no tiles"
+    },
+    "terrain": {
+      "lede": "CommonGround reads bare-earth elevation for the outline.",
+      "load": "Load terrain",
+      "reload": "Load terrain again",
+      "loading": "Loading terrain for the outline",
+      "sourceLabel": "Terrain source",
+      "providers": {
+        "hrdem": "HRDEM 1 m DTM",
+        "mrdem": "MRDEM 30 m",
+        "static": "Bundled elevation for this park"
+      },
+      "summary": "{width} by {height} cells at {resolution} m. Data from {source}, {licence}.",
+      "failed": "No terrain covers this outline. Go back and draw an outline inside Canada.",
+      "needTerrain": "Load the terrain to continue."
+    },
+    "review": {
+      "lede": "Lock the features every design must keep. Designs cannot move or remove a locked tree, garden or building.",
+      "loading": "Loading trees, gardens and buildings from Vancouver Open Data and OpenStreetMap",
+      "caption": "{count} features found on the site, {locked} locked.",
+      "columns": {
+        "feature": "Feature",
+        "kind": "Kind",
+        "trunk": "Trunk",
+        "source": "Source",
+        "lock": "Lock"
+      },
+      "kinds": {
+        "tree": "Tree",
+        "garden": "Garden",
+        "building": "Building",
+        "sportsField": "Sports field",
+        "other": "Other"
+      },
+      "trunk": "{dbh} cm",
+      "noTrunk": "Not measured",
+      "unnamed": "Unnamed {kind}",
+      "lockLabel": "Lock {name}, row {row}",
+      "lockSwitch": "Lock",
+      "reviewOnly": "Review first",
+      "datasets": {
+        "public-trees": "public trees",
+        "community-gardens-and-food-trees": "community gardens and food trees",
+        "parks-special-features": "park features",
+        "overpass": "mapped outlines"
+      },
+      "skipped": "{count} features have no outline and are left out.",
+      "failed": "Site features did not load. Try again.",
+      "retry": "Load features again",
+      "mapRegion": "Map of site features, locked ones in brown"
+    },
+    "parameters": {
+      "lede": "Designs are checked against these rules. A hard rule blocks a submit. A soft rule shows a badge.",
+      "formError": "Fix the fields marked below to continue.",
+      "closesAt": {
+        "label": "Last day to design and vote",
+        "help": "Leave empty to close the project by hand."
+      },
+      "sections": {
+        "budget": "Budget",
+        "cover": "Tree canopy and hard surfaces",
+        "features": "Required features",
+        "slopes": "Path slopes",
+        "terraform": "Terraforming limits",
+        "trees": "Tree protection",
+        "counts": "Item counts",
+        "voting": "Brief and voting",
+        "severity": "Hard and soft rules"
+      },
+      "fields": {
+        "budgetTotal": {
+          "label": "Total budget in dollars",
+          "help": "Designs that cost more than this are over budget.",
+          "default": "Default: $500,000"
+        },
+        "cutPerM3": {
+          "label": "Cut cost per m³ in dollars",
+          "help": "What it costs to dig out 1 m³ of soil.",
+          "default": "Default: $25 (CommonGround 2026 cost estimate)"
+        },
+        "fillPerM3": {
+          "label": "Fill cost per m³ in dollars",
+          "help": "What it costs to bring in and pack 1 m³ of soil.",
+          "default": "Default: $35 (CommonGround 2026 cost estimate)"
+        },
+        "haulPerM3": {
+          "label": "Haul cost per m³ in dollars",
+          "help": "What it costs to truck 1 m³ of extra soil off the site.",
+          "default": "Default: $20 (CommonGround 2026 cost estimate)"
+        },
+        "canopyMin": {
+          "label": "Tree canopy minimum in percent",
+          "help": "The share of the park that tree crowns must cover.",
+          "default": "Default: 30% (Vancouver Urban Forest Strategy target)"
+        },
+        "imperviousMax": {
+          "label": "Hard surface maximum in percent",
+          "help": "The largest share of the park that paving and buildings can cover.",
+          "default": "Default: 35%"
+        },
+        "gardenMinPlots": {
+          "label": "Community garden plots, fewest",
+          "help": "Every design must include one.",
+          "default": "Default: 20 plots (the garden has 56 plots today)"
+        },
+        "maxRunningSlope": {
+          "label": "Path running slope maximum in percent",
+          "help": "The steepest a path can climb along its length.",
+          "default": "Default: 5% (CSA B651 accessible route limit)"
+        },
+        "maxCrossSlope": {
+          "label": "Path cross slope maximum in percent",
+          "help": "The steepest a path can tilt from side to side.",
+          "default": "Default: 2% (CSA B651 accessible route limit)"
+        },
+        "maxDeviationM": {
+          "label": "Cut or fill depth maximum in metres",
+          "help": "The most a design can raise or lower the ground at any point.",
+          "default": "Default: 5 m (CommonGround default)"
+        },
+        "maxNetHaulM3": {
+          "label": "Net soil hauled maximum in m³",
+          "help": "The most soil a design can truck on or off the site. Leave it empty for no limit.",
+          "default": "Default: no limit (CommonGround default)"
+        },
+        "maxDisturbedPercent": {
+          "label": "Ground disturbed maximum in percent",
+          "help": "The largest share of the park a design can regrade. Leave it empty for no limit.",
+          "default": "Default: no limit (CommonGround default)"
+        },
+        "rootZonePerDbhCm": {
+          "label": "Root zone in metres per cm of trunk",
+          "help": "Designs cannot grade inside this radius around a locked tree.",
+          "default": "Default: 0.12 m per cm (ISA critical root zone rule of 12 times trunk width)"
+        },
+        "brief": {
+          "label": "Design brief",
+          "help": "Residents read this before they design, so name what the park needs.",
+          "default": "Default: the Jonathan Rogers Park brief"
+        },
+        "priorUp": {
+          "label": "Ranking start, up votes",
+          "help": "Early votes then count for less.",
+          "default": "Default: 2 (CommonGround ranking default)"
+        },
+        "priorDown": {
+          "label": "Ranking start, down votes",
+          "help": "Balances the order the same way.",
+          "default": "Default: 2 (CommonGround ranking default)"
+        }
+      },
+      "counts": {
+        "help": "Leave a box empty for no limit.",
+        "default": "Default: no limits (CommonGround default)",
+        "category": "Kind",
+        "min": "Fewest",
+        "max": "Most",
+        "minLabel": "Fewest {category}",
+        "maxLabel": "Most {category}",
+        "categories": {
+          "tree": "Trees",
+          "shrub": "Shrubs",
+          "path": "Paths",
+          "water": "Water",
+          "play": "Play",
+          "seating": "Seating",
+          "sports": "Sports",
+          "garden": "Gardens",
+          "dog": "Dog areas",
+          "lighting": "Lights",
+          "washroom": "Washrooms",
+          "parking": "Parking",
+          "ground": "Ground cover",
+          "plaza": "Plazas",
+          "amenity": "Amenities"
+        }
+      },
+      "severity": {
+        "default": "Default: garden plots and forbidden zones are hard, the rest soft (CommonGround default)",
+        "options": {
+          "soft": "Soft: shows a badge",
+          "hard": "Hard: blocks a submit"
+        },
+        "keys": {
+          "budget": "Budget",
+          "canopy": "Tree canopy",
+          "impervious": "Hard surfaces",
+          "requiredFeatures": "Required features",
+          "forbiddenZones": "Forbidden zones",
+          "slopes": "Path slopes",
+          "counts": "Item counts",
+          "terraform": "Terraforming",
+          "treeProtection": "Tree protection"
+        }
+      },
+      "messages": {
+        "notNumber": "Enter a number.",
+        "required": "Fill this in.",
+        "whole": "Enter a whole number.",
+        "atLeast": "Enter {min} or more.",
+        "above": "Enter a number above {min}.",
+        "between": "Enter a number from {min} to {max}.",
+        "minAboveMax": "Enter a most that is at least the fewest."
+      },
+      "more": "Show more rules: costs, slopes, earthworks, trees, counts, voting and hard or soft",
+      "summaryHeading": "Rules so far",
+      "errorPrefix": "Error: ",
+      "summaryRows": {
+        "budget": "Budget",
+        "canopy": "Tree canopy, at least",
+        "impervious": "Hard surface, at most",
+        "plots": "Garden plots, at least",
+        "slope": "Path slope, at most"
+      }
+    },
+    "refine": {
+      "staffTools": "Planner tools",
+      "lockLabel": "Lock {name}",
+      "lockSwitch": "Lock",
+      "forbidden": "Draw forbidden zone",
+      "noGrade": "Draw no-grade zone",
+      "zoneLabel": {
+        "forbidden": "Forbidden zone {n}",
+        "noGrade": "No-grade zone {n}"
+      },
+      "drawing": "Drag a rectangle on the ground to draw the zone.",
+      "zones": "Zones drawn: {count}.",
+      "desktopOnly": "The editor needs a screen 1024 px wide or more. Use a desktop to refine the baseline.",
+      "webGlSkip": "You can skip this step."
+    },
+    "publish": {
+      "lede": "Publishing opens the project. Residents can then start designs from this baseline and vote.",
+      "nameLabel": "Project name",
+      "nameHelp": "Residents see this on the list they choose from.",
+      "summaryHeading": "What residents get",
+      "summary": {
+        "site": "Site: {name}",
+        "terrain": "Terrain: {provider} from {source}",
+        "baseline": "Baseline: {items} items and {areas} areas, {locked} locked",
+        "zones": "Zones: {count} drawn"
+      },
+      "rulesHeading": "Rules designs are checked against",
+      "edit": "Edit",
+      "editRule": "Edit {rule}",
+      "publish": "Publish project",
+      "publishing": "Publishing",
+      "failed": "The project did not publish. Review each step and try again.",
+      "pictureFailed": "{name} is open to residents. Its picture did not save.",
+      "pictureRetry": "Try the picture again",
+      "skipPicture": "Finish without a picture",
+      "nameRequired": "Enter a project name.",
+      "drawnSite": "Drawn outline"
+    }
+  }
+}

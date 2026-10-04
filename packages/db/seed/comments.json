@@ -1,0 +1,47 @@
+{
+  "$comment": "Element comments the seed adds on two seeded designs. Each names its design by title and its element by kind and catalog id; a path is the design's first path. resident is an index into the seeded residents.",
+  "comments": [
+    {
+      "design": "Cedar shade walk",
+      "element": { "kind": "item", "catalogId": "bench" },
+      "kind": "move",
+      "text": "Turn this bench to face the play area so parents can watch.",
+      "resident": 4
+    },
+    {
+      "design": "Cedar shade walk",
+      "element": { "kind": "path" },
+      "kind": "keep",
+      "text": "The gravel loop is easy with a stroller.",
+      "resident": 7
+    },
+    {
+      "design": "Cedar shade walk",
+      "element": { "kind": "item", "catalogId": "western-red-cedar" },
+      "kind": "question",
+      "text": "Will this cedar shade the garden plots in summer?",
+      "resident": 11
+    },
+    {
+      "design": "Garden by the lane",
+      "element": { "kind": "item", "catalogId": "picnic-table" },
+      "kind": "change",
+      "text": "A table with a wheelchair space at one end would help.",
+      "resident": 5
+    },
+    {
+      "design": "Garden by the lane",
+      "element": { "kind": "area", "catalogId": "community-garden" },
+      "kind": "keep",
+      "text": "",
+      "resident": 9
+    },
+    {
+      "design": "Garden by the lane",
+      "element": { "kind": "item", "catalogId": "flowering-cherry" },
+      "kind": "remove",
+      "text": "The petals clog the drain by the lane each spring.",
+      "resident": 13
+    }
+  ]
+}

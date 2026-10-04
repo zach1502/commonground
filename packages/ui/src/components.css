@@ -1,0 +1,284 @@
+/* Styles for the CommonGround components that the BC library does not draw itself. */
+.ps-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--layout-padding-hair) var(--layout-padding-small);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-medium);
+  border-radius: var(--layout-border-radius-small);
+  font: var(--typography-regular-label);
+  color: var(--typography-color-primary);
+  white-space: nowrap;
+  background: var(--surface-color-background-light-gray);
+}
+
+.ps-badge--info {
+  border-color: var(--status-info);
+  background: var(--status-info-surface);
+}
+
+.ps-badge--success {
+  border-color: var(--status-ok);
+  background: var(--status-ok-surface);
+}
+
+.ps-badge--warning {
+  border-color: var(--status-warn);
+  background: var(--status-warn-surface);
+}
+
+.ps-badge--danger {
+  border-color: var(--status-fail);
+  background: var(--status-fail-surface);
+}
+
+.ps-button-link {
+  text-decoration: none;
+}
+
+.ps-button-link.primary:hover {
+  background-color: var(--surface-color-primary-button-hover);
+}
+
+.ps-button-link.secondary {
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+}
+
+.ps-button-link.secondary:hover,
+.ps-button-link.tertiary:hover {
+  background-color: var(--surface-color-secondary-button-hover);
+}
+
+.ps-meter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  max-width: var(--measure-reading);
+}
+
+.ps-meter__header {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--layout-margin-small);
+}
+
+.ps-meter__label {
+  font: var(--typography-bold-small-body);
+}
+
+.ps-meter__value,
+.ps-meter__status {
+  font: var(--typography-regular-small-body);
+}
+
+.ps-meter__track {
+  height: var(--layout-padding-small);
+  overflow: hidden;
+  border-radius: var(--layout-border-radius-small);
+  background: var(--theme-gray-30);
+}
+
+.ps-meter__fill {
+  height: 100%;
+  background: var(--status-ok);
+}
+
+.ps-meter--warn .ps-meter__fill {
+  background: var(--status-warn);
+}
+
+.ps-meter--fail .ps-meter__fill {
+  background: var(--status-fail);
+}
+
+/* The whole persona row is the radio's hit area, at least 44 px tall. The grid centres the
+   option in that row, and the circle sits on the middle of the label's first line, whether or
+   not a help line follows. */
+.ps-radio-group .bcds-react-aria-Radio {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-content: center;
+  align-items: start;
+  min-block-size: var(--touch-target-min);
+  padding-block: var(--layout-padding-xsmall);
+}
+
+.ps-radio-group .bcds-react-aria-Radio::before {
+  align-self: start;
+  margin-block-start: calc((1lh - var(--icons-size-xsmall)) / 2);
+}
+
+/* The visually hidden native radio input keeps a token font size and colour, not the user-agent
+   13.3px black. It draws nothing, so this changes no pixels. */
+.ps-radio-group input {
+  font: var(--typography-regular-body);
+  color: var(--typography-color-primary);
+}
+
+.ps-radio__text {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.ps-radio__label {
+  display: block;
+}
+
+.ps-radio__description {
+  display: block;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-footer {
+  max-width: var(--measure-reading);
+  font: var(--typography-regular-body);
+}
+
+/* The full sources fold to one line that opens in place. */
+.ps-footer__summary {
+  cursor: pointer;
+  color: var(--typography-color-link);
+}
+
+.ps-footer__summary:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--layout-margin-hair);
+}
+
+.ps-footer--folded[open] > .ps-footer__summary {
+  margin-block-end: var(--layout-margin-small);
+}
+
+.ps-meter-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+.ps-meter-group__heading {
+  margin: 0;
+  font: var(--typography-bold-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-meter-group__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-medium);
+}
+
+.ps-pulse {
+  border-radius: var(--layout-border-radius-small);
+}
+
+.ps-status-badge {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--layout-margin-small);
+}
+
+/* The status and its note each stay on one line; in a narrow cell the whole badge wraps. */
+.ps-status-badge__severity {
+  white-space: nowrap;
+  font: var(--typography-bold-small-body);
+  color: var(--status-fail);
+}
+
+.ps-blocking {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  padding: var(--layout-padding-small) var(--layout-padding-medium);
+  border-inline-start: var(--layout-border-width-large) solid var(--status-fail);
+}
+
+.ps-blocking__heading {
+  margin: 0;
+  font: var(--typography-bold-small-body);
+}
+
+.ps-blocking__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ps-blocking__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-xsmall);
+}
+
+.ps-blocking__message {
+  font: var(--typography-regular-small-body);
+}
+
+.ps-blocking__severity {
+  font: var(--typography-bold-small-body);
+  color: var(--status-fail);
+}
+
+.ps-progress-count {
+  margin: 0;
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+}
+
+.ps-rank-change {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ps-rank-change--up {
+  color: var(--status-ok);
+}
+
+.ps-rank-change--down {
+  color: var(--status-fail);
+}
+
+.ps-rank-change--same {
+  color: var(--typography-color-secondary);
+}
+
+/* An indeterminate bar for a wait over 1 s: a short block runs along a thin track. */
+.ps-progress {
+  position: relative;
+  overflow: hidden;
+  block-size: var(--layout-margin-xsmall);
+  border-radius: var(--layout-border-radius-small);
+  background: var(--surface-color-border-default);
+}
+
+.ps-progress__bar {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 25%;
+  background: var(--surface-color-primary-button-default);
+}
+
+/* With motion off the bar stands still across the track, so it never reads as a percent done. */
+@media (prefers-reduced-motion: reduce) {
+  .ps-progress__bar {
+    inline-size: 100%;
+  }
+}
+
+/* The submit success check: two strokes in the success colour. */
+.ps-success-check {
+  inline-size: 1.25rem;
+  block-size: 1.25rem;
+  fill: none;
+  stroke: var(--icons-color-success);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

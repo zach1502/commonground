@@ -1,0 +1,110 @@
+{
+  "site": {
+    "parkName": "Jonathan Rogers Park",
+    "parcel": {
+      "polygonWgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-123.1093, 49.2646],
+            [-123.1069, 49.2646],
+            [-123.1069, 49.2639],
+            [-123.1093, 49.2639],
+            [-123.1093, 49.2646]
+          ]
+        ]
+      },
+      "polygonLocal": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 175,
+          "y": 0
+        },
+        {
+          "x": 175,
+          "y": 85
+        },
+        {
+          "x": 0,
+          "y": 85
+        }
+      ],
+      "origin": {
+        "lat": 49.2639,
+        "lon": -123.1093
+      }
+    },
+    "features": [
+      {
+        "id": "public-trees-274374",
+        "kind": "tree",
+        "catalogId": "western-red-cedar",
+        "name": "Western red cedar",
+        "dbhCm": 48.3,
+        "plots": null,
+        "suggestedLocked": true,
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "reviewOnly": false,
+        "position": {
+          "x": 140,
+          "y": 8
+        },
+        "polygon": null,
+        "lonLat": [-123.1074, 49.264]
+      },
+      {
+        "id": "public-trees-1",
+        "kind": "tree",
+        "catalogId": null,
+        "name": "Hedge maple",
+        "dbhCm": 7.6,
+        "plots": null,
+        "suggestedLocked": false,
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "reviewOnly": false,
+        "position": {
+          "x": 40,
+          "y": 30
+        },
+        "polygon": null,
+        "lonLat": [-123.1088, 49.2642]
+      },
+      {
+        "id": "community-gardens-and-food-trees-FA052",
+        "kind": "garden",
+        "catalogId": null,
+        "name": "Elisabeth Rogers Community Garden",
+        "dbhCm": null,
+        "plots": 56,
+        "suggestedLocked": true,
+        "source": "Vancouver Open Data",
+        "datasetId": "community-gardens-and-food-trees",
+        "reviewOnly": false,
+        "position": {
+          "x": 90,
+          "y": 40
+        },
+        "polygon": null,
+        "lonLat": [-123.108, 49.2643]
+      }
+    ]
+  },
+  "terrain": {
+    "heightmapRef": "terrain/id-1.bin",
+    "provider": "static",
+    "source": {
+      "name": "NRCan HRDEM",
+      "licence": "Open Government Licence - Canada",
+      "url": "https://open.canada.ca/data/en/dataset/0fe65119-e96e-4a57-8bfe-9d9245fba06b"
+    },
+    "crs": "EPSG:3979",
+    "width": 176,
+    "height": 86,
+    "resolutionM": 1
+  }
+}

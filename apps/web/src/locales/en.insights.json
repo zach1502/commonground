@@ -1,0 +1,222 @@
+{
+  "insights": {
+    "meta": {
+      "title": "Insights | CommonGround",
+      "description": "What residents built and said about designs for {name}."
+    },
+    "heading": "Insights",
+    "lede": "What residents built and how they voted.",
+    "headlineLabel": "Headline numbers",
+    "headline": {
+      "designsSubmitted": "designs submitted",
+      "uniqueVoters": "unique voters",
+      "votesCast": "votes cast"
+    },
+    "features": {
+      "heading": "What designs include",
+      "title": "Residents add {value} most often",
+      "shareCaption": "Share of designs and the average, per feature.",
+      "valueText": "{count} of {total} designs, {average} each",
+      "tableFold": "Show the numbers",
+      "tableCaption": "Each feature, the share of designs that added it and the average number per design.",
+      "featureColumn": "Feature",
+      "designsColumn": "Designs and average",
+      "empty": "No features added yet."
+    },
+    "reasons": {
+      "heading": "Why people voted",
+      "up": {
+        "heading": "Reasons given with up votes",
+        "title": "Up voters named {value} most often",
+        "caption": "How many up votes named each reason.",
+        "tableFold": "Show the up vote numbers",
+        "tableCaption": "Each reason and the up votes that named it, of {votes} votes cast.",
+        "voteCountColumn": "Up votes"
+      },
+      "down": {
+        "heading": "Reasons given with down votes",
+        "title": "Down voters named {value} most often",
+        "caption": "How many down votes named each reason.",
+        "tableFold": "Show the down vote numbers",
+        "tableCaption": "Each reason and the down votes that named it, of {votes} votes cast.",
+        "voteCountColumn": "Down votes"
+      },
+      "reasonColumn": "Reason",
+      "byDesignCaption": "Reasons given for each design, ranked by count.",
+      "byDesignFold": {
+        "one": "Reasons for each design, {count} row",
+        "other": "Reasons for each design, {count} rows"
+      },
+      "designColumn": "Design",
+      "votesColumn": "Votes",
+      "reasonsColumn": "Reasons named",
+      "reasonCount": "{reason} {count}",
+      "none": "None named",
+      "empty": "No reasons named yet."
+    },
+    "comments": {
+      "fold": {
+        "one": "{count} comment",
+        "other": "{count} comments"
+      },
+      "empty": "No comments yet."
+    },
+    "compliance": {
+      "heading": "Park rules",
+      "caption": "How many designs met each rule when submitted.",
+      "ruleColumn": "Rule",
+      "okColumn": "Met, designs",
+      "warnColumn": "Missed, designs",
+      "failColumn": "Failed, designs"
+    },
+    "earthworks": {
+      "fold": {
+        "one": "Soil moved by design, {count} bar",
+        "other": "Soil moved by design, {count} bars"
+      },
+      "caption": "Designs grouped by net soil, in steps of {step} m³.",
+      "axis": "Net fill, m³",
+      "bin": "{from} to {to}",
+      "count": "{count} designs",
+      "empty": "No submitted designs yet."
+    },
+    "baseline": {
+      "fold": {
+        "one": "Changes to what is there today, {count} row",
+        "other": "Changes to what is there today, {count} rows"
+      },
+      "caption": "Designs that moved, removed or resized an existing feature.",
+      "featureColumn": "Feature",
+      "movedColumn": "Moved, % of designs",
+      "removedColumn": "Removed, % of designs",
+      "resizedColumn": "Resized, % of designs",
+      "empty": "This project has no baseline design.",
+      "row": "{name} in the {where}",
+      "repeat": "{label}, {n} of {total}",
+      "unchanged": {
+        "one": "{count} other feature, unchanged in every design",
+        "other": "{count} other features, unchanged in every design"
+      },
+      "where": {
+        "south-west": "south-west",
+        "south": "south",
+        "south-east": "south-east",
+        "west": "west",
+        "centre": "centre",
+        "east": "east",
+        "north-west": "north-west",
+        "north": "north",
+        "north-east": "north-east"
+      }
+    },
+    "summary": {
+      "heading": "Generated summary",
+      "themesLabel": "What top designs share",
+      "themeCount": {
+        "one": "{count} of the top {total} designs",
+        "other": "{count} of the top {total} designs"
+      },
+      "themeEvery": "In every top design",
+      "tradeoffsLabel": "Where top designs split",
+      "tradeoffPair": "{a} or {b}",
+      "tradeoffSplit": "{count} of {total} designs leaned to {a}",
+      "ruleBased": "Written by fixed rules from item counts.",
+      "model": "Written by {model} from item counts.",
+      "unnamedModel": "Written by a language model from item counts."
+    },
+    "heatmap": {
+      "heading": "Where designs put things",
+      "caption": "Designs placed, per 1 m cell.",
+      "legend": "0 to {max} designs",
+      "rampName": "Single-hue blue ramp, colour-blind safe.",
+      "noData": "no data",
+      "desireLinesNote": "Where residents drew paths. Darker means more designs share the route.",
+      "hideItems": "Hide items",
+      "layerLabel": "Heatmap",
+      "groups": {
+        "pathsAndGrading": "Paths and grading",
+        "planting": "Planting",
+        "places": "Places to play and sit",
+        "services": "Services"
+      },
+      "opacityLabel": "Heatmap opacity",
+      "loading": "Loading the 3D terrain from NRCan HRDEM.",
+      "layers": {
+        "path": "Paths",
+        "tree": "Trees",
+        "seating": "Seating",
+        "play": "Play",
+        "garden": "Gardens",
+        "dog": "Dog areas",
+        "shrub": "Shrubs",
+        "water": "Water",
+        "sports": "Sports",
+        "lighting": "Lights",
+        "washroom": "Washrooms",
+        "parking": "Parking",
+        "ground": "Lawn and meadow",
+        "plaza": "Plazas",
+        "amenity": "Fountains, bins and racks",
+        "regrade": "Regrading",
+        "desireLines": "Desire lines"
+      }
+    },
+    "exports": {
+      "heading": "Export the top {count} designs",
+      "lede": "In leaderboard order.",
+      "csv": "Export CSV",
+      "geojson": "Export GeoJSON",
+      "dxf": "Export DXF"
+    },
+    "engagement": {
+      "heading": "Who took part",
+      "caption": "Voters and submitters; groups under 5 hidden.",
+      "fsaCaption": "By postal area",
+      "ageCaption": "By age",
+      "groupColumn": "Group",
+      "peopleColumn": "People",
+      "suppressed": "under 5",
+      "notAnswered": "Did not answer"
+    },
+    "countedAt": "Votes counted to {time}",
+    "showAll": "Show all {count}",
+    "showFewer": "Show fewer",
+    "feedback": {
+      "heading": "Element feedback",
+      "lede": "What residents said about each item, path and area of a design.",
+      "picker": "Design",
+      "option": {
+        "one": "{title}, {count} comment",
+        "other": "{title}, {count} comments"
+      },
+      "empty": "No comments on elements yet.",
+      "active": {
+        "one": "{label} drew {count} {kind} comment",
+        "other": "{label} drew {count} {kind} comments"
+      },
+      "byElementKind": "Comments by element kind",
+      "byKind": "Comments by kind",
+      "groupColumn": "Kind",
+      "countColumn": "Comments",
+      "elementKind": {
+        "item": "Items",
+        "path": "Paths",
+        "area": "Areas"
+      },
+      "list": "Comments by element",
+      "reply": "Reply (optional)",
+      "resolve": "Mark resolved",
+      "hide": "Hide",
+      "show": "Show",
+      "hidden": "Hidden",
+      "map": "Comment map",
+      "mapAlt": "Drawing of {title} with the most commented elements marked",
+      "mapLegend": "Numbers mark the 10 most commented elements. A darker mark has more comments.",
+      "mapTable": "Most commented elements",
+      "elementColumn": "Element",
+      "download": "Download comments (CSV)",
+      "failed": "Element feedback did not load. Try again.",
+      "rankColumn": "Rank"
+    }
+  }
+}

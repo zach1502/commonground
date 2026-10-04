@@ -1,0 +1,2989 @@
+[
+  {
+    "object_id": "{B6CB9D3E-BADD-441C-80E1-7BA1FA20298E}",
+    "hundred_block": "2100 QUEBEC ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10275012867963, 49.26640026215256],
+          [-123.10276767482709, 49.265993303619034],
+          [-123.10278403817885, 49.265586139216516]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{85D5D722-C262-4A98-8C4D-62A5F12389D4}",
+    "hundred_block": "2100 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10936945337043, 49.265707600280145],
+            [-123.10936742812962, 49.266115930419986]
+          ],
+          [
+            [-123.10936491604603, 49.26652167037353],
+            [-123.10936742812962, 49.266115930419986]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{63A0AAF5-70C9-4449-9C73-100935AB8153}",
+    "hundred_block": "2600 QUEBEC ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1029700753201, 49.261184978990904],
+          [-123.10293597970379, 49.26199926468573]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{BDC2667D-0DD7-4D4D-8FFB-135781B98B7C}",
+    "hundred_block": "2200 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1029422748355, 49.26509167595074],
+            [-123.10295935131076, 49.26468456479499]
+          ],
+          [
+            [-123.10292512920913, 49.265498715175035],
+            [-123.1029422748542, 49.265091684945915]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{1971F633-CE63-4575-AD91-B0062F8FE3E8}",
+    "hundred_block": "200 W 5TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1107461686682, 49.266546989506814],
+          [-123.11042475969548, 49.266541108427866],
+          [-123.10950236226074, 49.26652422076436]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{18A3EE49-9C64-4B0E-BC02-7BDABABBCE92}",
+    "hundred_block": "0 W 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10665345539718, 49.2656564109143],
+          [-123.10485613375143, 49.2656237572825]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{EBD5F519-818C-4D24-ADE7-644A137EC33A}",
+    "hundred_block": "2000 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11084430765158, 49.26745358466257],
+          [-123.11086191113476, 49.26704655294211],
+          [-123.11087966535229, 49.26663944008865]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3C9AB0AB-345C-4280-B146-13635108887C}",
+    "hundred_block": "2700 ALBERTA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11095328895098, 49.26122153904041],
+          [-123.11096929091738, 49.260806502662184],
+          [-123.11098562027206, 49.26037209924746]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FBC99293-6671-4124-BDA0-65F81BB2A422}",
+    "hundred_block": "2000 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10659927774881, 49.26696714276542],
+            [-123.10661563750722, 49.26656004085171]
+          ],
+          [
+            [-123.10658213391504, 49.267374101447984],
+            [-123.10659927774881, 49.26696714276542]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{2CEDE6C9-993D-4434-B131-ECCE9108306B}",
+    "hundred_block": "100 E 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10293597970379, 49.26199926468573],
+            [-123.10165960817596, 49.261976773355975]
+          ],
+          [
+            [-123.10165956694354, 49.26197677339227],
+            [-123.10106887681908, 49.261966623293894]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{CE499E2B-2AD1-4D18-A905-F707EB56642F}",
+    "hundred_block": "2400 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11281955030213, 49.26346283088249],
+            [-123.11280207488339, 49.26387020485199]
+          ],
+          [
+            [-123.11282973033936, 49.263225662317524],
+            [-123.1128195501381, 49.263462758920994]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{56966D27-D735-46BC-9F4F-EBE0F9A51498}",
+    "hundred_block": "2700 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11110667938014, 49.26080872737107],
+            [-123.11112300759021, 49.26037435092352]
+          ],
+          [
+            [-123.11109069241012, 49.26122380873006],
+            [-123.11110667944072, 49.26080875435664]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{35236DDB-9B55-4AFE-856D-B143D236C23C}",
+    "hundred_block": "2600 ALBERTA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11093427258781, 49.26172668329122],
+            [-123.11094987589195, 49.26131146743081]
+          ],
+          [
+            [-123.11091828370664, 49.26214168360461],
+            [-123.11093427258781, 49.26172668329122]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5DBACB17-4751-4E7D-883B-1F1953EE02C1}",
+    "hundred_block": "2000 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10480184082768, 49.26693497413253],
+            [-123.10478473729877, 49.267341977486666]
+          ],
+          [
+            [-123.10481906756047, 49.266527862692804],
+            [-123.10480184082768, 49.26693497413253]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{D2D0DB2E-83E0-46BD-A797-0CBF3FB67912}",
+    "hundred_block": "100 E 8TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10173124104645, 49.26366752137958],
+            [-123.10099741519159, 49.26365424058922]
+          ],
+          [
+            [-123.10286294770272, 49.263687658126415],
+            [-123.10173124104645, 49.26366752137958]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{B5421AAC-DA26-4364-84CF-DD01E9585317}",
+    "hundred_block": "2200 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10679066361564, 49.2655689677457],
+            [-123.10681101051983, 49.26516330125218]
+          ],
+          [
+            [-123.10681103676727, 49.265162725534886],
+            [-123.10682821878903, 49.26475556873139]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{72A67A7F-111F-4028-B51A-74C7A5B953F8}",
+    "hundred_block": "2500 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10940191076173, 49.26263854045471],
+            [-123.10942023447298, 49.26220452230868]
+          ],
+          [
+            [-123.10940191117932, 49.262638729353654],
+            [-123.10938666601345, 49.263066573837435]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{ABECE5AC-028E-4907-80C3-80B5AC140DA7}",
+    "hundred_block": "2300 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1067110099459, 49.26425574156083],
+            [-123.10672790307386, 49.26384822516671]
+          ],
+          [
+            [-123.10669454244264, 49.26466316757841],
+            [-123.10671101002347, 49.264255777541564]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{302B17EC-5F4C-408E-8586-67F7C0C4C52A}",
+    "hundred_block": "2400 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1068690919999, 49.26376073322306],
+            [-123.10688417821311, 49.263408215133666]
+          ],
+          [
+            [-123.10688417819367, 49.26340820613849],
+            [-123.1068973899074, 49.263097895270235]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FED5A452-1D28-4829-ABFE-CA2DA43FB7C0}",
+    "hundred_block": "2600 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11105567623721, 49.26214407028437],
+            [-123.11107166366419, 49.26172893502511]
+          ],
+          [
+            [-123.11107166360361, 49.261728908039544],
+            [-123.11108726585665, 49.26131373713753]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{C0085C69-7F06-4A72-A395-BCA0A47ECAD0}",
+    "hundred_block": "0 W BROADWAY S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10496695079239, 49.26296211946814],
+          [-123.10676378498734, 49.2630047295131]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9F7D957F-B66B-4593-9921-248E750EC46E}",
+    "hundred_block": "0 W 4TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10658213391504, 49.267374101447984],
+          [-123.10478473729877, 49.267341977486666]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{0824D70E-43FE-46C2-87EE-82D671A04B68}",
+    "hundred_block": "0 E 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10472249995235, 49.26553134482842],
+          [-123.10292512920913, 49.265498715175035]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{A9BBDAA0-8E70-4C46-88A0-F45DEF1A0B1B}",
+    "hundred_block": "2600 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10680218609512, 49.26206811299891],
+            [-123.10681495865602, 49.26177076456976]
+          ],
+          [
+            [-123.10681495865602, 49.26177076456976],
+            [-123.10681921736945, 49.26166160377176]
+          ],
+          [
+            [-123.1068192171559, 49.261661504824666],
+            [-123.10683644024085, 49.261254842470265]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{A23C2160-D079-4990-BC15-7F4744CDECDE}",
+    "hundred_block": "2000 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10673668347783, 49.26696953456998],
+            [-123.10675302865215, 49.26656256757821]
+          ],
+          [
+            [-123.1067195409868, 49.267376592219016],
+            [-123.10673668361366, 49.26696959753626]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{AE4AAD8D-3174-4A82-939D-F93C307B9795}",
+    "hundred_block": "0 W 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10665301401187, 49.265566414317114],
+          [-123.1048599018168, 49.265533837815305]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9B5BFD1A-B516-47AD-87E7-93DCA995395D}",
+    "hundred_block": "2000 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11263812068222, 49.26753225796828],
+          [-123.11265798421957, 49.26707989695603],
+          [-123.11267843937596, 49.26662794011183]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5CC6AF64-D1BE-45F6-BA30-5FBAE1FB26CF}",
+    "hundred_block": "300 W 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11286562368812, 49.262264228465234],
+          [-123.1110522633034, 49.262233998663284]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FA1D5143-BB48-4088-B339-AF915701E376}",
+    "hundred_block": "2400 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10300034430146, 49.26369012634337],
+            [-123.10301617145944, 49.26331056851046]
+          ],
+          [
+            [-123.10301617134711, 49.26331051453935],
+            [-123.1030282797429, 49.263006564708796]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{73536DA4-95D0-4723-A76A-FF6D13DBEFD7}",
+    "hundred_block": "100 E 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10293141120218, 49.262089166867405],
+          [-123.10165593076556, 49.26206669269342],
+          [-123.10106504715021, 49.26205654274561]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{33B6D6FB-D91F-41C8-B63E-60070CBC54C5}",
+    "hundred_block": "0 E 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10486851114054, 49.262033678546906],
+            [-123.10436414959217, 49.262024816188955]
+          ],
+          [
+            [-123.10436414959217, 49.262024816188955],
+            [-123.10352532409175, 49.26200961333436]
+          ],
+          [
+            [-123.10352526911515, 49.26200961338362],
+            [-123.10307337150603, 49.26200167884849]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{D0195960-0614-4649-ABFA-73B08A2F8245}",
+    "hundred_block": "2200 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10487700389712, 49.26512672638061],
+            [-123.1048599018168, 49.265533837815305]
+          ],
+          [
+            [-123.10489422845212, 49.264719165043104],
+            [-123.10487700389712, 49.26512672638061]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{4E436BF1-FF81-422B-A89B-C705D159C9D6}",
+    "hundred_block": "100 E 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10278774128128, 49.26549621987496],
+          [-123.10165530514885, 49.26547565126051],
+          [-123.10092213977337, 49.26546237840432]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{20C599E3-D4ED-45B1-BB8A-13FA69E7B88B}",
+    "hundred_block": "0 W 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10679840806861, 49.262158032593774],
+          [-123.10500203941405, 49.26212602801564]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{1A8C81D1-15A7-479D-A27B-9951DCE95FF7}",
+    "hundred_block": "2700 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11291939474187, 49.26083814737497],
+            [-123.11290372646161, 49.261253723411556]
+          ],
+          [
+            [-123.11293577579032, 49.26040377961309],
+            [-123.11291939474187, 49.26083814737497]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{72EF6049-BA67-492C-91C6-3E0EB5B2ED3A}",
+    "hundred_block": "200 W 11TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10959629129698, 49.26128911091347],
+          [-123.11094987589195, 49.26131146743081]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{6396C4F4-4EE1-40BA-8CDC-4DE926FDE3F2}",
+    "hundred_block": "300 W 11TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11109069241012, 49.26122380873006],
+          [-123.11290372646161, 49.261253723411556]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{DDC45116-048D-431F-8409-800A0B7654D9}",
+    "hundred_block": "100 W 7TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10682821878903, 49.26475556873139],
+          [-123.10937482771745, 49.264799664323355]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{68B89676-BB31-4639-AD31-D95104BD719D}",
+    "hundred_block": "300 W 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11286901958455, 49.262174300049075],
+          [-123.11105567623721, 49.26214407028437]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{825F3423-ECCD-489C-8837-E933628986F7}",
+    "hundred_block": "0 W 5TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10482276703254, 49.266437943303174],
+          [-123.10661933371676, 49.26647012140731]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{87116C57-33E0-4B8D-AEDD-6C762C34A410}",
+    "hundred_block": "2400 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10938287840098, 49.26345476556664],
+            [-123.10938351092199, 49.263803113318616]
+          ],
+          [
+            [-123.10938283483479, 49.26339774499452],
+            [-123.10938469323455, 49.26315653676926]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FFD18BE0-BA86-4E94-B15A-A261D00982E2}",
+    "hundred_block": "2300 QUEBEC ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1028257373718, 49.26459216810614],
+          [-123.10284289645409, 49.26418474202676],
+          [-123.1028592723565, 49.26377757747403]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9DD41139-6B1F-4ACD-9201-44B3E003F025}",
+    "hundred_block": "2200 QUEBEC ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10278774128128, 49.26549621987496],
+          [-123.10280487434801, 49.26508920766792],
+          [-123.10282195193417, 49.26468208753637]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{320CFC85-D130-453F-B382-4B13DA040EAA}",
+    "hundred_block": "2500 ALBERTA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11089596679109, 49.26310017139571],
+            [-123.110899307337, 49.26264658485964]
+          ],
+          [
+            [-123.11089933234628, 49.262645478425085],
+            [-123.11091487052332, 49.26223161197967]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{2C7BE827-52B7-407A-8C9C-797C1EAE2F06}",
+    "hundred_block": "2300 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11279737294716, 49.26396010752902],
+            [-123.11277920938349, 49.26436723926102]
+          ],
+          [
+            [-123.112779209445, 49.26436726624656],
+            [-123.11276145785362, 49.26477436156391]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{8DEE951F-B6AF-44B3-A0CA-E73D58C09DE0}",
+    "hundred_block": "100 W 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10942023447298, 49.26220452230868],
+          [-123.10693580057037, 49.26216047814388]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{D9603ADA-396E-4CEE-A59B-AE3808C981C7}",
+    "hundred_block": "2100 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11270130817658, 49.26617371408312],
+            [-123.1126812510484, 49.26658298834754]
+          ],
+          [
+            [-123.11271705980747, 49.26576919345346],
+            [-123.11270130817658, 49.26617371408312]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{C6E46DB9-0BE6-48EE-A5C5-28E57A7A9DAC}",
+    "hundred_block": "300 W 8TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11280207488339, 49.26387020485199],
+          [-123.11100109839875, 49.26383552751337]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{F4FC0CD4-53EA-4EF0-A36A-7461120EB958}",
+    "hundred_block": "2000 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10936444139155, 49.26661164982328],
+          [-123.10936257969911, 49.267019377065544],
+          [-123.10936005399519, 49.26742520692011]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{4A5563C2-DC64-410A-9586-892A73372410}",
+    "hundred_block": "2300 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10491423208033, 49.264222206804426],
+            [-123.1048979276576, 49.264629245623006]
+          ],
+          [
+            [-123.10493131962815, 49.26381514025782],
+            [-123.10491423208033, 49.264222206804426]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{93C643E9-7D4B-4DC4-82DB-E11501455274}",
+    "hundred_block": "2300 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11097946543966, 49.264332488419],
+            [-123.11099720415005, 49.263925438336145]
+          ],
+          [
+            [-123.11096198870558, 49.26474003295489],
+            [-123.11097946543966, 49.264332488419]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{155A7A1F-AB40-4FF5-BB15-573FA1A9501B}",
+    "hundred_block": "2200 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10667364898266, 49.26515995600405],
+            [-123.10669081900967, 49.264753087078645]
+          ],
+          [
+            [-123.10665301401187, 49.265566414317114],
+            [-123.10667364898266, 49.26515995600405]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E373675E-498B-4853-BED6-8E1E71D7A893}",
+    "hundred_block": "0 E BROADWAY S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10303210591535, 49.26291664520919],
+          [-123.1048295819707, 49.26295887997698]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{CF7B8479-3AB1-43AB-9923-0304841E77E0}",
+    "hundred_block": "100 W 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10683192822765, 49.26466564923964],
+          [-123.10937537106557, 49.26470968478016]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{B32F897A-56F7-4B3F-92F6-CFB1CE6D8439}",
+    "hundred_block": "100 E 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10172745368817, 49.26375744078968],
+            [-123.10099364024549, 49.26374415996431]
+          ],
+          [
+            [-123.1028592723565, 49.26377757747403],
+            [-123.10172748117742, 49.263757440765474]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{BF34DBE9-6183-4251-8EEB-E65E29AADC7C}",
+    "hundred_block": "0 W 5TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10481906756047, 49.266527862692804],
+          [-123.10661563750722, 49.26656004085171]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{1E249C88-74A8-4801-9A91-83F41D30171F}",
+    "hundred_block": "100 W 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10938303631926, 49.263893092810974],
+          [-123.10686530022603, 49.26385065280634]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3F3D6A74-D273-4354-9975-F1E98A457CFB}",
+    "hundred_block": "400 W 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11465233081906, 49.265804187614464],
+          [-123.11285446275983, 49.265771694922705]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{94583704-2372-4907-84F3-92414A81634B}",
+    "hundred_block": "2500 QUEBEC ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10289475112482, 49.262913421395545],
+            [-123.10291250921954, 49.26252360726951]
+          ],
+          [
+            [-123.10293141120218, 49.262089166867405],
+            [-123.10291250921954, 49.26252360726951]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{47430959-5DD8-4B80-8E04-AA61230BB54C}",
+    "hundred_block": "2000 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10950187411076, 49.26661420022745],
+            [-123.10950003604539, 49.267019669654246]
+          ],
+          [
+            [-123.10950003616482, 49.26701972362534],
+            [-123.1094975027793, 49.26742778430007]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{DEEA1B2A-9786-491C-864E-660F4588D4E5}",
+    "hundred_block": "2100 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10288753286115, 49.26640275748306],
+            [-123.1029050778794, 49.265995798929595]
+          ],
+          [
+            [-123.10290507769234, 49.26599570897774],
+            [-123.10292144010134, 49.26558863450855]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{83823B4E-099E-4EF9-92BB-A98D069D729F}",
+    "hundred_block": "2100 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1048390862198, 49.26603082365333],
+            [-123.10482276703254, 49.266437943303174]
+          ],
+          [
+            [-123.10485613375143, 49.2656237572825],
+            [-123.1048390862198, 49.26603082365333]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{B5A5C05B-FB9D-4BDD-B9BF-AB5A4946F922}",
+    "hundred_block": "2200 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1047396032004, 49.26512425140351],
+            [-123.10472249995235, 49.26553134482842]
+          ],
+          [
+            [-123.10475682879105, 49.26471664510961],
+            [-123.10473960318137, 49.265124242408326]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{105A6202-108F-4B75-847B-36E13EB652A2}",
+    "hundred_block": "0 W 8TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10673169511661, 49.26375831458293],
+          [-123.10493504619045, 49.26372522079751]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{575FF5D0-F185-4A17-8FBA-EE1679A3A236}",
+    "hundred_block": "0 W 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1048979276576, 49.264629245623006],
+          [-123.10669454244264, 49.26466316757841]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{918E1D80-1697-4388-921A-79B99D07192F}",
+    "hundred_block": "0 E 5TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10288374740239, 49.26649267688702],
+          [-123.10468166295679, 49.26652537865482]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{869EF2D6-6F46-423A-9478-08638F49EDCE}",
+    "hundred_block": "0 W 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10680218609512, 49.26206811299891],
+          [-123.10500590316713, 49.2620361084019]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{32CF93E4-2780-4097-8DDD-8756F708BC19}",
+    "hundred_block": "300 W 5TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11088356001991, 49.26654952931199],
+          [-123.1126812510484, 49.26658298834754]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{4601B79A-DEC6-4505-AAAE-A617020A0CC2}",
+    "hundred_block": "2200 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11094248549578, 49.26523700972025],
+            [-123.11095831425648, 49.26482995254627]
+          ],
+          [
+            [-123.11092288178413, 49.26564640024487],
+            [-123.11094247233558, 49.26523727059379]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{38647ED3-87A9-4726-B366-09A9317A9BA1}",
+    "hundred_block": "0 E 4TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10464733043595, 49.26733949340975],
+          [-123.10284993523968, 49.26730683561833]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3FABB58E-9757-4C0D-8BC0-AA6ADFFE9850}",
+    "hundred_block": "200 W 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1107854792131, 49.265643869492635],
+          [-123.10950737175342, 49.26562018919362]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5F40CF27-C280-43BA-BB08-6DBF25161C9D}",
+    "hundred_block": "2500 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1069011403342, 49.26300797571238],
+          [-123.10691910228394, 49.262568066469875],
+          [-123.10693580057037, 49.26216047814388]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{CF81EA40-22B1-42F2-9124-78793014C151}",
+    "hundred_block": "400 W 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11465620482318, 49.26571427671635],
+          [-123.11285821630128, 49.265681775207675]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{D318B330-2727-471C-9B98-5D06CAD30E8E}",
+    "hundred_block": "100 E 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10169333562135, 49.264571581844876],
+            [-123.1028257373718, 49.26459216810614]
+          ],
+          [
+            [-123.10095951013278, 49.26455830980774],
+            [-123.10169332187648, 49.264571581856984]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{7A7311F2-D032-4DB8-B898-23659329818A}",
+    "hundred_block": "0 W BROADWAY N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10496314187667, 49.263052039016266],
+          [-123.1067600343112, 49.26309464906674]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{08C464F9-A5C9-4CDF-9344-53E1A86F748E}",
+    "hundred_block": "100 W 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10936945337043, 49.265707600280145],
+          [-123.10679085781896, 49.26565895557566]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{CD78C9E2-F0D2-4945-98F7-50FA3298DBF7}",
+    "hundred_block": "2300 YUKON ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11293475748438, 49.263962761838805],
+          [-123.11291660869232, 49.26436984860202],
+          [-123.11289885831253, 49.26477697992022]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{622D7AEA-108D-46C6-AFBD-B7E88AD9D00D}",
+    "hundred_block": "200 W 5TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1104209191966, 49.266631028132416],
+            [-123.10950187411076, 49.26661420022745]
+          ],
+          [
+            [-123.1107422600258, 49.26663690928741],
+            [-123.1104209191966, 49.266631028132416]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{4E0A0619-3E3F-4BF5-ADD0-C6EFC9B24091}",
+    "hundred_block": "400 W 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11485290721701, 49.26220608601573],
+          [-123.11300641196718, 49.26217654048599]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{693C8DC1-1EC4-4F98-9045-59FED7479371}",
+    "hundred_block": "200 W 11TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1095997892976, 49.26119919147793],
+          [-123.11095328895098, 49.26122153904041]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E486967E-FDA0-4A15-AEBD-089CF7A32A7A}",
+    "hundred_block": "2400 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10481209138428, 49.26337059745627],
+            [-123.10479764930618, 49.26372270990544]
+          ],
+          [
+            [-123.10482578655007, 49.263048799508304],
+            [-123.10481209128903, 49.26337055248033]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{A772C64F-1D93-4961-8D1F-8717E5ADE487}",
+    "hundred_block": "2400 QUEBEC ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10286294770272, 49.263687658126415],
+          [-123.10287877600729, 49.263308145287446],
+          [-123.10289091095859, 49.26300334090309]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{36D534A6-E3FF-40F6-95B6-C2D16AA04F23}",
+    "hundred_block": "2300 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10938303631926, 49.263893092810974],
+            [-123.10937779845943, 49.26430300927731]
+          ],
+          [
+            [-123.10937779889684, 49.264303207171416],
+            [-123.10937537106557, 49.26470968478016]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{51481F63-82F2-4CA4-9F53-8F12CD22A4A6}",
+    "hundred_block": "400 W 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1146952646853, 49.2648111554719],
+          [-123.11289885831253, 49.26477697992022]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{BC763CA2-5827-4848-96BB-27E43313301B}",
+    "hundred_block": "2200 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10937225723752, 49.26521002795992],
+            [-123.10936994175499, 49.265617620803226]
+          ],
+          [
+            [-123.10937482771745, 49.264799664323355],
+            [-123.10937225719775, 49.26521000996954]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{153CD44A-718A-4E56-BDD0-D2CEB9AD012D}",
+    "hundred_block": "2500 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11286562368812, 49.262264228465234],
+            [-123.11284996806435, 49.2626797144268]
+          ],
+          [
+            [-123.11283330506252, 49.26313574273808],
+            [-123.1128499681464, 49.26267975040755]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{CCAF96E8-C8B3-45F8-842A-53AF1003BB1D}",
+    "hundred_block": "2400 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10673169511661, 49.26375831458293],
+          [-123.10674678209443, 49.2634056975636],
+          [-123.1067600343112, 49.26309464906674]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3CC353B7-66B2-41F8-A713-C7A4AA92417F}",
+    "hundred_block": "0 W 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10672790307386, 49.26384822516671],
+          [-123.10493131962815, 49.26381514025782]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{B052E8CD-2CCE-4BF9-A9D5-C29946464FCF}",
+    "hundred_block": "100 E BROADWAY N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10175948180809, 49.26297687156131],
+            [-123.10289091095859, 49.26300334090309]
+          ],
+          [
+            [-123.10102690930881, 49.26295985684429],
+            [-123.10175948180809, 49.26297687156131]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{F24776EB-6799-47DD-BCB7-32779B95A75B}",
+    "hundred_block": "0 E 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10471873161845, 49.26562125529618],
+          [-123.10292144010134, 49.26558863450855]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{8535521C-6F65-42F9-873B-B8FD61E39580}",
+    "hundred_block": "2300 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10477683408381, 49.26421982182138],
+            [-123.10476052824598, 49.264626725693695]
+          ],
+          [
+            [-123.10479392249438, 49.263812629361546],
+            [-123.10477683396954, 49.26421976785026]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{A0E1640D-41D3-4EFA-B654-E9F132E22563}",
+    "hundred_block": "300 W 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11271705980747, 49.26576919345346],
+          [-123.11091876733333, 49.265736311248]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{291D47AD-B119-488D-87C3-212916CA793C}",
+    "hundred_block": "2000 ALBERTA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11070691367071, 49.26745099084183],
+            [-123.11072450463834, 49.26704400413039]
+          ],
+          [
+            [-123.11072450461822, 49.26704399513521],
+            [-123.1107422600258, 49.26663690928741]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{8A775FEB-FCE9-4AB2-BD05-F0AC03C1CD5C}",
+    "hundred_block": "200 W 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11078137825804, 49.26573378047791],
+          [-123.10950689736394, 49.26571016865787]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{95087AE3-647A-4F38-8F85-C512799EE1B1}",
+    "hundred_block": "2500 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10306880327249, 49.26209159003059],
+            [-123.10304990283224, 49.26252619236762]
+          ],
+          [
+            [-123.10303210591535, 49.26291664520919],
+            [-123.10304990296336, 49.262526255333974]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{091A25FF-74D5-46BA-AF53-DE0503FB389A}",
+    "hundred_block": "200 W 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11091828370664, 49.26214168360461],
+          [-123.1095614140487, 49.26211707203264]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5CA7C651-BA5B-4FAC-B3AA-17F1ADFFDF7F}",
+    "hundred_block": "0 E 11TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10310746510696, 49.26118751005249],
+            [-123.10357031062678, 49.261196118276345]
+          ],
+          [
+            [-123.10490388397355, 49.26122095628619],
+            [-123.10357031062678, 49.261196118276345]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{D657FD9A-1E10-40E3-AA1C-4C171B14D012}",
+    "hundred_block": "0 E 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10486464713802, 49.26212359815628],
+            [-123.10436043585989, 49.26211473564567]
+          ],
+          [
+            [-123.10436038088316, 49.262114735695306],
+            [-123.10352155385974, 49.262099532814595]
+          ],
+          [
+            [-123.10352155385974, 49.262099532814595],
+            [-123.10306880327249, 49.26209159003059]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{07AA2773-53A2-4F93-B3AD-9F69AFFA0480}",
+    "hundred_block": "200 W 8TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11086371417358, 49.26383280793767],
+          [-123.10952096331135, 49.26380565468562]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{32D4744C-EDB6-4346-8A17-4012A6D4FC6F}",
+    "hundred_block": "2100 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11090109521298, 49.26614297433267],
+            [-123.11091876733333, 49.265736311248]
+          ],
+          [
+            [-123.11088356001991, 49.26654952931199],
+            [-123.11090109521298, 49.26614297433267]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{B72C8134-9B63-40A6-8B5E-2ADADD1C4BEB}",
+    "hundred_block": "2600 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10488741155575, 49.261600200272575],
+            [-123.10490388397355, 49.26122095628619]
+          ],
+          [
+            [-123.10486851114054, 49.262033678546906],
+            [-123.10488741155575, 49.261600200272575]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{733D1B76-1941-4178-B27C-F97053F81CF0}",
+    "hundred_block": "0 W 11TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10504127384098, 49.261223431076964],
+          [-123.10637349822919, 49.2612466252179],
+          [-123.10683644024085, 49.261254842470265]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{BFD6173A-A401-45A7-AD0B-0DD30A8182EE}",
+    "hundred_block": "2700 YUKON ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11307316326061, 49.26040601997489],
+          [-123.11305678337618, 49.26084036976482],
+          [-123.11303941854005, 49.261300932524875]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{63D689DB-70BD-4A77-8E0D-56279F9E922E}",
+    "hundred_block": "100 W BROADWAY S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1069011403342, 49.26300797571238],
+          [-123.10938666601345, 49.263066573837435]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{982E4C29-2B24-45E9-8644-872FF02AC87E}",
+    "hundred_block": "200 W 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11091487052332, 49.26223161197967],
+          [-123.10955762728793, 49.26220699172645]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E3C8C1FD-230C-4D51-9CD5-06160E7CE9F9}",
+    "hundred_block": "2000 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10284993523968, 49.26730683561833],
+            [-123.1028670683426, 49.266899796544635]
+          ],
+          [
+            [-123.10286706828653, 49.26689976955907],
+            [-123.10288374740239, 49.26649267688702]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{4977C56F-D43E-4E63-86E5-24ABB54A0194}",
+    "hundred_block": "2400 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10952028120101, 49.26339807354716],
+            [-123.10952211767291, 49.26315968084004]
+          ],
+          [
+            [-123.10952032398994, 49.26345467134529],
+            [-123.10952096331135, 49.26380565468562]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{2B4FBC3A-5165-40A8-ABF4-91EBF37C67A6}",
+    "hundred_block": "2100 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10677381238844, 49.26606599524561],
+            [-123.10679085781896, 49.26565895557566]
+          ],
+          [
+            [-123.10675672461221, 49.26647264812966],
+            [-123.10677381238844, 49.26606599524561]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{6A8B3CE9-650F-49C8-A8C7-A6D52A7657A3}",
+    "hundred_block": "2000 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10468166295679, 49.26652537865482],
+            [-123.10466443509428, 49.26693249007499]
+          ],
+          [
+            [-123.1046644351133, 49.26693249907018],
+            [-123.10464733043595, 49.26733949340975]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{0C98332B-E7DA-420A-AA6E-724B449E6AB2}",
+    "hundred_block": "300 W 5TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11087966535229, 49.26663944008865],
+          [-123.11267701600872, 49.266672899517005]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{6A7425D1-ED1A-4B5D-93A5-C845CECCE63D}",
+    "hundred_block": "300 W 11TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11108726585665, 49.26131373713753],
+          [-123.11290033068859, 49.26134365184306]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FD76EA5E-08CF-4635-A34C-A90C1A2D49D5}",
+    "hundred_block": "2100 YUKON ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11285446275983, 49.265771694922705],
+            [-123.1128387121079, 49.266176152603855]
+          ],
+          [
+            [-123.11283869903949, 49.26617644945827],
+            [-123.11281865632036, 49.266585516842945]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{05111805-BC2A-4F1F-BE77-22C496E59489}",
+    "hundred_block": "2600 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1095614140487, 49.26211707203264],
+            [-123.10957917607178, 49.261697005923644]
+          ],
+          [
+            [-123.10957917603196, 49.26169698793326],
+            [-123.10959629129698, 49.26128911091347]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{12B974C6-EF82-4FB6-A604-0665BB4D6828}",
+    "hundred_block": "100 E 7TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10095565258202, 49.2646482292396],
+          [-123.1016895206377, 49.26466150126385],
+          [-123.10282195193417, 49.26468208753637]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{55E07D54-B0BD-472A-B073-04129158C0C7}",
+    "hundred_block": "2500 ALBERTA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11103333536064, 49.26310294491919],
+          [-123.11103675212857, 49.26264713648953],
+          [-123.1110522633034, 49.262233998663284]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5D1B5609-1DA3-4DAE-948A-51ACBF612CBB}",
+    "hundred_block": "300 W BROADWAY N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11102908386954, 49.26319285609783],
+          [-123.11282973033936, 49.263225662317524]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5CC54A54-D7D4-450F-B283-D0ABA20512F0}",
+    "hundred_block": "2200 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11273900471471, 49.265271755292325],
+            [-123.11272082734361, 49.265679273729205]
+          ],
+          [
+            [-123.11275747051789, 49.26486427252295],
+            [-123.11273900465325, 49.265271728306764]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{6465A6D7-D60A-4B8B-8A58-6A3EC7550AF6}",
+    "hundred_block": "2100 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10471873161845, 49.26562125529618],
+            [-123.10470168309054, 49.26602838461395]
+          ],
+          [
+            [-123.10470168320474, 49.26602843858506],
+            [-123.10468536267837, 49.266435459269424]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{C58C9E3B-C4FB-46EC-85E2-7E52BC6D1478}",
+    "hundred_block": "2500 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10678170872905, 49.26256565688164],
+            [-123.10679840806861, 49.262158032593774]
+          ],
+          [
+            [-123.10676378498734, 49.2630047295131],
+            [-123.10678170872905, 49.26256565688164]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E00B8E05-5868-4091-94A3-CC3856C9DDB8}",
+    "hundred_block": "200 W 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10951281216812, 49.264712199182156],
+          [-123.11082460217271, 49.26473740328674]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{6ABAC1C7-AE24-4877-B84E-CEAEF97D40BD}",
+    "hundred_block": "2300 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10951524805664, 49.26430366166081],
+            [-123.10951281216812, 49.264712199182156]
+          ],
+          [
+            [-123.10952046148911, 49.263895643199554],
+            [-123.10951524805664, 49.26430366166081]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{ABF99780-36CF-451C-891B-D4368915FB44}",
+    "hundred_block": "2600 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10944178463187, 49.261694518539905],
+            [-123.10945854848347, 49.26129502540897]
+          ],
+          [
+            [-123.1094240352473, 49.26211461160134],
+            [-123.10944178463187, 49.261694518539905]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5743F9BC-7610-4F4D-AE01-8A4B7215FBB9}",
+    "hundred_block": "100 W 11TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10697767663706, 49.26116738628961],
+          [-123.10946214013703, 49.26120383756442]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5607E99D-5F03-4762-B9EF-BF0149F8F9E2}",
+    "hundred_block": "100 W 11TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1069738165319, 49.261257305980365],
+          [-123.10945854848347, 49.26129502540897]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E365F585-CE2B-4F59-A4A5-7475336A9417}",
+    "hundred_block": "2500 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10953930460158, 49.26264092893654],
+            [-123.10955762728793, 49.26220699172645]
+          ],
+          [
+            [-123.10953930460158, 49.26264092893654],
+            [-123.10952403522434, 49.26306971795823]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3C56FB84-C2B2-41F2-A120-CDBCA861C1B9}",
+    "hundred_block": "400 W 5TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11281865632036, 49.266585516842945],
+            [-123.11369921270403, 49.26660145672673]
+          ],
+          [
+            [-123.11462698795661, 49.266618539426624],
+            [-123.1136992401949, 49.26660145669968]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{C039ED3D-B823-44DB-B976-954E7B53DF4D}",
+    "hundred_block": "2600 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10500590316713, 49.2620361084019],
+            [-123.10502480266612, 49.26160276503395]
+          ],
+          [
+            [-123.10502480264704, 49.26160275603877],
+            [-123.10504127384098, 49.261223431076964]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9EF32E14-93A5-4AA8-8C49-DA9B141BA783}",
+    "hundred_block": "100 E 6TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10165150377408, 49.26556557065208],
+            [-123.10091840579294, 49.265552297712816]
+          ],
+          [
+            [-123.10278403817885, 49.265586139216516],
+            [-123.10165150377408, 49.26556557065208]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{01581985-9DF6-4649-9F57-450A84F9DF2F}",
+    "hundred_block": "0 E 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10479392249438, 49.263812629361546],
+          [-123.10299666920473, 49.263780045695135]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{178B9626-89FD-4E79-AF96-AD2CEF0F7B63}",
+    "hundred_block": "2600 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10310746510696, 49.26118751005249],
+          [-123.10307337150603, 49.26200167884849]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{2F09D8FA-9CB3-477D-8C3C-BF1517DFA3A8}",
+    "hundred_block": "2400 YUKON ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1129569466707, 49.26346525127886],
+            [-123.11293947291598, 49.263872859142985]
+          ],
+          [
+            [-123.11296712627576, 49.263228181649424],
+            [-123.1129569466707, 49.26346525127886]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{EE9C6593-C076-42BD-9956-884896199CE9}",
+    "hundred_block": "300 W 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11279737294716, 49.26396010752902],
+          [-123.11099720415005, 49.263925438336145]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{415A7C90-A6E9-4C62-BC20-DB6AF747D1C5}",
+    "hundred_block": "0 W 7TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10489422845212, 49.264719165043104],
+          [-123.10669081900967, 49.264753087078645]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{85BDC457-13BF-4D07-B677-0BEFB837A25D}",
+    "hundred_block": "300 W 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11272082734361, 49.265679273729205],
+          [-123.11092288178413, 49.26564640024487]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FD5BA58D-6CC9-41D5-8FE3-B021D140A34B}",
+    "hundred_block": "100 W 6TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10936994175499, 49.265617620803226],
+          [-123.10679066361564, 49.2655689677457]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3226881A-6FC6-4D70-A405-BD07E1B2A1CB}",
+    "hundred_block": "400 W 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11473053072397, 49.26399744118995],
+          [-123.11293475748438, 49.263962761838805]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E6F59565-BAA3-4F70-9BC4-C5C3496C50CC}",
+    "hundred_block": "400 W 7TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11469136335094, 49.264901075407835],
+          [-123.11289485748128, 49.264866890897196]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{BF877461-6CD4-4A17-B850-2DB6A989D383}",
+    "hundred_block": "0 E 7TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10295935131076, 49.26468456479499],
+          [-123.10475682879105, 49.26471664510961]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FCF63C21-D3C8-4BFF-A8B9-B8605CA49ED7}",
+    "hundred_block": "400 W BROADWAY N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11296712627576, 49.263228181649424],
+          [-123.11479202230451, 49.26326168917347]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{E5E48B8B-744F-4630-88A7-604AF49AB0BC}",
+    "hundred_block": "200 W BROADWAY N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10952211767291, 49.26315968084004],
+          [-123.11089170130616, 49.26319008258271]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9FEB9A30-ECD5-43D4-B5F9-933AE27E3EFF}",
+    "hundred_block": "100 W BROADWAY N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1068973899074, 49.263097895270235],
+          [-123.10938469323455, 49.26315653676926]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{5726AB74-820B-4A16-ACD1-B311C7BA47A9}",
+    "hundred_block": "2600 YUKON ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11288468882441, 49.261758894991914],
+            [-123.11286901958455, 49.262174300049075]
+          ],
+          [
+            [-123.11290033068859, 49.26134365184306],
+            [-123.11288468882441, 49.261758894991914]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{98D2AB34-EF81-4493-8AAC-950401E29F77}",
+    "hundred_block": "400 W 2ND AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11297173709242, 49.26749360371015],
+          [-123.11427677810501, 49.266855289219706],
+          [-123.11457349054086, 49.266707546036066]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{3AC57015-98C2-42E7-9FEE-F24D4ED1F124}",
+    "hundred_block": "100 W 5TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10675672461221, 49.26647264812966],
+          [-123.10936491604603, 49.26652167037353]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{4E9EEFD5-A5BC-4883-AD13-6FF70FD1897D}",
+    "hundred_block": "2100 MANITOBA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10663640901168, 49.26606353152163],
+            [-123.10665345539718, 49.2656564109143]
+          ],
+          [
+            [-123.10661933371676, 49.26647012140731],
+            [-123.10663640901168, 49.26606353152163]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{69FCA22F-E537-412C-8415-015E46DB9980}",
+    "hundred_block": "400 W 10TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1148500509693, 49.26229602294939],
+          [-123.11300303006448, 49.26226646889254]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9174A9E4-5195-41DC-9FC7-C61FF7F238AD}",
+    "hundred_block": "0 E 5TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10288753286115, 49.26640275748306],
+          [-123.10468536267837, 49.266435459269424]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{F568F93A-495E-46C0-96F7-6DF9CA9CC2A3}",
+    "hundred_block": "2700 COLUMBIA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10947728698657, 49.26078179493578],
+            [-123.10949229025974, 49.26039436598274]
+          ],
+          [
+            [-123.10946214013703, 49.26120383756442],
+            [-123.10947728716563, 49.26078187589249]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{C18DE4C3-4FA5-4E62-8F6E-FA9DE448E220}",
+    "hundred_block": "400 W 8TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11473443191873, 49.263907521238686],
+          [-123.11293947291598, 49.263872859142985]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{89F16F20-D420-42B0-8A4C-CC8DF7CD80E3}",
+    "hundred_block": "2400 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.104949487139, 49.26337303637045],
+            [-123.10493504619045, 49.26372522079751]
+          ],
+          [
+            [-123.10496314187667, 49.263052039016266],
+            [-123.104949487139, 49.26337303637045]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{9F96CDCD-0AA3-4548-A6D3-C2942D6D2B1D}",
+    "hundred_block": "100 W 8TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10938351092199, 49.263803113318616],
+          [-123.1068690919999, 49.26376073322306]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{2AA508C4-06E5-4E5F-AF88-E6104CD4F0C1}",
+    "hundred_block": "2300 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10683192822765, 49.26466564923964],
+          [-123.10684840822877, 49.264258169219566],
+          [-123.10686530022603, 49.26385065280634]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{90FDD273-F60D-4FB2-85A6-70CBA260DCA8}",
+    "hundred_block": "2400 ALBERTA ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.11088124779805, 49.263425892962324],
+            [-123.11089170130616, 49.26319008258271]
+          ],
+          [
+            [-123.11086371417358, 49.26383280793767],
+            [-123.11088124787867, 49.26342592894305]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{FD5163FB-FD38-4347-B3A3-E3B392A605B2}",
+    "hundred_block": "2100 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10950689736394, 49.26571016865787],
+            [-123.10950488198613, 49.2661162319999]
+          ],
+          [
+            [-123.10950236226074, 49.26652422076436],
+            [-123.10950488206578, 49.26611626798065]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{8BB942CD-64E9-4526-B888-05391F431B6D}",
+    "hundred_block": "2200 COLUMBIA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.1095097086772, 49.26521037451185],
+            [-123.10950737175342, 49.26562018919362]
+          ],
+          [
+            [-123.10951225532496, 49.264802178738755],
+            [-123.1095097086772, 49.26521037451185]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{F889B4A0-94CB-4A07-8520-37B435EA9C80}",
+    "hundred_block": "0 E 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10296313649889, 49.264594645360475],
+          [-123.10476052824598, 49.264626725693695]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{702EA664-94DD-4C28-BF39-D7E7F5DB52ED}",
+    "hundred_block": "2600 MANITOBA ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10695660828014, 49.261663950351185],
+            [-123.1069738165319, 49.261257305980365]
+          ],
+          [
+            [-123.1069395783474, 49.26207055854474],
+            [-123.10695235014167, 49.26177323708668]
+          ],
+          [
+            [-123.10695234988899, 49.261773120149186],
+            [-123.10695660828014, 49.261663950351185]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{99E3A336-C2A6-4CA6-9C5A-7BDA84E32DFA}",
+    "hundred_block": "200 W 8TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11085981969562, 49.26392272775119],
+          [-123.10952046148911, 49.263895643199554]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{01012429-B212-499E-90AA-2AB7A6E2167B}",
+    "hundred_block": "2500 ONTARIO ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10500203941405, 49.26212602801564],
+          [-123.10498491141381, 49.26253292382035],
+          [-123.10496695079239, 49.26296211946814]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{1933D2F9-05DB-4237-BE47-4BBA08F15E30}",
+    "hundred_block": "100 W 5TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10675302865215, 49.26656256757821],
+          [-123.10936444139155, 49.26661164982328]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{7F8E14AA-5C44-47AB-9EB7-0D5FDFDFEAA2}",
+    "hundred_block": "300 W 7TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11096198870558, 49.26474003295489],
+          [-123.11276145785362, 49.26477436156391]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{C30B15CC-7692-43F0-930B-64CE89863DC2}",
+    "hundred_block": "200 W BROADWAY S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10952403522434, 49.26306971795823],
+          [-123.11089596679109, 49.26310017139571]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{33EB1B24-EFE7-4E08-A5DE-AB7E0D4BFDE1}",
+    "hundred_block": "100 W 10TH AV S",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1094240352473, 49.26211461160134],
+          [-123.1069395783474, 49.26207055854474]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{19FC8F91-E732-4EE4-B2AF-48E9D5842D3F}",
+    "hundred_block": "2000 YUKON ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1127755150476, 49.267534876477846],
+          [-123.11279539107534, 49.26708251542969],
+          [-123.11281583125279, 49.26663056757088]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{947A2477-97E5-4C41-B34E-61E570D917B4}",
+    "hundred_block": "300 W 7TH AV N",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11095831425648, 49.26482995254627],
+          [-123.11275747051789, 49.26486427252295]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{D4A8A798-554D-495C-8658-4BCC61F9378C}",
+    "hundred_block": "2300 QUEBEC ST W",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10296313649889, 49.264594645360475],
+            [-123.10298029439458, 49.264187192276026]
+          ],
+          [
+            [-123.10298029426355, 49.264187129309704],
+            [-123.10299666920473, 49.263780045695135]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "{37D60468-5F4B-479C-BCE6-AB0B16326AFA}",
+    "hundred_block": "2500 ONTARIO ST E",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [-123.10486464713802, 49.26212359815628],
+            [-123.10484751791364, 49.26253044896561]
+          ],
+          [
+            [-123.1048475179327, 49.2625304579608],
+            [-123.1048295819707, 49.26295887997698]
+          ]
+        ],
+        "type": "MultiLineString"
+      },
+      "properties": {}
+    }
+  }
+]

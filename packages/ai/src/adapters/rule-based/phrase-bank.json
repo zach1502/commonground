@@ -1,0 +1,46 @@
+{
+  "themes": {
+    "tree": "Keep and add trees",
+    "shrub": "Native shrubs and planting",
+    "path": "Paths through the park",
+    "water": "Water on the site",
+    "play": "Room for play",
+    "seating": "Places to sit",
+    "sports": "Courts and sports",
+    "garden": "A community garden",
+    "dog": "A dog off-leash area",
+    "lighting": "Lights along the paths",
+    "washroom": "A washroom",
+    "parking": "Parking",
+    "ground": "Open lawn or meadow",
+    "plaza": "A paved plaza",
+    "amenity": "Fountains, bins and bike racks"
+  },
+  "sides": {
+    "tree": "More trees",
+    "play": "More play",
+    "garden": "More garden space",
+    "sports": "More sports",
+    "ground": "More open lawn",
+    "plaza": "More paved space",
+    "water": "More water",
+    "dog": "A dog area"
+  },
+  "pairs": [
+    ["tree", "play"],
+    ["garden", "sports"],
+    ["ground", "plaza"],
+    ["water", "play"],
+    ["dog", "play"]
+  ],
+  "commentLine": {
+    "one": {
+      "full": "{count} comment on elements, most on {label}",
+      "bare": "{count} comment on elements"
+    },
+    "other": {
+      "full": "{count} comments on elements, most on {label}",
+      "bare": "{count} comments on elements"
+    }
+  }
+}

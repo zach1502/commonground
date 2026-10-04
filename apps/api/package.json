@@ -1,0 +1,39 @@
+{
+  "name": "@parkshape/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "dev": "tsc -b && node dist/entry.node.js",
+    "start": "node dist/entry.node.js",
+    "openapi:gen": "tsx --conditions=@parkshape/source scripts/generate-openapi.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "2.1.1",
+    "@hono/zod-openapi": "1.6.3",
+    "@parkshape/ai": "workspace:*",
+    "@parkshape/auth": "workspace:*",
+    "@parkshape/config": "workspace:*",
+    "@parkshape/core": "workspace:*",
+    "@parkshape/db": "workspace:*",
+    "@parkshape/storage": "workspace:*",
+    "@parkshape/terrain": "workspace:*",
+    "hono": "4.13.9",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "fast-check": "4.10.2",
+    "tsx": "4.23.15"
+  }
+}

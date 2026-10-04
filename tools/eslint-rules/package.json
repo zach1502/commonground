@@ -1,0 +1,13 @@
+{
+  "name": "@parkshape/eslint-rules",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./plugin.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  }
+}

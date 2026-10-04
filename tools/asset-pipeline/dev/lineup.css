@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: var(--typography-font-families-bc-sans);
+  color: var(--typography-color-primary);
+  background: var(--surface-color-background-light-gray);
+}
+
+main {
+  padding: var(--layout-padding-medium);
+}
+
+h1 {
+  margin: 0;
+  font-size: var(--typography-font-size-h3);
+}
+
+h2 {
+  margin: var(--layout-margin-medium) 0 0;
+  font-size: var(--typography-font-size-body);
+}
+
+p {
+  margin: 0;
+  font-size: var(--typography-font-size-small-body);
+}
+
+.lineup-row {
+  position: relative;
+  block-size: 300px;
+}
+
+.lineup-row canvas,
+.lineup-labels {
+  position: absolute;
+  inset: 0;
+}
+
+.lineup-label {
+  margin-top: 1.2em;
+  font-size: var(--typography-font-size-label);
+  white-space: nowrap;
+}
+
+.lineup-label-low {
+  margin-top: 3.6em;
+}

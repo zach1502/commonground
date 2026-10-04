@@ -1,0 +1,288 @@
+/* Planner console: the setup wizard, its table beside a map, and the embedded editor. */
+.web-wizard {
+  --wizard-actions-height: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-large);
+}
+
+.web-wizard__step {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-medium);
+}
+
+.web-wizard__lede {
+  max-width: var(--measure-reading);
+  margin: 0;
+}
+
+.web-wizard__note {
+  max-width: var(--measure-reading);
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.web-wizard__actions {
+  padding-top: var(--layout-padding-medium);
+  border-top: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+/* Step 5's buttons stay in view under the tall editor. The page keeps room for the bar when it
+   scrolls a control into view, so the bar never covers the focused element. */
+.web-wizard__actions--pinned {
+  position: sticky;
+  inset-block-end: 0;
+  z-index: 1;
+  padding-block-end: var(--layout-padding-medium);
+  background: var(--surface-color-background-white);
+}
+
+html:has(.web-wizard__actions--pinned) {
+  scroll-padding-block-end: var(--wizard-actions-height);
+}
+
+.web-wizard__split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--layout-margin-large);
+  align-items: start;
+}
+
+.web-wizard__split--review {
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+}
+
+/* The map stays in view beside the table while the page scrolls through the rows. */
+.web-wizard__split--review > .ps-parcel-map {
+  position: sticky;
+  inset-block-start: var(--layout-margin-medium);
+}
+
+.web-wizard__split--rules {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+}
+
+.web-wizard__aside {
+  position: sticky;
+  inset-block-start: var(--layout-margin-medium);
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  padding-inline-start: var(--layout-padding-medium);
+  border-inline-start: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-wizard__aside-heading {
+  margin: 0;
+  font: var(--typography-bold-body);
+}
+
+.web-wizard__rules {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+}
+
+.web-wizard__rule {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--layout-margin-medium);
+}
+
+.web-wizard__rule dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.web-wizard__more-summary {
+  cursor: pointer;
+  color: var(--typography-color-link);
+  font: var(--typography-bold-body);
+}
+
+.web-wizard__more[open] > .web-wizard__more-summary {
+  margin-block-end: var(--layout-margin-large);
+}
+
+.web-error-summary {
+  padding: var(--layout-padding-small) var(--layout-padding-medium);
+  border-inline-start: var(--layout-border-width-large) solid var(--status-fail);
+}
+
+.web-error-summary__heading {
+  margin: 0 0 var(--layout-margin-small);
+  font: var(--typography-bold-body);
+}
+
+.web-error-summary__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding-inline-start: var(--layout-padding-medium);
+}
+
+@media (max-width: 1023px) {
+  .web-wizard__split--rules {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .web-wizard__aside {
+    position: static;
+  }
+}
+
+.web-wizard__search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-small);
+}
+
+.web-wizard__facts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+}
+
+.web-wizard__facts dt {
+  font: var(--typography-bold-small-body);
+}
+
+.web-wizard__facts dd {
+  margin: 0;
+}
+
+.web-wizard__facts dd:first-of-type {
+  font: var(--typography-bold-h4);
+}
+
+.web-wizard__form {
+  max-width: var(--measure-reading);
+}
+
+.web-wizard__fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.web-wizard__legend {
+  margin-bottom: var(--layout-margin-small);
+  padding: 0;
+  font: var(--typography-bold-h5);
+}
+
+.web-wizard__severity {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: var(--layout-margin-small) var(--layout-margin-medium);
+}
+
+.web-wizard__severity-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+}
+
+.web-wizard__summary {
+  margin: 0;
+  padding-left: var(--layout-padding-large);
+}
+
+.web-wizard__editor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+/* The staff tools sit in the editor's right panel, under Properties. */
+.web-wizard__tools {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  padding: var(--layout-padding-medium);
+  border-block-start: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-wizard__tools-heading {
+  margin: 0;
+  font: var(--typography-bold-body);
+}
+
+.web-wizard__tools-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-small);
+}
+
+/* The stage leaves room for the heading, lede and the pinned buttons in a 900 px window. It
+   stays inside the page column, so its right edge lines up with the header's. */
+.web-wizard__stage {
+  block-size: max(28rem, calc(100vh - 26rem));
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+/* A lone button in a step, such as Load terrain again, is as wide as its label. */
+.web-wizard__step > .bcds-react-aria-Button {
+  align-self: flex-start;
+}
+
+.web-table {
+  width: 100%;
+  border-collapse: collapse;
+  font: var(--typography-regular-small-body);
+}
+
+.web-table caption {
+  padding-bottom: var(--layout-padding-small);
+  font: var(--typography-bold-small-body);
+  text-align: left;
+}
+
+.web-table th,
+.web-table td {
+  padding: var(--layout-padding-xsmall) var(--layout-padding-small);
+  border-bottom: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.web-table thead th {
+  font: var(--typography-bold-small-body);
+}
+
+.web-table--compact .ps-field__control {
+  width: 5rem;
+}
+
+.web-wizard__step > .web-heading-2 {
+  margin: 0;
+}
+
+/* On Publish each rule has its value and an Edit link on one line. */
+.web-wizard__rules--review .web-wizard__rule {
+  justify-content: flex-start;
+}
+
+.web-wizard__rules--review dt {
+  min-inline-size: 14rem;
+}
+
+.web-wizard__rules--review dd:first-of-type {
+  min-inline-size: 6rem;
+}
+
+.web-wizard__rules--review dd:last-of-type {
+  font-weight: 400;
+}

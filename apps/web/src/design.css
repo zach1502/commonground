@@ -1,0 +1,168 @@
+/* Gallery badges, the design page and the submit dialog. Split from participation.css to stay in
+   budget. */
+
+.web-gallery__badges,
+.web-design__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Grouped items read as one ruled list, the same 1 px rules as the tables. */
+.web-design__items--rows {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0;
+  max-inline-size: var(--measure-reading);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  border-radius: var(--layout-border-radius-small);
+}
+
+.web-design__items--rows > li + li {
+  border-block-start: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-design__items--rows .bcds-react-aria-Button {
+  inline-size: 100%;
+  justify-content: space-between;
+  border-radius: 0;
+}
+
+/* The item name sits on the left, its count right aligned in a tabular column. */
+.web-design__item-name {
+  text-align: start;
+}
+
+.web-design__item-count {
+  color: var(--typography-color-secondary);
+}
+
+/* The design page: the viewer runs edge to edge, and its loading notice stays inside it. */
+.web-design {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-large);
+  padding-block-end: var(--layout-padding-xlarge);
+}
+
+.web-design__stage {
+  position: relative;
+  block-size: 50vh;
+  min-block-size: 16rem;
+  overflow: hidden;
+  background: var(--surface-color-background-light-blue);
+}
+
+.web-design__details {
+  box-sizing: border-box;
+  inline-size: 100%;
+  max-inline-size: var(--page-column);
+  margin-inline: auto;
+  padding-inline: var(--layout-padding-medium);
+}
+
+.web-design__title {
+  margin: 0;
+  font: var(--typography-bold-h1);
+  line-height: var(--line-height-heading);
+}
+
+.web-design__byline {
+  margin: var(--layout-margin-xsmall) 0 0;
+  color: var(--typography-color-secondary);
+}
+
+.web-design__vote-heading,
+.web-design__legend h2 {
+  margin: var(--layout-margin-large) 0 var(--layout-margin-small);
+  font: var(--typography-bold-h5);
+  line-height: var(--line-height-heading);
+}
+
+/* A plain link back to the gallery, on the text edge. */
+.web-design__back {
+  align-self: flex-start;
+}
+
+/* The design's contents read as one sentence at the reading width. */
+.web-design__contents {
+  max-inline-size: var(--measure-reading);
+  margin: 0 0 var(--layout-margin-xsmall);
+}
+
+/* On a phone the stage takes the park's own shape in place of half the window. The added
+   height is the view buttons' row, so they never sit on the park's far edge. */
+@media (max-width: 767px) {
+  .web-design__stage {
+    block-size: calc(100vw * var(--design-stage-depth) + var(--layout-padding-xlarge) * 2);
+    min-block-size: 0;
+  }
+
+  .web-design__title {
+    font: var(--typography-bold-h2);
+    line-height: var(--line-height-heading);
+  }
+}
+
+/* Submit design dialog: the rules and failures are plain bulleted lists, the badges a row. */
+.web-submit__rules,
+.web-submit__failures {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding-inline-start: var(--layout-padding-large);
+}
+
+.web-submit__warnings-label {
+  margin: 0 0 var(--layout-margin-xsmall);
+}
+
+.web-submit__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* The editor's first-load skeleton: its bar, then the stage, filling the window as the editor does. */
+.web-skeleton--editor {
+  min-block-size: 100vh;
+}
+
+/* The submit success line: the drawn check beside one plain sentence. */
+.web-submit__done {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+}
+
+/* The vote editor on the design page and the end of a batch: one column, rows of buttons. */
+.web-vote-change {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+.web-vote-change__heading {
+  margin: 0;
+  font: var(--typography-bold-body);
+}
+
+.web-vote-change__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+}
+
+.web-vote-change__reasons {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

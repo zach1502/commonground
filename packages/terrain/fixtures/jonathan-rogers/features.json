@@ -1,0 +1,729 @@
+{
+  "format": "parkshape-site-features",
+  "version": 1,
+  "parkName": "Jonathan Rogers Park",
+  "parcel": {
+    "polygonWgs84": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [-123.10930564309892, 49.264666151005976],
+          [-123.10690223465889, 49.2646216606243],
+          [-123.10693224192086, 49.26389751885512],
+          [-123.1093094963582, 49.26394024331027],
+          [-123.10930564309892, 49.264666151005976]
+        ]
+      ]
+    },
+    "polygonLocal": [
+      {
+        "x": 0.2804529449417464,
+        "y": 85.48059347584964
+      },
+      {
+        "x": 175.20861999327903,
+        "y": 80.53539075748942
+      },
+      {
+        "x": 173.02712226473213,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 4.74887392353963
+      }
+    ],
+    "origin": {
+      "lat": 49.2638975433111,
+      "lon": -123.1093094963582
+    }
+  },
+  "features": [
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 140.87380456985645,
+        "y": 8.059964316975126
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 48.3,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274374",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 162.56366076486705,
+        "y": 2.611025323730653
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 53.3,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274377",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 167.73102600575268,
+        "y": 12.50935455539959
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 61,
+        "heightRangeM": [9.1, 12.2],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274379",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 138.54438707917606,
+        "y": 18.291693976381374
+      },
+      "attributes": {
+        "name": "Hedge maple",
+        "species": "Acer campestre",
+        "dbhCm": 7.6,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1,
+        "crownRadiusMatureM": 5
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274383",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 151.49856083694633,
+        "y": 73.45459455761551
+      },
+      "attributes": {
+        "name": "Pin cherry",
+        "species": "Prunus pennsylvanica",
+        "dbhCm": 12.7,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1.6,
+        "crownRadiusMatureM": 4
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274388",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 153.97315130038436,
+        "y": 73.45467044280825
+      },
+      "attributes": {
+        "name": "Pissard plum",
+        "species": "Prunus cerasifera",
+        "dbhCm": 35.6,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 4,
+        "crownRadiusMatureM": 4
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274389",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 141.0902488047213,
+        "y": 80.68324783002942
+      },
+      "attributes": {
+        "name": "American filbert",
+        "species": "Corylus americana",
+        "dbhCm": 40.6,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 3,
+        "crownRadiusMatureM": 3
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274390",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 122.31275309280723,
+        "y": 55.54825243821522
+      },
+      "attributes": {
+        "name": "Japanese maple",
+        "species": "Acer palmatum",
+        "dbhCm": 25.4,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 3.2,
+        "crownRadiusMatureM": 5
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274391",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 135.48783066771455,
+        "y": 4.612201374579824
+      },
+      "attributes": {
+        "name": "Paperbark maple",
+        "species": "Acer griseum",
+        "dbhCm": 5.1,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1,
+        "crownRadiusMatureM": 5
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274373",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 158.63331975011332,
+        "y": 3.834335610248321
+      },
+      "attributes": {
+        "name": "Paperbark maple",
+        "species": "Acer griseum",
+        "dbhCm": 5.1,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1,
+        "crownRadiusMatureM": 5
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274376",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 159.7247893212349,
+        "y": 11.285695571588336
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 48.3,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274378",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 168.24015558348142,
+        "y": 24.18686476820202
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 63.5,
+        "heightRangeM": [9.1, 12.2],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274380",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 151.50017232824555,
+        "y": 12.064022417509198
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 50.8,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274382",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 152.08211329223488,
+        "y": 26.521950799588886
+      },
+      "attributes": {
+        "name": "Japanese zelkova",
+        "species": "Zelkova serrata",
+        "dbhCm": 5.1,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1,
+        "crownRadiusMatureM": 7
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274384",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 162.70838837529936,
+        "y": 32.52781012698838
+      },
+      "attributes": {
+        "name": "Paperbark maple",
+        "species": "Acer griseum",
+        "dbhCm": 5.1,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1,
+        "crownRadiusMatureM": 5
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274385",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 163.72702874562725,
+        "y": 43.09331145428104
+      },
+      "attributes": {
+        "name": "Apple species",
+        "species": "Malus species",
+        "dbhCm": 12.7,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1.6,
+        "crownRadiusMatureM": 4
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274386",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 107.39192055605663,
+        "y": 65.00127537537541
+      },
+      "attributes": {
+        "name": "Common plum",
+        "species": "Prunus domestica",
+        "dbhCm": 15.2,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1.9,
+        "crownRadiusMatureM": 4
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274393",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 0.8367465355791439,
+        "y": 18.512292090089417
+      },
+      "attributes": {
+        "name": "Black locust",
+        "species": "Robinia pseudoacacia",
+        "dbhCm": 45.7,
+        "heightRangeM": [12.2, 15.2],
+        "crownRadiusM": 5.7,
+        "crownRadiusMatureM": 6
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "158853",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 148.07962767064132,
+        "y": 1.9433283892182156
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 61,
+        "heightRangeM": [9.1, 12.2],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274375",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 162.27203787169697,
+        "y": 19.293281821174183
+      },
+      "attributes": {
+        "name": "Western red cedar",
+        "species": "Thuja plicata",
+        "dbhCm": 58.4,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 5.5,
+        "crownRadiusMatureM": 5.5
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274381",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 154.91977227681008,
+        "y": 57.439727593267946
+      },
+      "attributes": {
+        "name": "Hawthorn species",
+        "species": "Crataegus species",
+        "dbhCm": 38.1,
+        "heightRangeM": [6.1, 9.1],
+        "crownRadiusM": 4,
+        "crownRadiusMatureM": 4
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274387",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "tree",
+      "position": {
+        "x": 112.41409116704007,
+        "y": 58.662095045300525
+      },
+      "attributes": {
+        "name": "Common plum",
+        "species": "Prunus domestica",
+        "dbhCm": 10.2,
+        "heightRangeM": [3, 6.1],
+        "crownRadiusM": 1.3,
+        "crownRadiusMatureM": 4
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "public-trees",
+        "recordId": "274392",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "garden",
+      "position": {
+        "x": 151.85385188594333,
+        "y": 67.9028434819738
+      },
+      "attributes": {
+        "name": "Elisabeth Rogers Community Garden",
+        "plots": 56
+      },
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "Vancouver Open Data",
+        "datasetId": "community-gardens-and-food-trees",
+        "recordId": "FA052",
+        "licence": "Open Government Licence - Vancouver"
+      }
+    },
+    {
+      "kind": "garden",
+      "polygon": [
+        {
+          "x": 133.29517035637448,
+          "y": 81.73971568122982
+        },
+        {
+          "x": 174.4105158547466,
+          "y": 80.84002469660322
+        },
+        {
+          "x": 173.8944922531551,
+          "y": 57.47376631090159
+        },
+        {
+          "x": 132.77897227628446,
+          "y": 58.37346112218411
+        }
+      ],
+      "attributes": {
+        "name": "Elisabeth Rogers Community Garden"
+      },
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "OpenStreetMap",
+        "datasetId": "overpass",
+        "recordId": "way/118373967",
+        "licence": "ODbL-1.0",
+        "reviewOnly": true
+      }
+    },
+    {
+      "kind": "building",
+      "polygon": [
+        {
+          "x": 116.6279407924308,
+          "y": 74.25457707040316
+        },
+        {
+          "x": 116.40988730381477,
+          "y": 60.219257186698755
+        },
+        {
+          "x": 127.33471539159282,
+          "y": 60.052676823495226
+        },
+        {
+          "x": 127.34925333329716,
+          "y": 60.86454562423071
+        },
+        {
+          "x": 130.5153423181213,
+          "y": 60.820133855003874
+        },
+        {
+          "x": 130.64615141459865,
+          "y": 69.30583070721097
+        },
+        {
+          "x": 127.48006731223701,
+          "y": 69.35024240421002
+        },
+        {
+          "x": 127.55274102410105,
+          "y": 74.08799713419324
+        }
+      ],
+      "attributes": {},
+      "suggestedLocked": true,
+      "provenance": {
+        "source": "OpenStreetMap",
+        "datasetId": "overpass",
+        "recordId": "way/118373968",
+        "licence": "ODbL-1.0",
+        "reviewOnly": true
+      }
+    },
+    {
+      "kind": "sportsField",
+      "polygon": [
+        {
+          "x": 0.48010943143228274,
+          "y": 31.824873398439983
+        },
+        {
+          "x": 1.1205998210584565,
+          "y": 75.72137758355683
+        },
+        {
+          "x": 1.0405369689662747,
+          "y": 81.404456985758
+        },
+        {
+          "x": 3.274984763943484,
+          "y": 83.62875510393494
+        },
+        {
+          "x": 6.419224598927881,
+          "y": 83.62875787266636
+        },
+        {
+          "x": 54.79832043217956,
+          "y": 81.94968252337904
+        },
+        {
+          "x": 56.705299020487686,
+          "y": 76.63363146044867
+        },
+        {
+          "x": 57.818943330051326,
+          "y": 71.11738596218976
+        },
+        {
+          "x": 58.13197180017439,
+          "y": 65.48991736278938
+        },
+        {
+          "x": 57.6225456180425,
+          "y": 59.873561644096156
+        },
+        {
+          "x": 56.30521776046043,
+          "y": 54.39065552439867
+        },
+        {
+          "x": 54.21637671130495,
+          "y": 49.152414797086884
+        },
+        {
+          "x": 51.38513304042545,
+          "y": 44.27005546232047
+        },
+        {
+          "x": 47.884268271234696,
+          "y": 39.85479414269256
+        },
+        {
+          "x": 43.13879179017585,
+          "y": 35.472889641093516
+        },
+        {
+          "x": 37.73824581354363,
+          "y": 31.92509613063086
+        },
+        {
+          "x": 31.828198987611046,
+          "y": 29.322631216761998
+        },
+        {
+          "x": 25.56149991967159,
+          "y": 27.721104664190474
+        },
+        {
+          "x": 19.120111718025594,
+          "y": 27.176125739106542
+        },
+        {
+          "x": 12.678719806782459,
+          "y": 27.68769545269908
+        },
+        {
+          "x": 6.4120096140204454,
+          "y": 29.255814006072875
+        }
+      ],
+      "attributes": {},
+      "suggestedLocked": false,
+      "provenance": {
+        "source": "OpenStreetMap",
+        "datasetId": "overpass",
+        "recordId": "way/645131512",
+        "licence": "ODbL-1.0",
+        "reviewOnly": true
+      }
+    }
+  ]
+}

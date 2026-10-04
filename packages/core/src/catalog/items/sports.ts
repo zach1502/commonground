@@ -1,0 +1,42 @@
+import type { CatalogItemInput } from '../../schema/catalog.js';
+
+export const sportsItems: readonly CatalogItemInput[] = [
+  {
+    id: 'basketball-half-court',
+    category: 'sports',
+    name: 'Basketball half court',
+    geometryKind: 'point',
+    footprint: { widthM: 15, depthM: 14 },
+    heightM: 3.05,
+    unitCost: { perItemCad: 120000 },
+    surface: 'impervious',
+    maxGrade: 0.01,
+    modelKey: 'basketball-half-court',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'ball-diamond-backstop',
+    category: 'sports',
+    name: 'Ball diamond backstop',
+    geometryKind: 'point',
+    footprint: { widthM: 12, depthM: 6 },
+    heightM: 6,
+    unitCost: { perItemCad: 60000 },
+    surface: 'pervious',
+    modelKey: 'ball-diamond-backstop',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'tennis-court',
+    category: 'sports',
+    name: 'Tennis court',
+    geometryKind: 'point',
+    footprint: { widthM: 36.6, depthM: 18.3 },
+    heightM: 1.07,
+    unitCost: { perItemCad: 350000 },
+    surface: 'impervious',
+    maxGrade: 0.01,
+    modelKey: 'tennis-court',
+    scalePolicy: 'fixed',
+  },
+];

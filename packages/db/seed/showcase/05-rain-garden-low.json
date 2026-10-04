@@ -1,0 +1,28 @@
+{
+  "title": "Rain garden on the low side",
+  "author": 4,
+  "seed": 105,
+  "tags": ["water", "garden"],
+  "blurb": "TODO(#seed) First-person blurb with one concrete detail.",
+  "intent": {
+    "features": [
+      {
+        "catalogId": "rain-garden",
+        "count": 1,
+        "size": "large",
+        "placement": { "terrain": "low" }
+      },
+      { "catalogId": "pond", "count": 1, "size": "small", "placement": { "near": "rain garden" } },
+      { "catalogId": "salal", "count": 6, "placement": { "near": "pond" } },
+      {
+        "catalogId": "community-garden",
+        "count": 1,
+        "size": "medium",
+        "placement": { "terrain": "flat" }
+      }
+    ],
+    "paths": { "style": "connect-all", "surface": "boardwalk" },
+    "canopy": "add-some",
+    "character": "natural"
+  }
+}

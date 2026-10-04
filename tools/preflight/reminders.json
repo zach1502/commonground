@@ -1,0 +1,34 @@
+[
+  {
+    "globs": ["apps/web/**", "packages/ui/**"],
+    "lines": ["One primary action per page. No rows of equal cards."]
+  },
+  {
+    "globs": ["apps/web/src/locales/**"],
+    "lines": ["Copy budgets: landing 30, dialog 40, empty state 20. Fact then action. No hedges."]
+  },
+  {
+    "globs": ["packages/*/src/adapters/**"],
+    "lines": ["Add this adapter to the port contract test. The in-memory adapter must still pass."]
+  },
+  {
+    "globs": ["packages/core/**"],
+    "lines": ["Pure code only. Inject Clock and Random. Constants in constants.ts."]
+  },
+  {
+    "globs": ["packages/db/**"],
+    "lines": ["Migrations must be reversible. Update the seed and the in-memory repository."]
+  },
+  {
+    "globs": ["**/*.md"],
+    "lines": ["Sentence-case headings, no bold-header bullets, no summary sections."]
+  },
+  {
+    "globs": ["packages/scene/**"],
+    "lines": ["Never scale a mesh non-uniformly."]
+  },
+  {
+    "globs": ["apps/api/**"],
+    "lines": ["Recompute metrics on the server. Map typed errors to HTTP in one place."]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "@parkshape/db",
+  "dependencies": {
+    "drizzle-orm": "0.44.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@parkshape/seed-tool",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed": "tsx --conditions=@parkshape/source src/cli.ts",
+    "serve": "tsx --conditions=@parkshape/source src/serve.ts",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.test.json && tsc -p ../../e2e",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@hono/node-server": "2.1.1",
+    "@parkshape/api": "workspace:*",
+    "@parkshape/config": "workspace:*",
+    "@parkshape/core": "workspace:*",
+    "@parkshape/db": "workspace:*",
+    "@parkshape/scene": "workspace:*",
+    "@playwright/test": "1.63.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "6.4.3"
+  },
+  "devDependencies": {
+    "@parkshape/textlint-rule-content": "workspace:*",
+    "@types/node": "20.19.43",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "tsx": "4.23.15"
+  }
+}

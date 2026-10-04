@@ -1,0 +1,6 @@
+/* Fail fixture: raw colours, including an SVG fill, and a decorative gradient. */
+.banner {
+  color: #123456;
+  fill: #fff;
+  background: linear-gradient(90deg, var(--theme-primary-blue), var(--theme-blue-100));
+}

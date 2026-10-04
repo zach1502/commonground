@@ -1,0 +1,236 @@
+/* Planner console: the wizard step list, fields with help, lock toggles and source badges. */
+.ps-stepper__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small) var(--layout-margin-large);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: ps-step;
+}
+
+.ps-stepper__step {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-xsmall);
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+  counter-increment: ps-step;
+}
+
+.ps-stepper__step::before {
+  content: counter(ps-step);
+}
+
+/* The number box, and the check box that takes its place on a done step. */
+.ps-stepper__step::before,
+.ps-stepper__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--layout-margin-large);
+  min-height: var(--layout-margin-large);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-medium);
+  border-radius: var(--layout-border-radius-medium);
+  font: var(--typography-regular-label);
+}
+
+.ps-stepper__step--current {
+  font: var(--typography-bold-small-body);
+  color: var(--typography-color-primary);
+}
+
+.ps-stepper__step--current::before {
+  border-color: var(--surface-color-border-active);
+  border-width: var(--layout-border-width-medium);
+}
+
+/* A done step shows a check in place of its number, so the three states differ by shape and
+   weight as well as colour. */
+.ps-stepper__step--done::before {
+  content: none;
+}
+
+.ps-stepper__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--layout-margin-xsmall);
+}
+
+.ps-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  max-width: var(--measure-reading);
+}
+
+.ps-field__label {
+  font: var(--typography-bold-small-body);
+}
+
+.ps-field__row {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--layout-margin-xsmall);
+}
+
+.ps-field__affix {
+  font: var(--typography-regular-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-field__control {
+  box-sizing: border-box;
+  max-width: 20rem;
+  padding: var(--layout-padding-small);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+  border-radius: var(--layout-border-radius-small);
+  font: var(--typography-regular-body);
+  color: var(--typography-color-primary);
+  background: var(--surface-color-forms-default);
+}
+
+/* Inputs are sized to the value they hold, so a 2-digit number gets a short box. */
+.ps-field__row--short input.ps-field__control {
+  inline-size: 6rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.ps-field__row--money input.ps-field__control {
+  inline-size: 9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.ps-field__row--long input.ps-field__control {
+  inline-size: 20rem;
+}
+
+.ps-field__control--text {
+  flex: 1 1 auto;
+  inline-size: 100%;
+  max-width: var(--measure-reading);
+  min-height: 6rem;
+}
+
+.ps-field__row:has(.ps-field__control--text) {
+  display: flex;
+}
+
+.ps-field__control[aria-invalid='true'] {
+  border-color: var(--status-fail);
+}
+
+.ps-field__hint {
+  max-inline-size: var(--measure-reading);
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-field__help,
+.ps-field__default {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-field__error {
+  margin: 0;
+  font: var(--typography-bold-small-body);
+  color: var(--typography-color-danger);
+}
+
+/* The lock switch: a track that shows the state and a fixed label, so the column stays even. */
+.ps-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--layout-margin-small);
+  min-block-size: var(--layout-margin-large);
+  padding: 0;
+  border: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-primary);
+  background: transparent;
+  cursor: pointer;
+}
+
+.ps-switch__track {
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  inline-size: 2.25rem;
+  block-size: 1.25rem;
+  padding: var(--layout-padding-hair);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-white);
+}
+
+.ps-switch__thumb {
+  inline-size: 0.875rem;
+  block-size: 0.875rem;
+  border-radius: var(--layout-border-radius-small);
+  background: var(--surface-color-border-dark);
+}
+
+.ps-switch[aria-pressed='true'] .ps-switch__track {
+  justify-content: flex-end;
+  border-color: var(--surface-color-primary-default);
+  background: var(--surface-color-primary-default);
+}
+
+.ps-switch[aria-pressed='true'] .ps-switch__thumb {
+  background: var(--surface-color-background-white);
+}
+
+.ps-source {
+  display: inline-flex;
+  flex-direction: column;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-source__note {
+  font: var(--typography-bold-small-body);
+  color: var(--typography-color-primary);
+}
+
+.ps-parcel-map {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  min-height: 24rem;
+}
+
+.ps-parcel-map__canvas {
+  flex: 1 1 auto;
+  min-height: 24rem;
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  border-radius: var(--layout-border-radius-small);
+}
+
+.ps-parcel-map__loading {
+  position: absolute;
+  inset-block-start: var(--layout-margin-small);
+  inset-inline-start: var(--layout-margin-small);
+  margin: 0;
+  font: var(--typography-regular-small-body);
+}
+
+.ps-parcel-map__tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--layout-margin-small);
+}
+
+.ps-parcel-map__hint {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+}
+
+/* MapLibre gives attribution links the text colour; the underline keeps them apart (WCAG 1.4.1). */
+.ps-parcel-map .maplibregl-ctrl-attrib a {
+  text-decoration: underline;
+}

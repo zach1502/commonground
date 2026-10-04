@@ -1,0 +1,11 @@
+{
+  "id": "jonathan-rogers-park",
+  "name": "Jonathan Rogers Park",
+  "polygon": [
+    { "x": 0, "y": 0 },
+    { "x": 120, "y": 0 },
+    { "x": 120, "y": 115 },
+    { "x": 0, "y": 115 }
+  ],
+  "origin": { "lat": 49.2637, "lon": -123.0972 }
+}

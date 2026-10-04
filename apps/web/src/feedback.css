@@ -1,0 +1,121 @@
+/* Element feedback on the insights page. */
+.web-feedback__picker {
+  display: grid;
+  gap: var(--layout-margin-xsmall);
+  max-inline-size: 28rem;
+  font: var(--typography-bold-small-body);
+}
+
+.web-feedback__picker select,
+.web-feedback__reply-field textarea {
+  min-block-size: var(--touch-target-min);
+  padding: var(--layout-padding-small);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+  border-radius: var(--layout-border-radius-medium);
+  font: var(--typography-regular-body);
+}
+
+.web-feedback__title {
+  font: var(--typography-bold-h4);
+}
+
+.web-feedback__charts {
+  display: grid;
+  gap: var(--layout-margin-medium);
+}
+
+.web-feedback__bars {
+  --feedback-bar-max: 8rem;
+}
+
+.web-feedback__bar {
+  display: inline-block;
+  block-size: var(--layout-margin-small);
+  margin-inline-end: var(--layout-margin-small);
+  background: var(--surface-color-primary-button-default);
+  vertical-align: middle;
+}
+
+.web-feedback__groups {
+  display: grid;
+  gap: var(--layout-margin-small);
+}
+
+.web-feedback__group h4 {
+  margin: var(--layout-margin-small) 0 var(--layout-margin-xsmall);
+}
+
+.web-feedback__comment {
+  display: grid;
+  gap: var(--layout-margin-xsmall);
+  padding-block: var(--layout-padding-small);
+  border-block-start: var(--layout-border-width-small) solid var(--surface-color-border-light);
+}
+
+.web-feedback__comment p {
+  margin: 0;
+}
+
+.web-feedback__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+  align-items: center;
+  font: var(--typography-regular-small-body);
+}
+
+.web-feedback__reply {
+  padding-inline-start: var(--layout-padding-small);
+  border-inline-start: var(--layout-border-width-medium) solid var(--surface-color-border-dark);
+}
+
+.web-feedback__reply-field {
+  display: grid;
+  gap: var(--layout-margin-xsmall);
+  font: var(--typography-regular-small-body);
+}
+
+.web-feedback__map {
+  display: grid;
+  gap: var(--layout-margin-small);
+  margin: 0;
+}
+
+.web-feedback__drawing {
+  position: relative;
+  inline-size: 100%;
+  max-inline-size: 40rem;
+  aspect-ratio: 640 / 400;
+}
+
+.web-feedback__drawing img,
+.web-feedback__drawing svg {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.web-feedback > .ps-button-link {
+  align-self: flex-start;
+}
+
+.web-feedback__mark {
+  fill: var(--surface-color-primary-button-default);
+  stroke: var(--surface-color-border-dark);
+  stroke-width: 0.4;
+}
+
+.web-feedback__mark-label {
+  fill: var(--typography-color-primary);
+  font-weight: 700;
+  paint-order: stroke;
+  stroke: var(--surface-color-background-white);
+  stroke-width: 1.2;
+}
+
+@media (width >= 64rem) {
+  .web-feedback__charts {
+    grid-template-columns: 1fr 1fr;
+  }
+}

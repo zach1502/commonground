@@ -1,0 +1,205 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RuleBasedIntentProvider > matches the snapshot for each canned sentence 1`] = `
+{
+  "a basketball court away from the houses": {
+    "canopy": "keep-existing",
+    "character": "active",
+    "features": [
+      {
+        "catalogId": "basketball-half-court",
+        "category": "sports",
+        "count": 1,
+        "placement": {
+          "awayFrom": "houses",
+        },
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+  "a big community garden on the flat part in the north-west": {
+    "canopy": "keep-existing",
+    "character": "open-lawn",
+    "features": [
+      {
+        "catalogId": "community-garden",
+        "category": "garden",
+        "count": 1,
+        "placement": {
+          "terrain": "flat",
+          "zone": "north-west",
+        },
+        "size": "large",
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+  "a dog park in the back corner, a pond on the low side, a loop path, lots of trees": {
+    "canopy": "maximize",
+    "character": "natural",
+    "features": [
+      {
+        "catalogId": "off-leash-area",
+        "category": "dog",
+        "count": 1,
+        "placement": {
+          "zone": "south-east",
+        },
+      },
+      {
+        "catalogId": "pond",
+        "category": "water",
+        "count": 1,
+        "placement": {
+          "terrain": "low",
+        },
+      },
+      {
+        "category": "tree",
+        "count": 8,
+      },
+    ],
+    "paths": {
+      "style": "loop",
+    },
+  },
+  "a small spray pad and swings for the kids": {
+    "canopy": "keep-existing",
+    "character": "active",
+    "features": [
+      {
+        "catalogId": "spray-pad",
+        "category": "play",
+        "count": 1,
+        "size": "small",
+      },
+      {
+        "catalogId": "swings",
+        "category": "play",
+        "count": 1,
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+  "connect everything with a paved path, add lights and a washroom": {
+    "canopy": "keep-existing",
+    "character": "open-lawn",
+    "features": [
+      {
+        "catalogId": "path-light",
+        "category": "lighting",
+        "count": 3,
+      },
+      {
+        "catalogId": "washroom-building",
+        "category": "washroom",
+        "count": 1,
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+      "surface": "asphalt",
+    },
+  },
+  "keep it natural with a meadow and native shrubs along the edge": {
+    "canopy": "keep-existing",
+    "character": "natural",
+    "features": [
+      {
+        "catalogId": "meadow",
+        "category": "ground",
+        "count": 1,
+      },
+      {
+        "category": "shrub",
+        "count": 3,
+        "placement": {
+          "terrain": "edge",
+        },
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+  "minimal gravel paths and some new trees": {
+    "canopy": "add-some",
+    "character": "open-lawn",
+    "features": [
+      {
+        "category": "tree",
+        "count": 3,
+      },
+    ],
+    "paths": {
+      "style": "minimal",
+      "surface": "gravel",
+    },
+  },
+  "more trees for shade on the high ground": {
+    "canopy": "maximize",
+    "character": "natural",
+    "features": [
+      {
+        "category": "tree",
+        "count": 3,
+        "placement": {
+          "terrain": "high",
+        },
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+  "open lawn in the centre with a few picnic tables": {
+    "canopy": "keep-existing",
+    "character": "open-lawn",
+    "features": [
+      {
+        "catalogId": "lawn",
+        "category": "ground",
+        "count": 1,
+        "placement": {
+          "zone": "centre",
+        },
+      },
+      {
+        "catalogId": "picnic-table",
+        "category": "seating",
+        "count": 3,
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+  "two benches near the playground and a drinking fountain": {
+    "canopy": "keep-existing",
+    "character": "active",
+    "features": [
+      {
+        "category": "seating",
+        "count": 2,
+        "placement": {
+          "near": "playground",
+        },
+      },
+      {
+        "catalogId": "drinking-fountain",
+        "category": "amenity",
+        "count": 1,
+      },
+    ],
+    "paths": {
+      "style": "connect-all",
+    },
+  },
+}
+`;

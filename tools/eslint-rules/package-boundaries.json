@@ -1,0 +1,44 @@
+{
+  "$comment": "Internal package direction rules, read by eslint.config.js (boundaries) and .dependency-cruiser.cjs. Each element may import only the elements listed in allow.",
+  "elements": [
+    { "type": "config", "path": "packages/config", "allow": [] },
+    { "type": "core", "path": "packages/core", "allow": [] },
+    { "type": "terrain", "path": "packages/terrain", "allow": ["core", "config"] },
+    { "type": "db", "path": "packages/db", "allow": ["core", "config"] },
+    { "type": "ai", "path": "packages/ai", "allow": ["core", "config"] },
+    { "type": "storage", "path": "packages/storage", "allow": ["core", "config"] },
+    { "type": "auth", "path": "packages/auth", "allow": ["core", "config"] },
+    { "type": "scene", "path": "packages/scene", "allow": ["core"] },
+    { "type": "ui", "path": "packages/ui", "allow": [] },
+    { "type": "api-client", "path": "packages/api-client", "allow": ["core"] },
+    {
+      "type": "web",
+      "path": "apps/web",
+      "allow": ["core", "ui", "scene", "api-client", "config"]
+    },
+    {
+      "type": "api",
+      "path": "apps/api",
+      "allow": ["config", "core", "terrain", "db", "ai", "storage", "auth", "api-client"]
+    },
+    {
+      "type": "tools",
+      "path": "tools",
+      "allow": [
+        "config",
+        "core",
+        "terrain",
+        "db",
+        "ai",
+        "storage",
+        "auth",
+        "scene",
+        "ui",
+        "api-client",
+        "web",
+        "api",
+        "tools"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,938 @@
+[
+  {
+    "object_id": "96",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10328310644795, 49.262050506438975],
+          [-123.10300144620035, 49.262045607220635]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "133",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10493460887065, 49.26207997083955],
+          [-123.10436164982116, 49.262069928513085]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "239",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10486390045767, 49.263769020076715],
+          [-123.10488018470082, 49.26337191192811]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "536",
+    "street_name": "Columbia",
+    "bike_route_name": "Columbia",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1094307169431, 49.26701958240468],
+          [-123.10942786900215, 49.267471509368505]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "960",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10488018470082, 49.26337191192811],
+          [-123.10488018050883, 49.26337187954917],
+          [-123.10489571884656, 49.26300556623922]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "988",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11278695098483, 49.26572554078909],
+          [-123.1128071270886, 49.26527311903558]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "996",
+    "street_name": "Yukon",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11289971408726, 49.26318203016333],
+          [-123.11291805898617, 49.26268090362807]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1042",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11272702021026, 49.26708117170292],
+          [-123.11274713942595, 49.26662924935601]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1077",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11274713942595, 49.26662924935601],
+          [-123.11276938503465, 49.26617506799839],
+          [-123.11276939184785, 49.26617504190565]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1331",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11282761482397, 49.26482068974236],
+          [-123.11284732494764, 49.26436857330293],
+          [-123.11286748850176, 49.26391654813268]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1617",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10478873967445, 49.26557763704871],
+          [-123.10480771269233, 49.265125574898754]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1752",
+    "street_name": "W 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11081231910259, 49.266593251367276],
+          [-123.11081235897237, 49.266593254927145],
+          [-123.11274713942595, 49.26662924935601]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1804",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11272513373544, 49.26727158035339],
+          [-123.11272702021026, 49.26708117170292]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2062",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10476985978805, 49.26602970087452],
+          [-123.10478873838564, 49.2655776775283],
+          [-123.10478873967445, 49.26557763704871]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2278",
+    "street_name": "Yukon",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11293536529472, 49.26222049667152],
+          [-123.11293897250209, 49.262125051284606],
+          [-123.11295278268746, 49.26176012105006],
+          [-123.1129700778221, 49.26129991191995]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3043",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10482683549678, 49.26467300884272],
+          [-123.10484490237484, 49.26422109945644]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3201",
+    "street_name": "E 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10280959105356, 49.266446467977026],
+          [-123.1016143364226, 49.266424810648644],
+          [-123.10160339879202, 49.266424609779584]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3395",
+    "street_name": "Quebec",
+    "bike_route_name": "Quebec",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10282696098747, 49.26598668886836],
+          [-123.10280959105356, 49.266446467977026]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3522",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11297200762121, 49.26753864240871],
+          [-123.11272253403133, 49.267533872137015],
+          [-123.11272513373544, 49.26727158035339]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "931",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11288764934748, 49.263464096553086],
+          [-123.11289971408726, 49.26318203016333]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1094",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1035228165775, 49.26205467437453],
+          [-123.10328310644795, 49.262050506438975]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1403",
+    "street_name": "W 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10943278907031, 49.2665680393356],
+          [-123.10990729553001, 49.2665766893915],
+          [-123.1104222347496, 49.266586113830094]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1605",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10493460887065, 49.26207997083955],
+          [-123.10495547514095, 49.26160160467895]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1722",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10949017853524, 49.26216088325467],
+          [-123.10949013591632, 49.26216087789793],
+          [-123.10686831316659, 49.26211440415836]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2017",
+    "street_name": "Quebec St",
+    "bike_route_name": "Quebec",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10279736055729, 49.26689778878424],
+          [-123.10280959105356, 49.266446467977026]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2133",
+    "street_name": "W 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10668556266617, 49.26651638555763],
+          [-123.10712680617706, 49.26652468015272],
+          [-123.10943278907031, 49.2665680393356]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2247",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10489571884656, 49.26300556623922],
+          [-123.10491555795736, 49.26253181563706]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2271",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10471357523917, 49.267385775759784],
+          [-123.10473256499769, 49.266933839682295],
+          [-123.10473257456431, 49.26693381358755]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2453",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11293536529472, 49.26222049667152],
+          [-123.11098460716157, 49.2621879812152]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2667",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10436164982116, 49.262069928513085],
+          [-123.10399321160708, 49.262063229164234]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2673",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10399321160708, 49.262063229164234],
+          [-123.1035228165775, 49.26205467437453]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2698",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11286748850176, 49.26391654813268],
+          [-123.11287294796273, 49.2638249796994]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3234",
+    "street_name": "E 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10475169979514, 49.266481751415675],
+          [-123.10281731488999, 49.2664466077259],
+          [-123.10280959105356, 49.266446467977026]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3471",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10475169979514, 49.266481751415675],
+          [-123.10476985978805, 49.26602970087452]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3575",
+    "street_name": "W 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11274713942595, 49.26662924935601],
+          [-123.11274718477765, 49.26662924571367],
+          [-123.11369669069221, 49.26664644420751]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "84",
+    "street_name": "W 7th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11282761482397, 49.26482068974236],
+          [-123.11476137536229, 49.264857463699315]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2366",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10484490237484, 49.26422109945644],
+          [-123.10486390045767, 49.263769020076715]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2424",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10686831316659, 49.26211440415836],
+          [-123.10493460887065, 49.26207997083955]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2488",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10495547514095, 49.26160160467895],
+          [-123.1049738981698, 49.26117740984777]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "2806",
+    "street_name": "W 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10475169979514, 49.266481751415675],
+          [-123.10668556266617, 49.26651638555763]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3057",
+    "street_name": "Yukon",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11291805898617, 49.26268090362807],
+          [-123.11293536529472, 49.26222049667152]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3275",
+    "street_name": "W 5th Ave",
+    "bike_route_name": "Off-Broadway",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1104222347496, 49.266586113830094],
+          [-123.11081231910259, 49.266593251367276]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3516",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10480771269233, 49.265125574898754],
+          [-123.10482683549678, 49.26467300884272]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3676",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1128071270886, 49.26527311903558],
+          [-123.11280711187268, 49.26527307677299],
+          [-123.11282761482397, 49.26482068974236]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3680",
+    "street_name": "Yukon",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.1129700778221, 49.26129991191995],
+          [-123.11298744332373, 49.260839358164986]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "3697",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11368594235667, 49.26223252567619],
+          [-123.11293536529472, 49.26222049667152]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "615",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11276939184785, 49.26617504190565],
+          [-123.11277118513654, 49.2661289946144],
+          [-123.11278695098483, 49.26572554078909]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "689",
+    "street_name": "Columbia",
+    "bike_route_name": "Columbia",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10943278907031, 49.2665680393356],
+          [-123.1094307169431, 49.26701958240468]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "711",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10300144620035, 49.262045607220635],
+          [-123.1016572021547, 49.26202188733798],
+          [-123.10165715817153, 49.26202188647716]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "803",
+    "street_name": "W 10th Ave",
+    "bike_route_name": "10th Ave",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11098460716157, 49.2621879812152],
+          [-123.10949017853524, 49.26216088325467]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1060",
+    "street_name": "Quebec",
+    "bike_route_name": "Quebec",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10277545967858, 49.26735038827912],
+          [-123.10279736055729, 49.26689778878424]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1316",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10491555795736, 49.26253181563706],
+          [-123.10493460887065, 49.26207997083955]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1495",
+    "street_name": "Ontario",
+    "bike_route_name": "Ontario",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.10473257456431, 49.26693381358755],
+          [-123.10475169979514, 49.266481751415675]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  },
+  {
+    "object_id": "1982",
+    "street_name": "W 4th Ave",
+    "bike_route_name": "Yukon",
+    "status": "Active",
+    "geom": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [-123.11287294796273, 49.2638249796994],
+          [-123.11288764934748, 49.263464096553086]
+        ],
+        "type": "LineString"
+      },
+      "properties": {}
+    }
+  }
+]

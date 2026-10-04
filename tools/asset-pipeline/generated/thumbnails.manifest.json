@@ -1,0 +1,300 @@
+{
+  "note": "Written by pnpm --filter @parkshape/asset-pipeline thumbnails. A changed model hash or settings hash renders the picture again.",
+  "settingsHash": "35b297b44d1d3bdcc254d89c4ecf08465eb081be19b0cbeb812ce6ab2ae60dbb",
+  "thumbnails": [
+    {
+      "itemId": "bigleaf-maple",
+      "modelKey": "tree-bigleaf-maple",
+      "file": "catalog-thumbs/bigleaf-maple.png",
+      "modelHash": "f45f160c25361c2bc73cec221dd1ab1cc4507effac5cf067c171bcc3384ccd4f",
+      "bytes": 7050
+    },
+    {
+      "itemId": "red-alder",
+      "modelKey": "tree-red-alder",
+      "file": "catalog-thumbs/red-alder.png",
+      "modelHash": "e400515d2a07a95f4e1ce01e9bb24479ade5f8d056eddd3a2a04d65b16c06aa9",
+      "bytes": 5174
+    },
+    {
+      "itemId": "douglas-fir",
+      "modelKey": "tree-douglas-fir",
+      "file": "catalog-thumbs/douglas-fir.png",
+      "modelHash": "252902096e610241470e09e388104ee09ac6e18fda5fea8b8f69392f36e38ab3",
+      "bytes": 5952
+    },
+    {
+      "itemId": "western-red-cedar",
+      "modelKey": "tree-western-red-cedar",
+      "file": "catalog-thumbs/western-red-cedar.png",
+      "modelHash": "534f684bd693408864118fff38357eaa2cf6d03550f572044e45ca6f6e879773",
+      "bytes": 6097
+    },
+    {
+      "itemId": "garry-oak",
+      "modelKey": "tree-garry-oak",
+      "file": "catalog-thumbs/garry-oak.png",
+      "modelHash": "832d7ff6701116666a39702780de276c052286da454bedecc44a389e9a50fb49",
+      "bytes": 6732
+    },
+    {
+      "itemId": "flowering-cherry",
+      "modelKey": "tree-flowering-cherry",
+      "file": "catalog-thumbs/flowering-cherry.png",
+      "modelHash": "f44b36d601ebf8a3680d4c68f4d6ddfb7d3a22ed772c04766977689911bcfd8f",
+      "bytes": 5447
+    },
+    {
+      "itemId": "vine-maple",
+      "modelKey": "tree-vine-maple",
+      "file": "catalog-thumbs/vine-maple.png",
+      "modelHash": "fee7d4aa5a2e2b6f3731198d71cc6ce06c079e3d3c40810548d02b550250f3e6",
+      "bytes": 4774
+    },
+    {
+      "itemId": "salal",
+      "modelKey": "shrub-salal",
+      "file": "catalog-thumbs/salal.png",
+      "modelHash": "ec7c03aec3aadc5250df7f340dff4e00411f2507a3f332d6ee8d46122d60beea",
+      "bytes": 8060
+    },
+    {
+      "itemId": "red-flowering-currant",
+      "modelKey": "shrub-red-flowering-currant",
+      "file": "catalog-thumbs/red-flowering-currant.png",
+      "modelHash": "8cc17d3d41862837dfb4c0f31613b803f97c745990905b979c95fe105c876a6e",
+      "bytes": 6106
+    },
+    {
+      "itemId": "hedge",
+      "modelKey": "hedge",
+      "file": "catalog-thumbs/hedge.png",
+      "modelHash": "bd07c3b31f8e3be2fc2c6a1034cde2ae258bf7379ae9548162b1926e307211f1",
+      "bytes": 17079
+    },
+    {
+      "itemId": "path-asphalt",
+      "modelKey": "path-asphalt",
+      "file": "catalog-thumbs/path-asphalt.png",
+      "modelHash": "c6b1b58d5b314375eb187e351de44525e2d2f076ae55affacbccb08871dcaac0",
+      "bytes": 9735
+    },
+    {
+      "itemId": "path-gravel",
+      "modelKey": "path-gravel",
+      "file": "catalog-thumbs/path-gravel.png",
+      "modelHash": "a690e585f0266b227173de177ac828512ea654f6e099ca8ff9054d80e188e11a",
+      "bytes": 7980
+    },
+    {
+      "itemId": "path-boardwalk",
+      "modelKey": "path-boardwalk",
+      "file": "catalog-thumbs/path-boardwalk.png",
+      "modelHash": "1ac9e8d66f4b1399c7a477b18a58fefbfbabf59b0c37b038632eea935bb3786f",
+      "bytes": 7583
+    },
+    {
+      "itemId": "pond",
+      "modelKey": "pond",
+      "file": "catalog-thumbs/pond.png",
+      "modelHash": "d254944f9b030d96fc5c519988c84202be973ba7b948fff0cd9cd425d2b118ce",
+      "bytes": 7621
+    },
+    {
+      "itemId": "rain-garden",
+      "modelKey": "rain-garden",
+      "file": "catalog-thumbs/rain-garden.png",
+      "modelHash": "60509be3761bb8844f19186aa1ec6e0500179027e9bbe0c6636eb8c18864e88d",
+      "bytes": 9077
+    },
+    {
+      "itemId": "playground-structure",
+      "modelKey": "playground-structure",
+      "file": "catalog-thumbs/playground-structure.png",
+      "modelHash": "87a735160a5944842fcdf3f64ee84253d68de78e073882ce0ef6b759ffa73bb2",
+      "bytes": 7127
+    },
+    {
+      "itemId": "swings",
+      "modelKey": "swings",
+      "file": "catalog-thumbs/swings.png",
+      "modelHash": "4b7874840a2f1be2dcf24eecda4eb77bb86b61bc48ce7d0c795d7f2108ce3b4e",
+      "bytes": 6659
+    },
+    {
+      "itemId": "spray-pad",
+      "modelKey": "spray-pad",
+      "file": "catalog-thumbs/spray-pad.png",
+      "modelHash": "c9b7b1923de287fc48ec40ece9ace1b2105037318911f5dd723d0cfd81350793",
+      "bytes": 5362
+    },
+    {
+      "itemId": "outdoor-fitness-station",
+      "modelKey": "outdoor-fitness-station",
+      "file": "catalog-thumbs/outdoor-fitness-station.png",
+      "modelHash": "97665d8ad03dc3c423bb9726ef6532e237de06628d2640ac7be5613649ba7551",
+      "bytes": 5518
+    },
+    {
+      "itemId": "bench",
+      "modelKey": "bench",
+      "file": "catalog-thumbs/bench.png",
+      "modelHash": "6fc852795b8886b869c958e537b17888fc5528d163831a5bc1a88d0d40fc981b",
+      "bytes": 10582
+    },
+    {
+      "itemId": "picnic-table",
+      "modelKey": "picnic-table",
+      "file": "catalog-thumbs/picnic-table.png",
+      "modelHash": "bd22b8841a2b8ec45ccfb531988974104e3264fd27818bc7c718f399881be035",
+      "bytes": 7193
+    },
+    {
+      "itemId": "boulder-seat",
+      "modelKey": "boulder-seat",
+      "file": "catalog-thumbs/boulder-seat.png",
+      "modelHash": "b9869c2ef19f60227d6c3b3d0f7fb2e364aaab421ec9ac732f7ad746af035fba",
+      "bytes": 5554
+    },
+    {
+      "itemId": "log-seat",
+      "modelKey": "log-seat",
+      "file": "catalog-thumbs/log-seat.png",
+      "modelHash": "b7b060ced0cbaaf4b6cd8d361259b312b29f783f7861579e7a50a312bbd1023d",
+      "bytes": 5902
+    },
+    {
+      "itemId": "basketball-half-court",
+      "modelKey": "basketball-half-court",
+      "file": "catalog-thumbs/basketball-half-court.png",
+      "modelHash": "e0f5d120b0d2a6002955072b3b7c24e925f888cd16b9414c82d2507e9e7432c3",
+      "bytes": 3646
+    },
+    {
+      "itemId": "ball-diamond-backstop",
+      "modelKey": "ball-diamond-backstop",
+      "file": "catalog-thumbs/ball-diamond-backstop.png",
+      "modelHash": "6d74aec570bfb25c541223816d198bd4eddc9a0cae02203036cfe3a70409955d",
+      "bytes": 4392
+    },
+    {
+      "itemId": "tennis-court",
+      "modelKey": "tennis-court",
+      "file": "catalog-thumbs/tennis-court.png",
+      "modelHash": "f4a1218970c0fe39ab3e8fbe3ca1e91c4db7fe8072f10e5b7d26cb91702506f9",
+      "bytes": 5915
+    },
+    {
+      "itemId": "community-garden",
+      "modelKey": "community-garden",
+      "file": "catalog-thumbs/community-garden.png",
+      "modelHash": "d2712002473bcc703a02a2d029548fa89aaebb0f89107b15c49dd73075208d24",
+      "bytes": 8689
+    },
+    {
+      "itemId": "off-leash-area",
+      "modelKey": "off-leash-area",
+      "file": "catalog-thumbs/off-leash-area.png",
+      "modelHash": "f6d0a5cb1125f8814fca6fef4a9c92fa5b6a0f48b9bbf192452f067c90eb2281",
+      "bytes": 3849
+    },
+    {
+      "itemId": "planter",
+      "modelKey": "planter",
+      "file": "catalog-thumbs/planter.png",
+      "modelHash": "b618b1993db99adc45cf8821ca12520e31fa4b85db5111d92a6185e3291046f6",
+      "bytes": 23090
+    },
+    {
+      "itemId": "compost-bin",
+      "modelKey": "compost-bin",
+      "file": "catalog-thumbs/compost-bin.png",
+      "modelHash": "af1c68f34bdb2cb553fbe1f60a22ddd6c53f35b3b0ceda0e1c2e717f127be3be",
+      "bytes": 15310
+    },
+    {
+      "itemId": "path-light",
+      "modelKey": "path-light",
+      "file": "catalog-thumbs/path-light.png",
+      "modelHash": "166be59e0ea439826546fb69ebe959a3635bf6901cd4abf33efa07f03e133a03",
+      "bytes": 6405
+    },
+    {
+      "itemId": "washroom-building",
+      "modelKey": "washroom-building",
+      "file": "catalog-thumbs/washroom-building.png",
+      "modelHash": "af2d0d98b7ebe26e6b5daac87ea0560778d039544a85f5895bac56199854efa7",
+      "bytes": 21254
+    },
+    {
+      "itemId": "drinking-fountain",
+      "modelKey": "drinking-fountain",
+      "file": "catalog-thumbs/drinking-fountain.png",
+      "modelHash": "e29d11ca5d47315fba6a763bc51e6ea9901dd371312f57474ab297613a089f6d",
+      "bytes": 4435
+    },
+    {
+      "itemId": "waste-bin",
+      "modelKey": "waste-bin",
+      "file": "catalog-thumbs/waste-bin.png",
+      "modelHash": "960f5b6daaedccd9ce7677a4ca3c4b025bb1315471c26dbf615e0af9fa657862",
+      "bytes": 11976
+    },
+    {
+      "itemId": "bike-rack",
+      "modelKey": "bike-rack",
+      "file": "catalog-thumbs/bike-rack.png",
+      "modelHash": "482045dcabf8094963a207c35aef2ece0382cfb3b026ac778936433b07624711",
+      "bytes": 4642
+    },
+    {
+      "itemId": "wayfinding-sign",
+      "modelKey": "wayfinding-sign",
+      "file": "catalog-thumbs/wayfinding-sign.png",
+      "modelHash": "8a42268300a0f9a63403ffbf78ff617dc067ac210b2f36eee8017a997b4f0713",
+      "bytes": 5786
+    },
+    {
+      "itemId": "recycling-bin",
+      "modelKey": "recycling-bin",
+      "file": "catalog-thumbs/recycling-bin.png",
+      "modelHash": "65beb1690204d3b162e28e4e92e35064257650e06e310e48f6246c0b4f71c787",
+      "bytes": 4663
+    },
+    {
+      "itemId": "gazebo",
+      "modelKey": "gazebo",
+      "file": "catalog-thumbs/gazebo.png",
+      "modelHash": "852f1ca16cbe40c6f75ada71003429836ab956c7927e7534431f7774c02f1615",
+      "bytes": 12576
+    },
+    {
+      "itemId": "parking-lot-small",
+      "modelKey": "parking-lot-small",
+      "file": "catalog-thumbs/parking-lot-small.png",
+      "modelHash": "1a6bc5805eeafff2d75fd4440a785d276833c6dedec7cc0eb19be6f4153c2cae",
+      "bytes": 33103
+    },
+    {
+      "itemId": "lawn",
+      "modelKey": "lawn",
+      "file": "catalog-thumbs/lawn.png",
+      "modelHash": "c384f87483cdb77852fed3a912f9f25fe9f02c1529424433bbc74b64db313ef3",
+      "bytes": 4392
+    },
+    {
+      "itemId": "meadow",
+      "modelKey": "meadow",
+      "file": "catalog-thumbs/meadow.png",
+      "modelHash": "11d79deb4baa32d534fa8833adf4a4c29a4d594435b535102bb265daac9d53a8",
+      "bytes": 3495
+    },
+    {
+      "itemId": "plaza",
+      "modelKey": "plaza",
+      "file": "catalog-thumbs/plaza.png",
+      "modelHash": "d3da2deb064341d87795eb2b098ab848c2649bcf1eb09c94674cec8d95490c36",
+      "bytes": 4529
+    }
+  ]
+}

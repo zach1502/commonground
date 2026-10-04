@@ -1,0 +1,171 @@
+{
+  "$comment": "Single source for prose rules. Read by tools/textlint-rules (markdown, locales, seed) and commitlint.config.js.",
+  "banned": [
+    "additionally",
+    "align with",
+    "boasts",
+    "bolster",
+    "crucial",
+    "delve",
+    "elevate",
+    "empower",
+    "emphasize",
+    "enduring",
+    "enhance",
+    "ensure",
+    "foster",
+    "garner",
+    "interplay",
+    "intricate",
+    "leverage",
+    "meticulous",
+    "pivotal",
+    "robust",
+    "seamless",
+    "showcase",
+    "streamline",
+    "tapestry",
+    "testament",
+    "underscore",
+    "unlock",
+    "valuable insights",
+    "vibrant",
+    "cutting-edge",
+    "best-in-class",
+    "get started",
+    "learn more",
+    "dive in",
+    "in today's",
+    "it's important to note",
+    "in summary",
+    "in conclusion",
+    "overall",
+    "serves as",
+    "stands as",
+    "refers to"
+  ],
+  "reviewOnly": [
+    { "word": "highlight", "note": "Fine as a noun; rewrite when used as a verb." },
+    { "word": "key", "note": "Fine as a noun (API key); rewrite when used as an adjective." },
+    { "word": "landscape", "note": "Fine for terrain; rewrite when used in the abstract sense." }
+  ],
+  "hedges": ["may", "might", "could potentially", "generally", "can help"],
+  "redundancy": {
+    "helpSuffixes": ["help", "hint", "description", "caption", "note", "tooltip", "placeholder"],
+    "labelSuffixes": ["label", "title", "heading", "button", "legend"],
+    "skipKeyPrefixes": ["meta."],
+    "maxSharedContentWords": 1,
+    "bannedOpeners": [
+      "this shows",
+      "this chart",
+      "use this",
+      "click",
+      "tap",
+      "you can",
+      "you may",
+      "shows",
+      "displays",
+      "lets you",
+      "allows",
+      "here you"
+    ]
+  },
+  "termBans": ["staff", "plan", "submission", "constraint", "check", "asset", "rate"],
+  "patterns": [
+    {
+      "id": "em-dash",
+      "regex": "\u2014",
+      "flags": "g",
+      "message": "Replace the em dash with a comma, period, or parentheses.",
+      "scope": "all"
+    },
+    {
+      "id": "en-dash-as-dash",
+      "regex": "\\s\u2013\\s",
+      "flags": "g",
+      "message": "Do not use a spaced en dash as a dash; use a comma or period.",
+      "scope": "all"
+    },
+    {
+      "id": "curly-quotes",
+      "regex": "[\u2018\u2019\u201C\u201D]",
+      "flags": "g",
+      "message": "Use straight quotes and apostrophes.",
+      "scope": "all"
+    },
+    {
+      "id": "emoji",
+      "regex": "\\p{Extended_Pictographic}",
+      "flags": "gu",
+      "message": "Remove the emoji.",
+      "scope": "all"
+    },
+    {
+      "id": "ui-exclamation",
+      "regex": "!",
+      "flags": "g",
+      "message": "UI strings do not use exclamation marks.",
+      "scope": "locales"
+    },
+    {
+      "id": "not-just-but",
+      "regex": "\\bnot just .{1,40}, but\\b",
+      "flags": "gi",
+      "message": "State the point directly instead of 'not just X, but Y'.",
+      "scope": "all"
+    },
+    {
+      "id": "not-only-but-also",
+      "regex": "\\bnot only .{1,60} but also\\b",
+      "flags": "gi",
+      "message": "State the point directly instead of 'not only X but also Y'.",
+      "scope": "all"
+    },
+    {
+      "id": "isnt-its",
+      "regex": "\\bisn't .{1,40}, it's\\b",
+      "flags": "gi",
+      "message": "State the point directly instead of 'isn't X, it's Y'.",
+      "scope": "all"
+    },
+    {
+      "id": "rather-than-ending",
+      "regex": "rather than\\.$",
+      "flags": "gim",
+      "message": "Do not end a sentence on 'rather than'.",
+      "scope": "all"
+    },
+    {
+      "id": "sentence-initial-transition",
+      "regex": "(?:^|[.!?]\\s+)(?:Additionally|Moreover|Furthermore)\\b",
+      "flags": "gm",
+      "message": "Drop the sentence-initial transition word.",
+      "scope": "all"
+    },
+    {
+      "id": "bold-header-bullet",
+      "regex": "^[ \\t]*[-*] \\*\\*[^*]+\\*\\*:",
+      "flags": "gm",
+      "message": "Write the bullet as a sentence instead of a bold label and colon.",
+      "scope": "markdown"
+    },
+    {
+      "id": "horizontal-rule",
+      "regex": "^---$",
+      "flags": "gm",
+      "message": "Use a heading instead of a horizontal rule.",
+      "scope": "markdown"
+    },
+    {
+      "id": "title-case-heading",
+      "regex": "^#{1,6}[ \\t]+(.+)$",
+      "flags": "gm",
+      "message": "Use sentence case for headings.",
+      "scope": "markdown",
+      "test": "titleCase",
+      "threshold": 0.6,
+      "minLetters": 4,
+      "minWords": 2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+/* Describe it: example prompts as secondary buttons, and the preview's notes and actions. The page
+   keeps the shared column edge, and each block inside stops at the reading measure. */
+.web-describe > * {
+  max-inline-size: var(--measure-reading);
+}
+
+/* The examples sit under the field, introduced at a smaller size than the field label. */
+.web-describe__examples-label {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+}
+
+.web-describe__examples {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* A long prompt wraps inside its button and reads from the left edge. */
+.web-describe__examples .bcds-react-aria-Button {
+  justify-content: flex-start;
+  padding-block: var(--layout-padding-xsmall);
+  text-align: start;
+}
+
+/* The chosen example gets the dark 2 px selection edge; the blue focus ring stays outside it. */
+.web-describe__examples .bcds-react-aria-Button[aria-pressed='true'] {
+  border: var(--layout-border-width-medium) solid var(--surface-color-border-dark);
+}
+
+.web-describe__notes h2 {
+  margin: 0 0 var(--layout-margin-small);
+  font: var(--typography-bold-h4);
+}
+
+.web-describe__notes ul {
+  margin: 0;
+  padding-inline-start: var(--layout-padding-medium);
+}
+
+.web-describe__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+}
+
+.web-describe__actions {
+  align-items: center;
+}
+
+.web-describe__status {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}

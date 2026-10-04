@@ -1,0 +1,269 @@
+{
+  "total_count": 22,
+  "results": [
+    {
+      "asset_id": 274374,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 48.3,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10737399998554,
+        "lat": 49.26396999911617
+      }
+    },
+    {
+      "asset_id": 274377,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 53.3,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10707600046341,
+        "lat": 49.26392099903229
+      }
+    },
+    {
+      "asset_id": 274379,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 61,
+      "height_m": 10.7,
+      "geo_point_2d": {
+        "lon": -123.10700500081467,
+        "lat": 49.26400999950524
+      }
+    },
+    {
+      "asset_id": 274383,
+      "common_name": "HEDGE MAPLE",
+      "genus_name": "ACER",
+      "species_name": "CAMPESTRE",
+      "diameter_cm": 7.6,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.1074060008291,
+        "lat": 49.26406199931922
+      }
+    },
+    {
+      "asset_id": 274388,
+      "common_name": "PIN CHERRY",
+      "genus_name": "PRUNUS",
+      "species_name": "PENNSYLVANICA",
+      "diameter_cm": 12.7,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10722799937568,
+        "lat": 49.264557999236175
+      }
+    },
+    {
+      "asset_id": 274389,
+      "common_name": "PISSARD PLUM",
+      "genus_name": "PRUNUS",
+      "species_name": "CERASIFERA",
+      "diameter_cm": 35.6,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10719400002574,
+        "lat": 49.264557999301005
+      }
+    },
+    {
+      "asset_id": 274390,
+      "common_name": "AMERICAN FILBERT",
+      "genus_name": "CORYLUS",
+      "species_name": "AMERICANA",
+      "diameter_cm": 40.6,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10737100063072,
+        "lat": 49.26462299891219
+      }
+    },
+    {
+      "asset_id": 274391,
+      "common_name": "JAPANESE MAPLE",
+      "genus_name": "ACER",
+      "species_name": "PALMATUM",
+      "diameter_cm": 25.4,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10762899987847,
+        "lat": 49.26439699902223
+      }
+    },
+    {
+      "asset_id": 274373,
+      "common_name": "PAPERBARK MAPLE",
+      "genus_name": "ACER",
+      "species_name": "GRISEUM",
+      "diameter_cm": 5.1,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10744800023886,
+        "lat": 49.26393899940928
+      }
+    },
+    {
+      "asset_id": 274376,
+      "common_name": "PAPERBARK MAPLE",
+      "genus_name": "ACER",
+      "species_name": "GRISEUM",
+      "diameter_cm": 5.1,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10712999975034,
+        "lat": 49.26393199958654
+      }
+    },
+    {
+      "asset_id": 274378,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 48.3,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.1071150008488,
+        "lat": 49.26399899898861
+      }
+    },
+    {
+      "asset_id": 274380,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 63.5,
+      "height_m": 10.7,
+      "geo_point_2d": {
+        "lon": -123.1069980008606,
+        "lat": 49.26411499892363
+      }
+    },
+    {
+      "asset_id": 274382,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 50.8,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10722800045332,
+        "lat": 49.264005999487146
+      }
+    },
+    {
+      "asset_id": 274384,
+      "common_name": "JAPANESE ZELKOVA",
+      "genus_name": "ZELKOVA",
+      "species_name": "SERRATA",
+      "diameter_cm": 5.1,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10721999954276,
+        "lat": 49.26413599932243
+      }
+    },
+    {
+      "asset_id": 274385,
+      "common_name": "PAPERBARK MAPLE",
+      "genus_name": "ACER",
+      "species_name": "GRISEUM",
+      "diameter_cm": 5.1,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10707399986894,
+        "lat": 49.264189998903156
+      }
+    },
+    {
+      "asset_id": 274386,
+      "common_name": "APPLE SPECIES",
+      "genus_name": "MALUS",
+      "species_name": "SPECIES",
+      "diameter_cm": 12.7,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10706000016282,
+        "lat": 49.264284999442204
+      }
+    },
+    {
+      "asset_id": 274393,
+      "common_name": "COMMON PLUM",
+      "genus_name": "PRUNUS",
+      "species_name": "DOMESTICA",
+      "diameter_cm": 15.2,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10783399973275,
+        "lat": 49.26448199966392
+      }
+    },
+    {
+      "asset_id": 158853,
+      "common_name": "BLACK LOCUST",
+      "genus_name": "ROBINIA",
+      "species_name": "PSEUDOACACIA",
+      "diameter_cm": 45.7,
+      "height_m": 13.7,
+      "geo_point_2d": {
+        "lon": -123.10929800009055,
+        "lat": 49.2640639985294
+      }
+    },
+    {
+      "asset_id": 274375,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 61,
+      "height_m": 10.7,
+      "geo_point_2d": {
+        "lon": -123.10727499984867,
+        "lat": 49.26391499904052
+      }
+    },
+    {
+      "asset_id": 274381,
+      "common_name": "WESTERN RED CEDAR",
+      "genus_name": "THUJA",
+      "species_name": "PLICATA",
+      "diameter_cm": 58.4,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10708000037299,
+        "lat": 49.264070999370766
+      }
+    },
+    {
+      "asset_id": 274387,
+      "common_name": "HAWTHORN SPECIES",
+      "genus_name": "CRATAEGUS",
+      "species_name": "SPECIES",
+      "diameter_cm": 38.1,
+      "height_m": 7.6,
+      "geo_point_2d": {
+        "lon": -123.10718100022996,
+        "lat": 49.26441399903404
+      }
+    },
+    {
+      "asset_id": 274392,
+      "common_name": "COMMON PLUM",
+      "genus_name": "PRUNUS",
+      "species_name": "DOMESTICA",
+      "diameter_cm": 10.2,
+      "height_m": 4.6,
+      "geo_point_2d": {
+        "lon": -123.10776500008457,
+        "lat": 49.26442499936105
+      }
+    }
+  ]
+}

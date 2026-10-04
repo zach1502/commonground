@@ -1,0 +1,46 @@
+/* Route loading skeletons. Split from web.css to stay under the file budget. */
+.web-skeleton {
+  gap: var(--layout-margin-medium);
+}
+
+.web-skeleton__title {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+.web-skeleton__title > :first-child {
+  inline-size: 12rem;
+}
+
+.web-skeleton__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-large);
+}
+
+.web-skeleton__meta > :first-child {
+  inline-size: 18rem;
+}
+
+.web-skeleton__rows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+.web-skeleton__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+  gap: var(--layout-margin-large);
+}
+
+.web-skeleton__vote-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--layout-margin-small);
+}
+
+.web-skeleton__vote-buttons > * {
+  inline-size: 100%;
+}

@@ -1,0 +1,22 @@
+{
+  "models": [
+    { "id": "bench-wood", "widthM": 1.8, "depthM": 0.6, "scalePolicy": "fixed", "licence": "CC0" },
+    { "id": "table-picnic", "widthM": 2.2, "depthM": 1.5, "scalePolicy": "fixed", "licence": "CC0" },
+    { "id": "tree-alder", "widthM": 0.6, "depthM": 0.6, "scalePolicy": "fixed", "licence": "CC0" },
+    { "id": "lawn", "widthM": 10, "depthM": 10 },
+    {
+      "modelKey": "swings",
+      "dims": { "widthM": 8, "depthM": 1.6, "heightM": 2.6 },
+      "fittedAxis": "widthM",
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0"
+    },
+    {
+      "modelKey": "tree-cedar",
+      "dims": { "widthM": 0.6, "depthM": 0.6, "heightM": 33 },
+      "fittedAxis": "heightM",
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0"
+    }
+  ]
+}

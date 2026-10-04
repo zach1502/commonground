@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "washroom",
+      "catalogId": "washroom-building",
+      "position": {
+        "x": 78,
+        "y": 58
+      },
+      "rotationDeg": 0,
+      "locked": true
+    },
+    {
+      "id": "backstop",
+      "catalogId": "ball-diamond-backstop",
+      "position": {
+        "x": 95,
+        "y": 25
+      },
+      "rotationDeg": 45,
+      "locked": false
+    },
+    {
+      "id": "tree-01",
+      "catalogId": "bigleaf-maple",
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "rotationDeg": 37,
+      "locked": true
+    },
+    {
+      "id": "tree-02",
+      "catalogId": "bigleaf-maple",
+      "position": {
+        "x": 5,
+        "y": 50
+      },
+      "rotationDeg": 74,
+      "locked": true
+    },
+    {
+      "id": "tree-03",
+      "catalogId": "bigleaf-maple",
+      "position": {
+        "x": 5,
+        "y": 80
+      },
+      "rotationDeg": 111,
+      "locked": true
+    },
+    {
+      "id": "tree-04",
+      "catalogId": "douglas-fir",
+      "position": {
+        "x": 115,
+        "y": 110
+      },
+      "rotationDeg": 148,
+      "locked": true
+    },
+    {
+      "id": "tree-05",
+      "catalogId": "douglas-fir",
+      "position": {
+        "x": 60,
+        "y": 110
+      },
+      "rotationDeg": 185,
+      "locked": true
+    },
+    {
+      "id": "tree-06",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 115,
+        "y": 5
+      },
+      "rotationDeg": 222,
+      "locked": true
+    },
+    {
+      "id": "tree-07",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 115,
+        "y": 40
+      },
+      "rotationDeg": 259,
+      "locked": true
+    },
+    {
+      "id": "tree-08",
+      "catalogId": "western-red-cedar",
+      "position": {
+        "x": 115,
+        "y": 80
+      },
+      "rotationDeg": 296,
+      "locked": true
+    },
+    {
+      "id": "tree-09",
+      "catalogId": "garry-oak",
+      "position": {
+        "x": 40,
+        "y": 5
+      },
+      "rotationDeg": 333,
+      "locked": true
+    },
+    {
+      "id": "tree-10",
+      "catalogId": "garry-oak",
+      "position": {
+        "x": 80,
+        "y": 110
+      },
+      "rotationDeg": 10,
+      "locked": true
+    },
+    {
+      "id": "tree-11",
+      "catalogId": "flowering-cherry",
+      "position": {
+        "x": 30,
+        "y": 108
+      },
+      "rotationDeg": 223,
+      "locked": false,
+      "scaleJitter": 1.05
+    },
+    {
+      "id": "tree-12",
+      "catalogId": "flowering-cherry",
+      "position": {
+        "x": 40,
+        "y": 108
+      },
+      "rotationDeg": 276,
+      "locked": false,
+      "scaleJitter": 0.95
+    },
+    {
+      "id": "tree-13",
+      "catalogId": "vine-maple",
+      "position": {
+        "x": 45,
+        "y": 60
+      },
+      "rotationDeg": 329,
+      "locked": false,
+      "scaleJitter": 1.0
+    },
+    {
+      "id": "tree-14",
+      "catalogId": "vine-maple",
+      "position": {
+        "x": 50,
+        "y": 66
+      },
+      "rotationDeg": 22,
+      "locked": false,
+      "scaleJitter": 1.08
+    },
+    {
+      "id": "tree-15",
+      "catalogId": "red-alder",
+      "position": {
+        "x": 35,
+        "y": 40
+      },
+      "rotationDeg": 75,
+      "locked": false,
+      "scaleJitter": 0.92
+    },
+    {
+      "id": "tree-16",
+      "catalogId": "red-alder",
+      "position": {
+        "x": 65,
+        "y": 85
+      },
+      "rotationDeg": 128,
+      "locked": false,
+      "scaleJitter": 1.02
+    },
+    {
+      "id": "tree-17",
+      "catalogId": "flowering-cherry",
+      "position": {
+        "x": 60,
+        "y": 5
+      },
+      "rotationDeg": 181,
+      "locked": false,
+      "scaleJitter": 0.98
+    },
+    {
+      "id": "tree-18",
+      "catalogId": "vine-maple",
+      "position": {
+        "x": 85,
+        "y": 5
+      },
+      "rotationDeg": 234,
+      "locked": false,
+      "scaleJitter": 1.04
+    },
+    {
+      "id": "bench-south",
+      "catalogId": "bench",
+      "position": {
+        "x": 60,
+        "y": 13.8
+      },
+      "rotationDeg": 0,
+      "locked": false
+    },
+    {
+      "id": "bench-east",
+      "catalogId": "bench",
+      "position": {
+        "x": 106.2,
+        "y": 60
+      },
+      "rotationDeg": 270,
+      "locked": false
+    }
+  ],
+  "paths": [
+    {
+      "id": "loop",
+      "surface": "gravel",
+      "widthM": 2,
+      "points": [
+        {
+          "x": 22,
+          "y": 12
+        },
+        {
+          "x": 108,
+          "y": 12
+        },
+        {
+          "x": 108,
+          "y": 100
+        },
+        {
+          "x": 22,
+          "y": 100
+        },
+        {
+          "x": 22,
+          "y": 12
+        }
+      ]
+    }
+  ],
+  "areas": [
+    {
+      "id": "garden",
+      "catalogId": "community-garden",
+      "polygon": [
+        {
+          "x": 4,
+          "y": 98
+        },
+        {
+          "x": 16,
+          "y": 98
+        },
+        {
+          "x": 16,
+          "y": 111
+        },
+        {
+          "x": 4,
+          "y": 111
+        }
+      ],
+      "locked": false
+    }
+  ],
+  "gradeDelta": {
+    "cells": []
+  },
+  "zones": []
+}

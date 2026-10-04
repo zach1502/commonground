@@ -1,0 +1,19 @@
+{
+  "name": "@parkshape/textlint-rule-content",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./content-rules.js",
+  "exports": {
+    ".": "./content-rules.js",
+    "./checker": "./content-checker.js",
+    "./locale-strings": "./locale-strings.js",
+    "./readability": "./readability.js",
+    "./redundancy": "./redundancy.js",
+    "./term-bans": "./term-bans.js"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  }
+}

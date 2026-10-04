@@ -1,0 +1,300 @@
+/* The staff insights page is a data view, so it fills the page column and starts on the
+   header's left edge like every other page; prose keeps a reading width. */
+.web-page.web-insights {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xlarge);
+}
+
+.web-insights .ps-page-title__lede,
+.web-insights__terrain figcaption {
+  max-inline-size: var(--measure-reading);
+}
+
+/* The three counts read as one line at heading size: "3 designs submitted, 2 unique voters". */
+.web-insights__headline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-xsmall) var(--layout-margin-large);
+  margin: 0;
+  font: var(--typography-regular-h4);
+  line-height: var(--line-height-heading);
+}
+
+.web-insights__fact {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--layout-margin-small);
+}
+
+.web-insights__fact dt {
+  font: inherit;
+  color: var(--typography-color-primary);
+}
+
+.web-insights__fact dd {
+  margin: 0;
+  font: var(--typography-bold-h4);
+  line-height: var(--line-height-heading);
+  font-variant-numeric: tabular-nums;
+}
+
+.web-insights > .ps-counted-at {
+  margin-block-start: calc(-1 * var(--layout-margin-large));
+}
+
+.web-insights__chart {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+}
+
+/* "28 of 30 designs, 3.1 each" is longer than the value column the bar chart sets aside, so
+   the text runs on past the drawing's right edge, where the page column has room for it. */
+.web-insights__chart .ps-chart__drawing {
+  overflow: visible;
+}
+
+/* Show all starts on the text edge with the chart labels. */
+.web-insights__chart button[data-variant='tertiary'] {
+  padding-inline: 0;
+}
+
+.web-insights__section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-medium);
+}
+
+.web-insights__section h2 {
+  margin: 0;
+  font: var(--typography-bold-h4);
+}
+
+.web-insights__section > p,
+.web-insights__note {
+  max-inline-size: var(--measure-reading);
+  margin: 0;
+}
+
+.web-insights__table {
+  border-collapse: collapse;
+  max-inline-size: 48rem;
+  font: var(--typography-regular-body);
+}
+
+.web-insights__table caption {
+  padding-block-end: var(--layout-padding-small);
+  max-inline-size: var(--measure-reading);
+  text-align: start;
+  color: var(--typography-color-secondary);
+}
+
+.web-insights__table th,
+.web-insights__table td {
+  padding: var(--layout-padding-xsmall) var(--layout-padding-medium) var(--layout-padding-xsmall) 0;
+  border-block-end: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  text-align: start;
+}
+
+.web-insights__table thead th {
+  font: var(--typography-bold-label);
+}
+
+.web-insights__table tbody th {
+  font-weight: 400;
+}
+
+/* The opacity slider sits under the layer buttons it changes. */
+.web-insights__controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-medium);
+}
+
+.web-insights__layers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+.web-insights__layer-label {
+  display: block;
+  margin-block-end: var(--layout-margin-xsmall);
+  font: var(--typography-regular-label);
+  color: var(--typography-color-primary);
+}
+
+.web-insights__terrain {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  margin: 0;
+}
+
+/* The heatmap key: the overlay's ramp in flat steps, then the design counts it spans. */
+.web-insights__legend {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-small);
+  margin: 0;
+  font: var(--typography-regular-small-body);
+}
+
+.web-insights__legend-ramp {
+  display: flex;
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-insights__legend-step {
+  inline-size: var(--layout-margin-large);
+  block-size: var(--layout-margin-medium);
+}
+
+.web-insights__layer-note,
+.web-insights__legend-ramp-name {
+  margin: 0;
+  color: var(--typography-color-secondary);
+  font: var(--typography-regular-small-body);
+}
+
+/* Detail tables wait under a closed disclosure that names them and counts their rows. */
+.web-insights__fold summary {
+  inline-size: fit-content;
+  padding-block: var(--layout-padding-small);
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+  cursor: pointer;
+}
+
+.web-insights__fold-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-medium);
+  padding-block-start: var(--layout-padding-small);
+}
+
+/* Each comment names the voter on its own line above their words. */
+.web-insights__comments {
+  display: grid;
+  gap: var(--layout-margin-small);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.web-insights__comment {
+  display: grid;
+}
+
+.web-insights__stage {
+  position: relative;
+  block-size: 560px;
+  inline-size: 100%;
+}
+
+/* The terrain's wait fills the stage at its final size, so nothing moves when it draws. */
+.web-insights__stage-wait {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--layout-padding-medium);
+  background: var(--theme-gray-30);
+}
+
+.web-insights__stage-wait p {
+  margin: 0;
+}
+
+.web-insights__exports {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+}
+
+.web-insights__pair {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-xlarge);
+  align-items: flex-start;
+}
+
+/* On phones the tables fill the column, and long headers wrap between words. */
+@media (max-width: 767px) {
+  .web-insights__table {
+    inline-size: 100%;
+  }
+}
+
+/* The generated summary is data from a provider, set apart in a quote with a rule at its start. */
+.web-insights__quote {
+  max-inline-size: var(--measure-reading);
+  margin: 0;
+  padding-inline-start: var(--layout-padding-medium);
+  border-inline-start: var(--layout-border-width-medium) solid var(--surface-color-border-medium);
+}
+
+.web-insights__quote h3 {
+  margin: var(--layout-margin-medium) 0 var(--layout-margin-xsmall);
+  font: var(--typography-bold-body);
+}
+
+.web-insights__quote h3:first-child {
+  margin-block-start: 0;
+}
+
+.web-insights__summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+}
+
+.web-insights__summary-list dt {
+  font: var(--typography-bold-small-body);
+}
+
+.web-insights__summary-list dd {
+  margin: 0;
+  color: var(--typography-color-secondary);
+}
+
+/* No data is a neutral grey, distinct from the light-blue zero end of the ramp. */
+.web-insights__legend-nodata {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--layout-margin-xsmall);
+}
+
+.web-insights__legend-swatch {
+  inline-size: var(--layout-margin-large);
+  block-size: var(--layout-margin-medium);
+  background: var(--theme-gray-60);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+/* A printed page carries the title, the counted-to time, the counts and the source, with every
+   chart and table open and nothing clipped. Hiding the app header and footer is the shell's job. */
+@media print {
+  .web-insights {
+    display: block;
+  }
+
+  /* Fold bodies print open, so the numbers behind a disclosure are on the page. */
+  .web-insights details > .web-insights__fold-body {
+    display: block;
+  }
+
+  .web-insights__section,
+  .web-insights__chart,
+  .web-insights__table {
+    break-inside: avoid;
+    overflow: visible;
+  }
+
+  .web-insights__stage {
+    block-size: auto;
+  }
+}

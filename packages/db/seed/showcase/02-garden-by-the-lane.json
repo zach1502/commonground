@@ -1,0 +1,22 @@
+{
+  "title": "Garden by the lane",
+  "author": 1,
+  "seed": 102,
+  "tags": ["garden", "open"],
+  "blurb": "TODO(#seed) First-person blurb with one concrete detail.",
+  "intent": {
+    "features": [
+      {
+        "catalogId": "community-garden",
+        "count": 1,
+        "size": "large",
+        "placement": { "zone": "north-east", "terrain": "flat" }
+      },
+      { "catalogId": "picnic-table", "count": 2, "placement": { "near": "community garden" } },
+      { "catalogId": "lawn", "count": 1, "size": "large", "placement": { "zone": "centre" } }
+    ],
+    "paths": { "style": "minimal" },
+    "canopy": "keep-existing",
+    "character": "open-lawn"
+  }
+}

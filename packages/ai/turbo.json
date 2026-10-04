@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "extends": ["//"],
+  "tasks": {
+    "test": {
+      "inputs": ["$TURBO_EXTENDS$", "$TURBO_ROOT$/tools/preflight/content-rules.json"]
+    },
+    "test:coverage": {
+      "inputs": ["$TURBO_EXTENDS$", "$TURBO_ROOT$/tools/preflight/content-rules.json"]
+    }
+  }
+}

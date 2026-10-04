@@ -1,0 +1,17 @@
+/* Entry stylesheet for apps: tokens first, then motion, base and component styles, then the B.C.
+   Design System shell and control styles last, where the library used to inject them, with the
+   press colours from the motion home after them. */
+@import './tokens.css';
+@import './motion/motion.css';
+@import './motion/pulse.css';
+@import './base.css';
+@import './components.css';
+@import './vote.css';
+@import './states.css';
+@import './dialog.css';
+@import './nav.css';
+@import './planner.css';
+@import './insights.css';
+@import './bc-shell.css';
+@import './bc-controls.css';
+@import './motion/press.css';

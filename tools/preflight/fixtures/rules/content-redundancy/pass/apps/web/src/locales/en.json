@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "login": { "title": "Log in | CommonGround", "description": "Log in to CommonGround." }
+  },
+  "cost": {
+    "label": "Cut cost per m³ in dollars",
+    "help": "What it costs to dig out 1 m³ of soil."
+  },
+  "votes": {
+    "caption": "Votes per design, counted to 26 September 2026."
+  }
+}

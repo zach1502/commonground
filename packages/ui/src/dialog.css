@@ -1,0 +1,44 @@
+/* The modal dialog: a panel on the BC overlay colour, left-aligned text, actions on the left. */
+.ps-dialog__backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--layout-padding-medium);
+  background: var(--surface-color-overlay-default);
+}
+
+.ps-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-medium);
+  width: 100%;
+  max-width: 36rem;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: var(--layout-padding-large);
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-white);
+  box-shadow: var(--elevation-low);
+  text-align: left;
+}
+
+.ps-dialog__title {
+  margin: 0;
+  font: var(--typography-bold-h4);
+  line-height: var(--line-height-heading);
+}
+
+.ps-dialog__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+.ps-dialog__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+}

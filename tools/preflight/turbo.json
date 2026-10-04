@@ -1,0 +1,46 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "extends": ["//"],
+  "tasks": {
+    "test": {
+      "inputs": [
+        "$TURBO_EXTENDS$",
+        "$TURBO_ROOT$/*",
+        "$TURBO_ROOT$/.dependency-cruiser.cjs",
+        "$TURBO_ROOT$/.env.example",
+        "$TURBO_ROOT$/.gitignore",
+        "$TURBO_ROOT$/.jscpd.json",
+        "$TURBO_ROOT$/.nvmrc",
+        "$TURBO_ROOT$/.prettierignore",
+        "$TURBO_ROOT$/.prettierrc",
+        "$TURBO_ROOT$/.textlintignore",
+        "$TURBO_ROOT$/.textlintrc.json",
+        "$TURBO_ROOT$/.github/**",
+        "$TURBO_ROOT$/.husky/*",
+        "$TURBO_ROOT$/docs/**",
+        "$TURBO_ROOT$/tools/eslint-rules/**",
+        "$TURBO_ROOT$/tools/textlint-rules/**"
+      ]
+    },
+    "test:coverage": {
+      "inputs": [
+        "$TURBO_EXTENDS$",
+        "$TURBO_ROOT$/*",
+        "$TURBO_ROOT$/.dependency-cruiser.cjs",
+        "$TURBO_ROOT$/.env.example",
+        "$TURBO_ROOT$/.gitignore",
+        "$TURBO_ROOT$/.jscpd.json",
+        "$TURBO_ROOT$/.nvmrc",
+        "$TURBO_ROOT$/.prettierignore",
+        "$TURBO_ROOT$/.prettierrc",
+        "$TURBO_ROOT$/.textlintignore",
+        "$TURBO_ROOT$/.textlintrc.json",
+        "$TURBO_ROOT$/.github/**",
+        "$TURBO_ROOT$/.husky/*",
+        "$TURBO_ROOT$/docs/**",
+        "$TURBO_ROOT$/tools/eslint-rules/**",
+        "$TURBO_ROOT$/tools/textlint-rules/**"
+      ]
+    }
+  }
+}

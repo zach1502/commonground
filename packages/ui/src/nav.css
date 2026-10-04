@@ -1,0 +1,121 @@
+/* Site navigation inside the header. The list folds behind a menu button under 768 px. */
+.ps-nav {
+  position: relative;
+  margin-left: auto;
+}
+
+.ps-nav__list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ps-nav[data-open='true'] .ps-nav__list {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  min-width: 12rem;
+  padding: var(--layout-padding-medium);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-white);
+  box-shadow: var(--elevation-low);
+}
+
+.ps-nav__item a,
+.ps-nav__link {
+  color: var(--typography-color-link);
+  font: var(--typography-regular-body);
+}
+
+/* Log out is a button, since it posts, but it reads as the nav link beside it. */
+.ps-nav__link {
+  padding: 0;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ps-nav__account {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--layout-margin-medium);
+}
+
+.ps-nav__name {
+  color: var(--typography-color-primary);
+  font: var(--typography-regular-body);
+}
+
+/* The current item has one look on every page: bold primary text with no underline. */
+.ps-nav__item a[aria-current='page'] {
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .ps-nav__toggle {
+    display: none;
+  }
+
+  .ps-nav__list,
+  .ps-nav[data-open='true'] .ps-nav__list {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--layout-margin-large);
+    min-width: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+/* DEMO sits right after the title. The nav pushes itself right, so the title stops growing. The
+   library's own header rule loads later on some pages, so :root keeps this one ahead. */
+:root .bcds-header > .bcds-header--container > .bcds-header--title {
+  flex-grow: 0;
+}
+
+/* On phones the header is a grid in its usual 65 px: the wordmark over DEMO, then the menu
+   button. Nothing folds to an ellipsis, so the wordmark, DEMO and Menu all fit in 360 px. */
+@media (max-width: 767px) {
+  :root .bcds-header > .bcds-header--container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto auto;
+    column-gap: var(--layout-margin-xsmall);
+    align-items: center;
+    min-width: 0;
+  }
+
+  :root .bcds-header > .bcds-header--container > .bcds-header--title {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    justify-self: start;
+    font: var(--typography-bold-h5);
+    line-height: var(--line-height-heading);
+  }
+
+  :root .bcds-header > .bcds-header--container > .bcds-header--status {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: start;
+    line-height: var(--line-height-heading);
+  }
+
+  :root .bcds-header > .bcds-header--container > .ps-nav {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+}

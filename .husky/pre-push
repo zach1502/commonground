@@ -1,0 +1,4 @@
+# The unit tests of the changed packages, without coverage, then every repo rule and tool.
+# The full test suite with coverage runs in CI. The browser tests run on demand with pnpm e2e.
+pnpm test:quick
+pnpm preflight --full

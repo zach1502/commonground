@@ -1,0 +1,52 @@
+export const items = [
+  {
+    id: 'bench',
+    geometryKind: 'point',
+    footprint: { widthM: 1.8, depthM: 0.6 },
+    modelKey: 'bench-wood',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'bench',
+    geometryKind: 'point',
+    footprint: { widthM: 1.8, depthM: 0.6 },
+    modelKey: 'bench-steel',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'picnic-table',
+    geometryKind: 'point',
+    footprint: { widthM: 2, depthM: 1.5 },
+    modelKey: 'table-picnic',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'red-alder',
+    geometryKind: 'point',
+    footprint: { widthM: 0.6, depthM: 0.6 },
+    modelKey: 'tree-alder',
+  },
+  {
+    id: 'lawn',
+    geometryKind: 'area',
+    footprint: { minAreaM2: 10, defaultAreaM2: 100 },
+    modelKey: 'lawn',
+    scalePolicy: 'tile',
+  },
+  {
+    id: 'swings',
+    geometryKind: 'point',
+    footprint: { widthM: 8, depthM: 4 },
+    heightM: 2.6,
+    modelKey: 'swings',
+    scalePolicy: 'fixed',
+  },
+  {
+    id: 'western-red-cedar',
+    geometryKind: 'point',
+    footprint: { widthM: 0.6, depthM: 0.6 },
+    heightM: 30,
+    modelKey: 'tree-cedar',
+    scalePolicy: 'fixed',
+  },
+];

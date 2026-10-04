@@ -1,0 +1,24 @@
+/* A single 150 ms flash that marks a meter whose value just changed. Motion only, per DESIGN.md. */
+.ps-motion-pulse {
+  animation: ps-pulse var(--motion-duration-small) var(--motion-easing);
+}
+
+@keyframes ps-pulse {
+  0% {
+    background-color: transparent;
+  }
+
+  40% {
+    background-color: var(--status-info-surface);
+  }
+
+  100% {
+    background-color: transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ps-motion-pulse {
+    animation: none;
+  }
+}

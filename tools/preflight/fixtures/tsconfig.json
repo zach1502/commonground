@@ -1,0 +1,16 @@
+{
+  "$comment": "Only for linting the fail fixtures explicitly. Not referenced by any build or typecheck.",
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false,
+    "noEmit": true,
+    "types": [
+      "node"
+    ],
+    "jsx": "preserve"
+  },
+  "include": [
+    "ts",
+    "jsx.d.ts"
+  ]
+}

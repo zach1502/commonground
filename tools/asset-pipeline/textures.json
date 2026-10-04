@@ -1,0 +1,64 @@
+{
+  "textures": [
+    {
+      "key": "grass-detail",
+      "asset": "Grass004",
+      "map": "Color",
+      "kind": "detail",
+      "source": {
+        "name": "ambientCG",
+        "url": "https://ambientcg.com",
+        "author": "ambientCG (Lennart Demes)",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "key": "grass-normal",
+      "asset": "Grass004",
+      "map": "NormalGL",
+      "kind": "normal",
+      "source": {
+        "name": "ambientCG",
+        "url": "https://ambientcg.com",
+        "author": "ambientCG (Lennart Demes)",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "key": "asphalt-detail",
+      "asset": "Asphalt012",
+      "map": "Color",
+      "kind": "detail",
+      "source": {
+        "name": "ambientCG",
+        "url": "https://ambientcg.com",
+        "author": "ambientCG (Lennart Demes)",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "key": "gravel-detail",
+      "asset": "Gravel022",
+      "map": "Color",
+      "kind": "detail",
+      "source": {
+        "name": "ambientCG",
+        "url": "https://ambientcg.com",
+        "author": "ambientCG (Lennart Demes)",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "key": "boardwalk-detail",
+      "asset": "Planks021",
+      "map": "Color",
+      "kind": "detail",
+      "source": {
+        "name": "ambientCG",
+        "url": "https://ambientcg.com",
+        "author": "ambientCG (Lennart Demes)",
+        "licence": "CC0-1.0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "extends": "../../tsconfig.web.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "node_modules/.tsc",
+    "tsBuildInfoFile": "node_modules/.tsc/tsconfig.tsbuildinfo",
+    "types": ["vite/client"],
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.json"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test-setup.ts"],
+  "references": [
+    {
+      "path": "../../packages/config"
+    },
+    {
+      "path": "../../packages/core"
+    },
+    {
+      "path": "../../packages/ui"
+    },
+    {
+      "path": "../../packages/api-client"
+    },
+    {
+      "path": "../../packages/scene"
+    }
+  ]
+}

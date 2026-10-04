@@ -1,0 +1,48 @@
+{
+  "name": "@parkshape/asset-pipeline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json && tsc -p dev && tsc -p e2e && tsc -p thumbs",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "build-assets": "tsx --conditions=@parkshape/source src/cli.ts",
+    "lineup": "vite",
+    "test:e2e": "playwright test",
+    "build-textures": "tsx --conditions=@parkshape/source src/textures-cli.ts",
+    "thumbnails": "tsx --conditions=@parkshape/source src/thumbnails-cli.ts"
+  },
+  "dependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "@gltf-transform/functions": "4.5.0",
+    "@parkshape/core": "workspace:*",
+    "@parkshape/scene": "workspace:*",
+    "fflate": "0.8.3",
+    "meshoptimizer": "1.2.0",
+    "prettier": "3.9.9",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@bcgov/bc-sans": "2.1.2",
+    "@bcgov/design-tokens": "5.0.0",
+    "@playwright/test": "1.63.0",
+    "@types/node": "20.19.43",
+    "@types/three": "0.172.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.172.0",
+    "tsx": "4.23.15",
+    "vite": "6.4.3"
+  }
+}

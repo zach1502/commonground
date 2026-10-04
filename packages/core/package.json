@@ -1,0 +1,31 @@
+{
+  "name": "@parkshape/core",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "validate": "tsx src/validate-cli.ts",
+    "metrics": "tsx src/metrics-cli.ts",
+    "scoring-demo": "tsx src/scoring-demo.ts"
+  },
+  "dependencies": {
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "fast-check": "4.10.2",
+    "tsx": "4.23.15"
+  }
+}

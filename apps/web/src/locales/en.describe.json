@@ -1,0 +1,29 @@
+{
+  "describe": {
+    "heading": "Describe the park you want",
+    "lede": "Say what {name} should have.",
+    "examplesLabel": "Or start from an example",
+    "example1": "a dog park in the back corner, a pond on the low side, a loop path, lots of trees",
+    "example2": "a big community garden on the flat part in the north-west",
+    "example3": "a small spray pad and swings for the kids",
+    "field": "Your description",
+    "count": "{count} of {max} characters",
+    "generate": "Make my layout",
+    "empty": "Write a description first.",
+    "failed": "The layout did not generate. Try again.",
+    "generating": "Laying out your park on the NRCan HRDEM terrain."
+  },
+  "describePreview": {
+    "label": "Generated starting point",
+    "lede": "A layout for {name} from your description.",
+    "notesHeading": "Layout notes",
+    "noNotes": "Everything you asked for fits.",
+    "tryAnother": "Try another arrangement",
+    "openEditor": "Open in editor",
+    "loading": "Loading the 3D view.",
+    "failed": "No new arrangement was made. Try again.",
+    "readByRules": "Fixed rules read your description.",
+    "readByModel": "The language model {model} read your description.",
+    "readByUnnamedModel": "A language model read your description."
+  }
+}

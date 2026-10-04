@@ -1,0 +1,23 @@
+{
+  "title": "Dog run on the north edge",
+  "author": 3,
+  "seed": 104,
+  "tags": ["dog", "paths"],
+  "blurb": "TODO(#seed) First-person blurb with one concrete detail.",
+  "intent": {
+    "features": [
+      {
+        "catalogId": "off-leash-area",
+        "count": 1,
+        "size": "large",
+        "placement": { "zone": "north", "terrain": "edge" }
+      },
+      { "catalogId": "waste-bin", "count": 2, "placement": { "near": "off-leash area" } },
+      { "catalogId": "drinking-fountain", "count": 1, "placement": { "near": "entrance" } },
+      { "catalogId": "community-garden", "count": 1, "placement": { "zone": "south-east" } }
+    ],
+    "paths": { "style": "loop" },
+    "canopy": "add-some",
+    "character": "active"
+  }
+}

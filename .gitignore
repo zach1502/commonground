@@ -1,0 +1,22 @@
+node_modules
+.env*
+!.env.example
+dist
+.turbo
+coverage
+playwright-report
+test-results
+# Screenshots that the browser tests write are build output.
+artifacts/screens/*
+tools/asset-pipeline/sources
+.terrain-cache
+.DS_Store
+.idea
+.vscode/*
+!.vscode/settings.json
+*.log
+.yolo-sisyphus
+# Embedded Postgres data from the default pglite:// DATABASE_URL.
+.data
+# Created by vercel link.
+.vercel

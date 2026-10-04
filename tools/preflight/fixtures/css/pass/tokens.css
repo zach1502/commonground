@@ -1,0 +1,10 @@
+/* Pass fixture: every colour, border and radius comes from a design token. */
+.banner {
+  color: var(--typography-color-primary);
+  background-color: var(--surface-color-background-light-gray);
+  border: var(--layout-border-width-small) solid var(--theme-gray-30);
+  border-radius: var(--layout-border-radius-medium);
+  outline: none;
+  fill: currentColor;
+  stroke: var(--icons-color-primary);
+}

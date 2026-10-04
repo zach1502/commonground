@@ -1,0 +1,112 @@
+/* Editor chrome: the full-window editor bar and the meters panel. Split from web.css. */
+/* The editor runs edge to edge with no site header: one 56 px bar with the one primary action,
+   then the tools, canvas and details columns filling the rest of the window. */
+.web-editor {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 36rem;
+}
+
+.web-editor__bar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: var(--layout-margin-medium);
+  box-sizing: border-box;
+  min-block-size: var(--layout-margin-huge);
+  padding: var(--layout-padding-xsmall) var(--layout-padding-medium);
+  border-bottom: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-editor__home {
+  flex: none;
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+  text-decoration: none;
+  padding-inline-end: var(--layout-padding-medium);
+  border-inline-end: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-editor__title {
+  margin: 0;
+  overflow: hidden;
+  font: var(--typography-bold-body);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.web-editor__status {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.web-editor__help {
+  position: relative;
+  margin-left: auto;
+}
+
+.web-editor__menu {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  right: 0;
+  margin: 0;
+  padding: var(--layout-padding-xsmall);
+  list-style: none;
+  background: var(--surface-color-background-white);
+  border-radius: var(--layout-border-radius-medium);
+  box-shadow: var(--elevation-low);
+}
+
+.web-editor__submit {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-small);
+}
+
+.web-editor :where(a, button, input, select, textarea) {
+  scroll-margin-block: 0;
+}
+
+.web-editor__stage {
+  flex: 1;
+  min-height: 0;
+}
+
+.web-meters {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-large);
+  padding: var(--layout-padding-medium);
+}
+
+.web-meters__heading {
+  margin: 0;
+  font: var(--typography-bold-h5);
+}
+
+.web-meter {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+}
+
+.web-meter__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--layout-margin-small);
+}
+
+.web-meter__label {
+  font: var(--typography-bold-small-body);
+}
+
+.web-meter__message {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}

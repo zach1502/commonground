@@ -1,0 +1,710 @@
+{
+  "note": "Written by pnpm --filter @parkshape/asset-pipeline build-assets from manifest.json. Do not edit by hand.",
+  "models": [
+    {
+      "modelKey": "ball-diamond-backstop",
+      "file": "models/ball-diamond-backstop.glb",
+      "dims": { "widthM": 12, "depthM": 6, "heightM": 6 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 120, "after": 120 },
+      "bytes": 3944,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "basketball-half-court",
+      "file": "models/basketball-half-court.glb",
+      "dims": { "widthM": 15, "depthM": 14, "heightM": 3.05 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 120, "after": 120 },
+      "bytes": 5448,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "bench",
+      "file": "models/bench.glb",
+      "dims": { "widthM": 1.8, "depthM": 1.015, "heightM": 1.173 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 160, "after": 160 },
+      "bytes": 15844,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/graveyard-kit/ba8d4b4517-1760691807/kenney_graveyard-kit_5.0.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "bike-rack",
+      "file": "models/bike-rack.glb",
+      "dims": { "widthM": 2, "depthM": 0.8, "heightM": 0.9 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 60, "after": 60 },
+      "bytes": 3528,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "boulder-seat",
+      "file": "models/boulder-seat.glb",
+      "dims": { "widthM": 1.73, "depthM": 1.337, "heightM": 0.443 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 80, "after": 80 },
+      "bytes": 4392,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "community-garden",
+      "file": "models/community-garden.glb",
+      "dims": { "widthM": 12.649, "depthM": 11.865, "heightM": 0.632 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 88, "after": 88 },
+      "bytes": 4152,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "compost-bin",
+      "file": "models/compost-bin.glb",
+      "dims": { "widthM": 2, "depthM": 1, "heightM": 1 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 124, "after": 124 },
+      "bytes": 11524,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "drinking-fountain",
+      "file": "models/drinking-fountain.glb",
+      "dims": { "widthM": 0.8, "depthM": 0.8, "heightM": 1 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 60, "after": 60 },
+      "bytes": 3604,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "gazebo",
+      "file": "models/gazebo.glb",
+      "dims": { "widthM": 3.11, "depthM": 3.777, "heightM": 4.04 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 698, "after": 599 },
+      "bytes": 6560,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/xYZB1TmGMv",
+        "author": "Quaternius"
+      }
+    },
+    {
+      "modelKey": "hedge",
+      "file": "models/hedge.glb",
+      "dims": { "widthM": 2, "depthM": 0.8, "heightM": 1.2 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 90, "after": 90 },
+      "bytes": 14684,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/fantasy-town-kit/efe948d309-1754222374/kenney_fantasy-town-kit_2.0.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "kit-fence-panel",
+      "file": "models/kit-fence-panel.glb",
+      "dims": { "widthM": 2.4, "depthM": 0.05, "heightM": 1.2 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 12, "after": 12 },
+      "bytes": 2012,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "kit-fence-post",
+      "file": "models/kit-fence-post.glb",
+      "dims": { "widthM": 0.192, "depthM": 0.192, "heightM": 1.2 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 44, "after": 44 },
+      "bytes": 14116,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/fantasy-town-kit/efe948d309-1754222374/kenney_fantasy-town-kit_2.0.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "kit-gate",
+      "file": "models/kit-gate.glb",
+      "dims": { "widthM": 1.2, "depthM": 0.116, "heightM": 1.242 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 108, "after": 108 },
+      "bytes": 11964,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "kit-raised-bed",
+      "file": "models/kit-raised-bed.glb",
+      "dims": { "widthM": 1.2, "depthM": 3, "heightM": 0.45 },
+      "fittedAxis": "depthM",
+      "triangles": { "before": 12, "after": 12 },
+      "bytes": 1968,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "kit-shed",
+      "file": "models/kit-shed.glb",
+      "dims": { "widthM": 2.403, "depthM": 2.48, "heightM": 1.961 },
+      "fittedAxis": "depthM",
+      "triangles": { "before": 2176, "after": 2176 },
+      "bytes": 27040,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/aTcDP7UERC",
+        "author": "Quaternius"
+      }
+    },
+    {
+      "modelKey": "lawn",
+      "file": "models/lawn.glb",
+      "dims": { "widthM": 22.361, "depthM": 22.361, "heightM": 0 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 2, "after": 2 },
+      "bytes": 1908,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "log-seat",
+      "file": "models/log-seat.glb",
+      "dims": { "widthM": 1.08, "depthM": 0.593, "heightM": 0.45 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 96, "after": 96 },
+      "bytes": 4388,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "meadow",
+      "file": "models/meadow.glb",
+      "dims": { "widthM": 17.321, "depthM": 17.321, "heightM": 0 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 33, "after": 33 },
+      "bytes": 10036,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "off-leash-area",
+      "file": "models/off-leash-area.glb",
+      "dims": { "widthM": 34.641, "depthM": 29.692, "heightM": 0 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 33, "after": 33 },
+      "bytes": 10056,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "outdoor-fitness-station",
+      "file": "models/outdoor-fitness-station.glb",
+      "dims": { "widthM": 6, "depthM": 4, "heightM": 2.5 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 132, "after": 132 },
+      "bytes": 4904,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "parking-lot-small",
+      "file": "models/parking-lot-small.glb",
+      "dims": { "widthM": 20, "depthM": 20, "heightM": 0 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 2, "after": 2 },
+      "bytes": 6356,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/retro-urban-kit/8314d4db22-1738147509/kenney_retro-urban-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "path-asphalt",
+      "file": "models/path-asphalt.glb",
+      "dims": { "widthM": 3, "depthM": 3, "heightM": 0.06 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 44, "after": 44 },
+      "bytes": 14484,
+      "scalePolicy": "segment",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/city-kit-roads/74288c9459-1787042796/kenney_city-kit-roads.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "path-boardwalk",
+      "file": "models/path-boardwalk.glb",
+      "dims": { "widthM": 2.4, "depthM": 1.235, "heightM": 0.12 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 60, "after": 60 },
+      "bytes": 4032,
+      "scalePolicy": "segment",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "path-gravel",
+      "file": "models/path-gravel.glb",
+      "dims": { "widthM": 2, "depthM": 2, "heightM": 0.1 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 62, "after": 62 },
+      "bytes": 4652,
+      "scalePolicy": "segment",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "path-light",
+      "file": "models/path-light.glb",
+      "dims": { "widthM": 0.219, "depthM": 1.761, "heightM": 4 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 426, "after": 426 },
+      "bytes": 13416,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/0lxF8Dl1jU",
+        "author": "Quaternius"
+      }
+    },
+    {
+      "modelKey": "picnic-table",
+      "file": "models/picnic-table.glb",
+      "dims": { "widthM": 1.8, "depthM": 1.8, "heightM": 0.8 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 60, "after": 60 },
+      "bytes": 3780,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "planter",
+      "file": "models/planter.glb",
+      "dims": { "widthM": 1.2, "depthM": 0.9, "heightM": 0.531 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 204, "after": 204 },
+      "bytes": 16416,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/city-kit-suburban/2c871b7af2-1745479373/kenney_city-kit-suburban_20.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "playground-structure",
+      "file": "models/playground-structure.glb",
+      "dims": { "widthM": 12, "depthM": 10, "heightM": 4 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 456, "after": 456 },
+      "bytes": 9208,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "plaza",
+      "file": "models/plaza.glb",
+      "dims": { "widthM": 14.142, "depthM": 14.142, "heightM": 0 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 2, "after": 2 },
+      "bytes": 10088,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/mini-skate/00b0c2b304-1709221152/kenney_mini-skate.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "pond",
+      "file": "models/pond.glb",
+      "dims": { "widthM": 17.321, "depthM": 17.321, "heightM": 0.866 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 128, "after": 128 },
+      "bytes": 6592,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "rain-garden",
+      "file": "models/rain-garden.glb",
+      "dims": { "widthM": 6.325, "depthM": 6.325, "heightM": 0.316 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 102, "after": 102 },
+      "bytes": 7428,
+      "scalePolicy": "tile",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "recycling-bin",
+      "file": "models/recycling-bin.glb",
+      "dims": { "widthM": 0.485, "depthM": 0.547, "heightM": 1 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 68, "after": 68 },
+      "bytes": 4068,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "shrub-red-flowering-currant",
+      "file": "models/shrub-red-flowering-currant.glb",
+      "dims": { "widthM": 1.438, "depthM": 1.438, "heightM": 2.5 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 84, "after": 84 },
+      "bytes": 3400,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "shrub-salal",
+      "file": "models/shrub-salal.glb",
+      "dims": { "widthM": 1.54, "depthM": 1.381, "heightM": 0.999 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 60, "after": 60 },
+      "bytes": 3240,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "spray-pad",
+      "file": "models/spray-pad.glb",
+      "dims": { "widthM": 10, "depthM": 10, "heightM": 0.3 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 252, "after": 252 },
+      "bytes": 5036,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "swings",
+      "file": "models/swings.glb",
+      "dims": { "widthM": 8, "depthM": 4, "heightM": 2.6 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 540, "after": 540 },
+      "bytes": 9724,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "tennis-court",
+      "file": "models/tennis-court.glb",
+      "dims": { "widthM": 36.6, "depthM": 18.3, "heightM": 1.07 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 120, "after": 120 },
+      "bytes": 4744,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround"
+      }
+    },
+    {
+      "modelKey": "tree-bigleaf-maple",
+      "file": "models/tree-bigleaf-maple.glb",
+      "dims": { "widthM": 15.894, "depthM": 14.29, "heightM": 25 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 402, "after": 402 },
+      "bytes": 11016,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "tree-douglas-fir",
+      "file": "models/tree-douglas-fir.glb",
+      "dims": { "widthM": 8.839, "depthM": 8.968, "heightM": 35 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 134, "after": 134 },
+      "bytes": 5020,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "tree-flowering-cherry",
+      "file": "models/tree-flowering-cherry.glb",
+      "dims": { "widthM": 5.25, "depthM": 4.547, "heightM": 8 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 50, "after": 50 },
+      "bytes": 3884,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "tree-garry-oak",
+      "file": "models/tree-garry-oak.glb",
+      "dims": { "widthM": 7.836, "depthM": 9.048, "heightM": 15 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 196, "after": 196 },
+      "bytes": 5868,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "tree-red-alder",
+      "file": "models/tree-red-alder.glb",
+      "dims": { "widthM": 4.735, "depthM": 5.468, "heightM": 20 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 72, "after": 72 },
+      "bytes": 4192,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "tree-vine-maple",
+      "file": "models/tree-vine-maple.glb",
+      "dims": { "widthM": 1.4, "depthM": 1.617, "heightM": 6 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 62, "after": 62 },
+      "bytes": 4060,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "tree-western-red-cedar",
+      "file": "models/tree-western-red-cedar.glb",
+      "dims": { "widthM": 11.109, "depthM": 11.109, "heightM": 30 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 264, "after": 264 },
+      "bytes": 7184,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "washroom-building",
+      "file": "models/washroom-building.glb",
+      "dims": { "widthM": 8, "depthM": 6.327, "heightM": 5.129 },
+      "fittedAxis": "widthM",
+      "triangles": { "before": 1174, "after": 1174 },
+      "bytes": 27428,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/city-kit-suburban/2c871b7af2-1745479373/kenney_city-kit-suburban_20.zip",
+        "author": "Kenney"
+      }
+    },
+    {
+      "modelKey": "waste-bin",
+      "file": "models/waste-bin.glb",
+      "dims": { "widthM": 0.729, "depthM": 0.729, "heightM": 1.1 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 646, "after": 600 },
+      "bytes": 7948,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/eYNKnGlhon",
+        "author": "Quaternius"
+      }
+    },
+    {
+      "modelKey": "wayfinding-sign",
+      "file": "models/wayfinding-sign.glb",
+      "dims": { "widthM": 0.931, "depthM": 0.187, "heightM": 2 },
+      "fittedAxis": "heightM",
+      "triangles": { "before": 44, "after": 44 },
+      "bytes": 10680,
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney"
+      }
+    }
+  ]
+}

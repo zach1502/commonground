@@ -1,0 +1,556 @@
+{
+  "sources": [
+    {
+      "name": "Kenney",
+      "url": "https://kenney.nl",
+      "author": "Kenney",
+      "licence": "CC0-1.0"
+    },
+    {
+      "name": "Poly Pizza",
+      "url": "https://poly.pizza",
+      "author": "Quaternius",
+      "licence": "CC0-1.0"
+    },
+    {
+      "name": "Quaternius",
+      "url": "https://quaternius.com",
+      "author": "Quaternius",
+      "licence": "CC0-1.0"
+    },
+    {
+      "name": "procedural placeholder",
+      "url": "tools/asset-pipeline/src/procedural.ts",
+      "author": "CommonGround",
+      "licence": "CC0-1.0"
+    },
+    {
+      "name": "ambientCG",
+      "url": "https://ambientcg.com",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0"
+    }
+  ],
+  "models": [
+    {
+      "modelKey": "tree-bigleaf-maple",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_detailed.glb"
+    },
+    {
+      "modelKey": "tree-red-alder",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_tall.glb"
+    },
+    {
+      "modelKey": "tree-douglas-fir",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_pineTallA_detailed.glb"
+    },
+    {
+      "modelKey": "tree-western-red-cedar",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_cone_dark.glb"
+    },
+    {
+      "modelKey": "tree-garry-oak",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_oak.glb"
+    },
+    {
+      "modelKey": "tree-flowering-cherry",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_fat.glb"
+    },
+    {
+      "modelKey": "tree-vine-maple",
+      "category": "tree",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/tree_simple_fall.glb"
+    },
+    {
+      "modelKey": "shrub-salal",
+      "category": "shrub",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/plant_bushLarge.glb"
+    },
+    {
+      "modelKey": "shrub-red-flowering-currant",
+      "category": "shrub",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/crops_leafsStageB.glb"
+    },
+    {
+      "modelKey": "path-asphalt",
+      "category": "path",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/city-kit-roads/74288c9459-1787042796/kenney_city-kit-roads.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/road-straight.glb"
+    },
+    {
+      "modelKey": "path-gravel",
+      "category": "path",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/ground_pathStraight.glb"
+    },
+    {
+      "modelKey": "path-boardwalk",
+      "category": "path",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/path_wood.glb"
+    },
+    {
+      "modelKey": "pond",
+      "category": "water",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/ground_riverTile.glb"
+    },
+    {
+      "modelKey": "rain-garden",
+      "category": "water",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/ground_riverRocks.glb"
+    },
+    {
+      "modelKey": "playground-structure",
+      "category": "play",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "swings",
+      "category": "play",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "spray-pad",
+      "category": "play",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "outdoor-fitness-station",
+      "category": "play",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "bench",
+      "category": "seating",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/graveyard-kit/ba8d4b4517-1760691807/kenney_graveyard-kit_5.0.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/bench.glb"
+    },
+    {
+      "modelKey": "picnic-table",
+      "category": "seating",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "basketball-half-court",
+      "category": "sports",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "ball-diamond-backstop",
+      "category": "sports",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "tennis-court",
+      "category": "sports",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "community-garden",
+      "category": "garden",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/crops_dirtDoubleRow.glb"
+    },
+    {
+      "modelKey": "off-leash-area",
+      "category": "dog",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/patch-grass-large.glb"
+    },
+    {
+      "modelKey": "path-light",
+      "category": "lighting",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/0lxF8Dl1jU",
+        "author": "Quaternius",
+        "licence": "CC0-1.0"
+      },
+      "file": "https://static.poly.pizza/451a3b57-b957-4184-9c67-4a11587299b5.glb"
+    },
+    {
+      "modelKey": "washroom-building",
+      "category": "washroom",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/city-kit-suburban/2c871b7af2-1745479373/kenney_city-kit-suburban_20.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/building-type-a.glb"
+    },
+    {
+      "modelKey": "drinking-fountain",
+      "category": "amenity",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "waste-bin",
+      "category": "amenity",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/eYNKnGlhon",
+        "author": "Quaternius",
+        "licence": "CC0-1.0"
+      },
+      "file": "https://static.poly.pizza/ed8a9b54-8d2c-4e2b-a78f-9c2646d4ea63.glb"
+    },
+    {
+      "modelKey": "bike-rack",
+      "category": "amenity",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "parking-lot-small",
+      "category": "parking",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/retro-urban-kit/8314d4db22-1738147509/kenney_retro-urban-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/road-asphalt-center.glb"
+    },
+    {
+      "modelKey": "lawn",
+      "category": "ground",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/ground_grass.glb"
+    },
+    {
+      "modelKey": "meadow",
+      "category": "ground",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/patch-grass.glb"
+    },
+    {
+      "modelKey": "plaza",
+      "category": "plaza",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/mini-skate/00b0c2b304-1709221152/kenney_mini-skate.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/floor-concrete.glb"
+    },
+    {
+      "modelKey": "kit-raised-bed",
+      "category": "kit-part",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "kit-fence-post",
+      "category": "kit-part",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/fantasy-town-kit/efe948d309-1754222374/kenney_fantasy-town-kit_2.0.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/pillar-wood.glb"
+    },
+    {
+      "modelKey": "kit-fence-panel",
+      "category": "kit-part",
+      "source": {
+        "name": "procedural placeholder",
+        "url": "tools/asset-pipeline/src/procedural.ts",
+        "author": "CommonGround",
+        "licence": "CC0-1.0"
+      },
+      "file": "procedural"
+    },
+    {
+      "modelKey": "kit-gate",
+      "category": "kit-part",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/fence-doorway.glb"
+    },
+    {
+      "modelKey": "kit-shed",
+      "category": "kit-building",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/aTcDP7UERC",
+        "author": "Quaternius",
+        "licence": "CC0-1.0"
+      },
+      "file": "https://static.poly.pizza/f8d23d79-6dfd-4667-a961-5b4dad5a32d6.glb"
+    },
+    {
+      "modelKey": "hedge",
+      "category": "shrub",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/fantasy-town-kit/efe948d309-1754222374/kenney_fantasy-town-kit_2.0.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/hedge-large.glb",
+      "yawDeg": 90
+    },
+    {
+      "modelKey": "boulder-seat",
+      "category": "seating",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/rock_largeA.glb",
+      "yawDeg": 90
+    },
+    {
+      "modelKey": "log-seat",
+      "category": "seating",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/nature-kit/37ac38a37b-1677698939/kenney_nature-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/log_large.glb"
+    },
+    {
+      "modelKey": "planter",
+      "category": "garden",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/city-kit-suburban/2c871b7af2-1745479373/kenney_city-kit-suburban_20.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/planter.glb"
+    },
+    {
+      "modelKey": "wayfinding-sign",
+      "category": "amenity",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/signpost.glb"
+    },
+    {
+      "modelKey": "recycling-bin",
+      "category": "amenity",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/furniture-kit/440e0608a4-1677580847/kenney_furniture-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLTF format/trashcan.glb"
+    },
+    {
+      "modelKey": "compost-bin",
+      "category": "garden",
+      "source": {
+        "name": "Kenney",
+        "url": "https://kenney.nl/media/pages/assets/survival-kit/4065a8185b-1712149243/kenney_survival-kit.zip",
+        "author": "Kenney",
+        "licence": "CC0-1.0"
+      },
+      "file": "Models/GLB format/box-large.glb",
+      "yawDeg": 90
+    },
+    {
+      "modelKey": "gazebo",
+      "category": "amenity",
+      "source": {
+        "name": "Poly Pizza",
+        "url": "https://poly.pizza/m/xYZB1TmGMv",
+        "author": "Quaternius",
+        "licence": "CC0-1.0"
+      },
+      "file": "https://static.poly.pizza/a0c33317-3662-478e-b826-78590c348d83.glb"
+    }
+  ]
+}

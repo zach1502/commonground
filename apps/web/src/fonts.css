@@ -1,0 +1,26 @@
+/* Latin subsets of BC Sans Regular and Bold, preloaded by index.html on every page but the
+   vote page. They come after the full faces from @bcgov/bc-sans, so the browser uses them for
+   every character in the range and fetches a full face only for text outside it, such as some
+   Indigenous place names. Rebuild with pyftsubset from the same package version if
+   @bcgov/bc-sans changes. */
+@font-face {
+  font-family: 'BC Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/bc-sans-regular-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+25B2, U+25BC;
+}
+
+@font-face {
+  font-family: 'BC Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/bc-sans-bold-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074,
+    U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+25B2, U+25BC;
+}

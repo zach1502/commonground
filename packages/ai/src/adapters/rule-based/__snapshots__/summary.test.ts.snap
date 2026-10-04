@@ -1,0 +1,29 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RuleBasedSummaryProvider > matches the snapshot for the fixture designs 1`] = `
+{
+  "themes": [
+    {
+      "designCount": 4,
+      "exampleDesignId": "design-a",
+      "label": "Paths through the park",
+    },
+    {
+      "designCount": 3,
+      "exampleDesignId": "design-a",
+      "label": "Keep and add trees",
+    },
+    {
+      "designCount": 3,
+      "exampleDesignId": "design-b",
+      "label": "Places to sit",
+    },
+    {
+      "designCount": 2,
+      "exampleDesignId": "design-b",
+      "label": "Room for play",
+    },
+  ],
+  "tradeoffs": [],
+}
+`;

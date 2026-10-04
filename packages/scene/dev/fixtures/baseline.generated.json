@@ -1,0 +1,407 @@
+{
+  "title": "Jonathan Rogers Park today",
+  "parcel": {
+    "id": "jonathan-rogers",
+    "name": "Jonathan Rogers Park",
+    "polygon": [
+      {
+        "x": 0.2804529449417464,
+        "y": 85.48059347584964
+      },
+      {
+        "x": 175.20861999327903,
+        "y": 80.53539075748942
+      },
+      {
+        "x": 173.02712226473213,
+        "y": 0
+      },
+      {
+        "x": 0,
+        "y": 4.74887392353963
+      }
+    ],
+    "origin": {
+      "lat": 49.2638975433111,
+      "lon": -123.1093094963582
+    }
+  },
+  "document": {
+    "version": 1,
+    "items": [
+      {
+        "id": "existing-public-trees-274374",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 140.87380456985645,
+          "y": 8.059964316975126
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 48.3
+      },
+      {
+        "id": "existing-public-trees-274377",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 162.56366076486705,
+          "y": 2.611025323730653
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 53.3
+      },
+      {
+        "id": "existing-public-trees-274379",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 167.73102600575268,
+          "y": 12.50935455539959
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 61
+      },
+      {
+        "id": "existing-public-trees-274383",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 138.54438707917606,
+          "y": 18.291693976381374
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 7.6
+      },
+      {
+        "id": "existing-public-trees-274388",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 151.49856083694633,
+          "y": 73.45459455761551
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 12.7
+      },
+      {
+        "id": "existing-public-trees-274389",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 153.97315130038436,
+          "y": 73.45467044280825
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 35.6
+      },
+      {
+        "id": "existing-public-trees-274390",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 141.0902488047213,
+          "y": 80.68324783002942
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 40.6
+      },
+      {
+        "id": "existing-public-trees-274391",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 122.31275309280723,
+          "y": 55.54825243821522
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 25.4
+      },
+      {
+        "id": "existing-public-trees-274373",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 135.48783066771455,
+          "y": 4.612201374579824
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 5.1
+      },
+      {
+        "id": "existing-public-trees-274376",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 158.63331975011332,
+          "y": 3.834335610248321
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 5.1
+      },
+      {
+        "id": "existing-public-trees-274378",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 159.7247893212349,
+          "y": 11.285695571588336
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 48.3
+      },
+      {
+        "id": "existing-public-trees-274380",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 168.24015558348142,
+          "y": 24.18686476820202
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 63.5
+      },
+      {
+        "id": "existing-public-trees-274382",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 151.50017232824555,
+          "y": 12.064022417509198
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 50.8
+      },
+      {
+        "id": "existing-public-trees-274384",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 152.08211329223488,
+          "y": 26.521950799588886
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 5.1
+      },
+      {
+        "id": "existing-public-trees-274385",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 162.70838837529936,
+          "y": 32.52781012698838
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 5.1
+      },
+      {
+        "id": "existing-public-trees-274386",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 163.72702874562725,
+          "y": 43.09331145428104
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 12.7
+      },
+      {
+        "id": "existing-public-trees-274393",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 107.39192055605663,
+          "y": 65.00127537537541
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 15.2
+      },
+      {
+        "id": "existing-public-trees-158853",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 0.8367465355791439,
+          "y": 18.512292090089417
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 45.7
+      },
+      {
+        "id": "existing-public-trees-274375",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 148.07962767064132,
+          "y": 1.9433283892182156
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 61
+      },
+      {
+        "id": "existing-public-trees-274381",
+        "catalogId": "western-red-cedar",
+        "position": {
+          "x": 162.27203787169697,
+          "y": 19.293281821174183
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 58.4
+      },
+      {
+        "id": "existing-public-trees-274387",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 154.91977227681008,
+          "y": 57.439727593267946
+        },
+        "rotationDeg": 0,
+        "locked": true,
+        "dbhCm": 38.1
+      },
+      {
+        "id": "existing-public-trees-274392",
+        "catalogId": "flowering-cherry",
+        "position": {
+          "x": 112.41409116704007,
+          "y": 58.662095045300525
+        },
+        "rotationDeg": 0,
+        "locked": false,
+        "dbhCm": 10.2
+      },
+      {
+        "id": "existing-overpass-way/118373968",
+        "catalogId": "washroom-building",
+        "position": {
+          "x": 125.48951236127418,
+          "y": 66.11940760068074
+        },
+        "rotationDeg": 0,
+        "locked": true
+      }
+    ],
+    "paths": [],
+    "areas": [
+      {
+        "id": "existing-overpass-way/118373967",
+        "catalogId": "community-garden",
+        "polygon": [
+          {
+            "x": 133.29517035637448,
+            "y": 81.73971568122982
+          },
+          {
+            "x": 174.4105158547466,
+            "y": 80.84002469660322
+          },
+          {
+            "x": 173.8944922531551,
+            "y": 57.47376631090159
+          },
+          {
+            "x": 132.77897227628446,
+            "y": 58.37346112218411
+          }
+        ],
+        "locked": false
+      },
+      {
+        "id": "existing-overpass-way/645131512",
+        "catalogId": "lawn",
+        "polygon": [
+          {
+            "x": 0.48010943143228274,
+            "y": 31.824873398439983
+          },
+          {
+            "x": 1.1205998210584565,
+            "y": 75.72137758355683
+          },
+          {
+            "x": 1.0405369689662747,
+            "y": 81.404456985758
+          },
+          {
+            "x": 3.274984763943484,
+            "y": 83.62875510393494
+          },
+          {
+            "x": 6.419224598927881,
+            "y": 83.62875787266636
+          },
+          {
+            "x": 54.79832043217956,
+            "y": 81.94968252337904
+          },
+          {
+            "x": 56.705299020487686,
+            "y": 76.63363146044867
+          },
+          {
+            "x": 57.818943330051326,
+            "y": 71.11738596218976
+          },
+          {
+            "x": 58.13197180017439,
+            "y": 65.48991736278938
+          },
+          {
+            "x": 57.6225456180425,
+            "y": 59.873561644096156
+          },
+          {
+            "x": 56.30521776046043,
+            "y": 54.39065552439867
+          },
+          {
+            "x": 54.21637671130495,
+            "y": 49.152414797086884
+          },
+          {
+            "x": 51.38513304042545,
+            "y": 44.27005546232047
+          },
+          {
+            "x": 47.884268271234696,
+            "y": 39.85479414269256
+          },
+          {
+            "x": 43.13879179017585,
+            "y": 35.472889641093516
+          },
+          {
+            "x": 37.73824581354363,
+            "y": 31.92509613063086
+          },
+          {
+            "x": 31.828198987611046,
+            "y": 29.322631216761998
+          },
+          {
+            "x": 25.56149991967159,
+            "y": 27.721104664190474
+          },
+          {
+            "x": 19.120111718025594,
+            "y": 27.176125739106542
+          },
+          {
+            "x": 12.678719806782459,
+            "y": 27.68769545269908
+          },
+          {
+            "x": 6.4120096140204454,
+            "y": 29.255814006072875
+          }
+        ],
+        "locked": false
+      }
+    ],
+    "gradeDelta": {
+      "cells": []
+    },
+    "zones": []
+  }
+}

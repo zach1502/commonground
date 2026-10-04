@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "files": [],
+  "references": [
+    { "path": "./packages/config" },
+    { "path": "./packages/core" },
+    { "path": "./packages/scene" },
+    { "path": "./packages/ui" },
+    { "path": "./packages/terrain" },
+    { "path": "./packages/db" },
+    { "path": "./packages/ai" },
+    { "path": "./packages/storage" },
+    { "path": "./packages/auth" },
+    { "path": "./packages/api-client" },
+    { "path": "./apps/api" },
+    { "path": "./apps/web" },
+    { "path": "./tools/preflight" },
+    { "path": "./tools/asset-pipeline" }
+  ]
+}

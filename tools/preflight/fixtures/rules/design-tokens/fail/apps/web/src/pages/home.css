@@ -1,0 +1,9 @@
+.home {
+  animation: spin 1s;
+}
+
+@keyframes spin {
+  to {
+    opacity: 0;
+  }
+}

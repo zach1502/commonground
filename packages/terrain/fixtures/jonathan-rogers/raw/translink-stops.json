@@ -1,0 +1,42 @@
+{
+  "feedVersion": "26SEP_20261002",
+  "feedStartDate": "20260907",
+  "stops": [
+    {
+      "stop_id": "12101",
+      "stop_code": "60006",
+      "stop_name": "Eastbound W Broadway @ Columbia St",
+      "stop_lat": 49.26302,
+      "stop_lon": -123.10905
+    },
+    {
+      "stop_id": "12822",
+      "stop_code": "60579",
+      "stop_name": "Westbound E Broadway @ Ontario St",
+      "stop_lat": 49.263095,
+      "stop_lon": -123.104676
+    },
+    {
+      "stop_id": "13168",
+      "stop_code": "50877",
+      "stop_name": "Eastbound W Broadway @ Manitoba St",
+      "stop_lat": 49.262968,
+      "stop_lon": -123.10637
+    },
+    {
+      "stop_id": "928",
+      "stop_code": "50920",
+      "stop_name": "Westbound W Broadway @ Ontario St",
+      "stop_lat": 49.263101,
+      "stop_lon": -123.105291
+    },
+    {
+      "stop_id": "929",
+      "stop_code": "50921",
+      "stop_name": "Westbound W Broadway @ Columbia St",
+      "stop_lat": 49.263212,
+      "stop_lon": -123.109868
+    }
+  ],
+  "url": "https://gtfs-static.translink.ca/gtfs/google_transit.zip"
+}

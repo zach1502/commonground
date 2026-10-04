@@ -1,0 +1,21 @@
+{
+  "models": [
+    { "id": "bench-wood", "widthM": 1.82, "depthM": 0.6, "scalePolicy": "fixed", "licence": "CC0" },
+    { "id": "path-gravel", "widthM": 2, "depthM": 1, "scalePolicy": "segment", "licence": "CC0" },
+    { "id": "community-garden", "widthM": 12.65, "depthM": 12.65, "scalePolicy": "tile", "licence": "CC0" },
+    {
+      "modelKey": "kit-raised-bed",
+      "dims": { "widthM": 1.2, "depthM": 3.05, "heightM": 0.45 },
+      "fittedAxis": "depthM",
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0"
+    },
+    {
+      "modelKey": "tree-douglas-fir",
+      "dims": { "widthM": 8.84, "depthM": 8.97, "heightM": 35 },
+      "fittedAxis": "heightM",
+      "scalePolicy": "fixed",
+      "licence": "CC0-1.0"
+    }
+  ]
+}

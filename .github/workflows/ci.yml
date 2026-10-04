@@ -1,0 +1,165 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      # Full history: preflight diffs against the merge base with origin/main.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      # The corepack bundled with Node 20.18 has stale npm signing keys; 0.34.7 has current ones.
+      - name: Enable pnpm through corepack
+        run: npm install --global corepack@0.34.7 && corepack enable
+      - run: pnpm install --frozen-lockfile
+      # gitleaks is not an npm package. A pinned, checksum-verified release runs the secret scan;
+      # in CI a missing tool is a preflight error.
+      - name: Install gitleaks
+        env:
+          GITLEAKS_VERSION: 8.30.1
+          GITLEAKS_SHA256: 551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb
+        run: |
+          curl -sSfL -o /tmp/gitleaks.tar.gz "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          echo "${GITLEAKS_SHA256}  /tmp/gitleaks.tar.gz" | sha256sum --check
+          sudo tar -xzf /tmp/gitleaks.tar.gz -C /usr/local/bin gitleaks
+          gitleaks version
+      # Runs every tool and rule. The test job runs the tests. CI refuses --skip-preflight.
+      # The base is the pull request's base commit, or the commit before a push. Without it a
+      # push to main diffs HEAD against itself and checks no changed files.
+      - run: pnpm preflight --full
+        env:
+          PARKSHAPE_BASE_REF: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+
+  lint:
+    needs: preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Enable pnpm through corepack
+        run: npm install --global corepack@0.34.7 && corepack enable
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm lint:deps
+      # Fails on high and critical advisories in the lockfile. Moderate ones are listed in docs/SECURITY.md.
+      - run: pnpm audit --audit-level high
+
+  typecheck:
+    needs: preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Enable pnpm through corepack
+        run: npm install --global corepack@0.34.7 && corepack enable
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+
+  test:
+    needs: preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    # A real Postgres for the second test run below; the first run uses pglite.
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: parkshape
+          POSTGRES_PASSWORD: parkshape
+          POSTGRES_DB: parkshape_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U parkshape -d parkshape_ci"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Enable pnpm through corepack
+        run: npm install --global corepack@0.34.7 && corepack enable
+      - run: pnpm install --frozen-lockfile
+      # Each package's test:coverage script runs vitest with --coverage and its thresholds.
+      - run: pnpm test:coverage
+      # The migrate command applies the migrations, runs again to prove it changes nothing,
+      # rolls the last one back and applies it again. Then the db contract tests and the API
+      # integration tests run on the service, each test file in its own scratch database.
+      - name: Test the migrations and repositories on Postgres 16
+        env:
+          DATABASE_URL: postgres://parkshape:parkshape@localhost:5432/parkshape_ci
+          PARKSHAPE_TEST_DATABASE_URL: postgres://parkshape:parkshape@localhost:5432/parkshape_ci
+        # The migrate command loads the API config, which needs an AUTH_SECRET for postgres://.
+        # Nothing is signed here, so a throwaway one does.
+        run: |
+          AUTH_SECRET="$(openssl rand -hex 32)"
+          export AUTH_SECRET
+          pnpm --filter @parkshape/db migrate
+          pnpm --filter @parkshape/db migrate
+          pnpm --filter @parkshape/db migrate:down
+          pnpm --filter @parkshape/db migrate
+          pnpm turbo run test --filter=@parkshape/db --filter=@parkshape/api
+      - name: Upload coverage
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage
+          path: |
+            apps/*/coverage/
+            packages/*/coverage/
+            tools/*/coverage/
+          if-no-files-found: ignore
+
+  build:
+    needs: preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      # Full history: preflight diffs against the merge base with origin/main.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+      - name: Enable pnpm through corepack
+        run: npm install --global corepack@0.34.7 && corepack enable
+      - run: pnpm install --frozen-lockfile
+      # gitleaks is not an npm package. A pinned, checksum-verified release runs the secret scan;
+      # in CI a missing tool is a preflight error.
+      - name: Install gitleaks
+        env:
+          GITLEAKS_VERSION: 8.30.1
+          GITLEAKS_SHA256: 551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb
+        run: |
+          curl -sSfL -o /tmp/gitleaks.tar.gz "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          echo "${GITLEAKS_SHA256}  /tmp/gitleaks.tar.gz" | sha256sum --check
+          sudo tar -xzf /tmp/gitleaks.tar.gz -C /usr/local/bin gitleaks
+          gitleaks version
+      # The prebuild script runs preflight, so it gets the same base as the preflight job.
+      - run: pnpm build
+        env:
+          PARKSHAPE_BASE_REF: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}

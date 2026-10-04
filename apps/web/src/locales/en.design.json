@@ -1,0 +1,82 @@
+{
+  "designLegend": {
+    "tree": {
+      "one": "{count} tree",
+      "other": "{count} trees"
+    },
+    "shrub": {
+      "one": "{count} shrub",
+      "other": "{count} shrubs"
+    },
+    "path": {
+      "one": "{count} path",
+      "other": "{count} paths"
+    },
+    "water": {
+      "one": "{count} water feature",
+      "other": "{count} water features"
+    },
+    "play": {
+      "one": "{count} play item",
+      "other": "{count} play items"
+    },
+    "seating": {
+      "one": "{count} seat",
+      "other": "{count} seats"
+    },
+    "sports": {
+      "one": "{count} sports area",
+      "other": "{count} sports areas"
+    },
+    "garden": {
+      "one": "{count} garden",
+      "other": "{count} gardens"
+    },
+    "dog": {
+      "one": "{count} dog area",
+      "other": "{count} dog areas"
+    },
+    "lighting": {
+      "one": "{count} light",
+      "other": "{count} lights"
+    },
+    "washroom": {
+      "one": "{count} washroom",
+      "other": "{count} washrooms"
+    },
+    "parking": {
+      "one": "{count} parking area",
+      "other": "{count} parking areas"
+    },
+    "ground": {
+      "one": "{count} planted area",
+      "other": "{count} planted areas"
+    },
+    "plaza": {
+      "one": "{count} plaza",
+      "other": "{count} plazas"
+    },
+    "amenity": {
+      "one": "{count} amenity",
+      "other": "{count} amenities"
+    }
+  },
+  "submit": {
+    "title": "Submit design",
+    "rules": {
+      "final": "Submitted designs are final.",
+      "newVersion": "Editing one starts a new version with 0 votes.",
+      "liveCap": "You keep up to 3 designs live.",
+      "anonymous": "Your name stays hidden in the voting queue."
+    },
+    "cancel": "Keep editing",
+    "action": "Submit design",
+    "submitting": "Submitting",
+    "blockedTitle": "Fix these before you submit",
+    "warningsLabel": "Notes on this design",
+    "errorTitle": "Your design did not submit. Try again."
+  },
+  "submitSuccess": {
+    "line": "Your design is live."
+  }
+}

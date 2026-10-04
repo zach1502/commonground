@@ -1,0 +1,26 @@
+{
+  "name": "@parkshape/storage",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@parkshape/config": "workspace:*",
+    "@parkshape/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43"
+  }
+}

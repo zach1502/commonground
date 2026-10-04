@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.web.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+    "types": ["vite/client"]
+  },
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test-setup.ts"],
+  "references": []
+}

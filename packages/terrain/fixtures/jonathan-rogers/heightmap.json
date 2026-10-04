@@ -1,0 +1,36 @@
+{
+  "format": "parkshape-heightmap",
+  "version": 1,
+  "width": 176,
+  "height": 86,
+  "resolutionM": 1,
+  "originLocal": {
+    "x": 0,
+    "y": 0
+  },
+  "frameOrigin": {
+    "lat": 49.2638975433111,
+    "lon": -123.1093094963582
+  },
+  "polygonWgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-123.10930564309892, 49.264666151005976],
+        [-123.10690223465889, 49.2646216606243],
+        [-123.10693224192086, 49.26389751885512],
+        [-123.1093094963582, 49.26394024331027],
+        [-123.10930564309892, 49.264666151005976]
+      ]
+    ]
+  },
+  "crs": "EPSG:3979",
+  "source": {
+    "name": "NRCan HRDEM",
+    "licence": "Open Government Licence - Canada",
+    "url": "https://open.canada.ca/data/en/dataset/0fe65119-e96e-4a57-8bfe-9d9245fba06b"
+  },
+  "dataFile": "heightmap.bin",
+  "sampleType": "float32le",
+  "rowOrder": "south-to-north"
+}

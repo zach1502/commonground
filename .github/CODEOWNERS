@@ -1,0 +1,15 @@
+# Default owners for everything not listed below.
+* @parkshape/core-team
+
+# Track A: domain rules and terrain.
+/packages/core/ @parkshape/track-a
+/packages/terrain/ @parkshape/track-a
+
+# Track B: 3D scene and asset pipeline.
+/packages/scene/ @parkshape/track-b
+/tools/asset-pipeline/ @parkshape/track-b
+
+# Track C: data, API and web app.
+/packages/db/ @parkshape/track-c
+/apps/api/ @parkshape/track-c
+/apps/web/ @parkshape/track-c

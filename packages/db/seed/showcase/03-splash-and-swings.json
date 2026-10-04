@@ -1,0 +1,19 @@
+{
+  "title": "Splash pad and swings",
+  "author": 2,
+  "seed": 103,
+  "tags": ["play", "water"],
+  "blurb": "TODO(#seed) First-person blurb with one concrete detail.",
+  "intent": {
+    "features": [
+      { "catalogId": "spray-pad", "count": 1, "placement": { "zone": "west", "terrain": "flat" } },
+      { "catalogId": "swings", "count": 1, "placement": { "near": "spray pad" } },
+      { "catalogId": "playground-structure", "count": 1, "placement": { "zone": "west" } },
+      { "catalogId": "bench", "count": 3, "placement": { "near": "playground structure" } },
+      { "catalogId": "community-garden", "count": 1, "placement": { "zone": "east" } }
+    ],
+    "paths": { "style": "connect-all", "surface": "asphalt" },
+    "canopy": "add-some",
+    "character": "active"
+  }
+}

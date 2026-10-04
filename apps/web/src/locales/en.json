@@ -1,0 +1,587 @@
+{
+  "app": {
+    "name": "CommonGround",
+    "homeLink": "CommonGround home",
+    "skipLink": "Skip to main content",
+    "navLabel": "Main",
+    "menu": "Menu",
+    "navProjects": "Projects",
+    "navStaff": "Planner",
+    "navLogin": "Log in",
+    "navLogout": "Log out",
+    "loading": "Loading the page",
+    "attribution": "Site data, streets, sidewalks, bike routes and parking meters are from Vancouver Open Data (Open Government Licence - Vancouver). Bus stops are from TransLink, used by permission of TransLink. TransLink does not promise that this data is right or up to date. Map data is by OpenStreetMap contributors (ODbL). Heights are from NRCan HRDEM and NRCan MRDEM (Open Government Licence - Canada). The 3D models are from Kenney, Quaternius and Poly Pizza (CC0). The other models are our own. We made them as procedural placeholders (CC0). The ground textures are from ambientCG (CC0).",
+    "sourcesLink": "Data and model sources",
+    "demoStatus": "DEMO"
+  },
+  "meta": {
+    "ogImageAlt": "3D render of Jonathan Rogers Park with a loop path, garden beds, a pond and trees along the edges",
+    "landing": {
+      "title": "Jonathan Rogers Park | CommonGround",
+      "description": "Design a new Jonathan Rogers Park in Mount Pleasant, Vancouver, and vote on designs from your neighbours."
+    },
+    "login": {
+      "title": "Log in | CommonGround",
+      "description": "Log in as a demo persona to design Jonathan Rogers Park and vote on designs."
+    },
+    "staffLogin": {
+      "title": "Planner log in | CommonGround",
+      "description": "Park planners log in here to run the Jonathan Rogers Park project."
+    },
+    "selfReport": {
+      "title": "About you | CommonGround",
+      "description": "Tell planners the start of your postal code and your age range, or skip."
+    },
+    "projects": {
+      "title": "Projects | CommonGround",
+      "description": "Parks open for resident designs."
+    },
+    "project": {
+      "title": "{name} | CommonGround",
+      "description": "Designs submitted for {name}."
+    },
+    "staff": {
+      "title": "Planner | CommonGround",
+      "description": "Projects that park planners run in CommonGround."
+    },
+    "styleguide": {
+      "title": "Styleguide | CommonGround",
+      "description": "Every CommonGround interface component in each of its states."
+    },
+    "notFound": {
+      "title": "Page not found | CommonGround",
+      "description": "There is no CommonGround page at this address."
+    },
+    "error": {
+      "title": "Page did not load | CommonGround",
+      "description": "This CommonGround page did not load."
+    },
+    "editor": {
+      "title": "Design {name} | CommonGround",
+      "description": "Place trees, paths and gardens on the real terrain of {name}. Changes save as you go."
+    },
+    "newDesign": {
+      "title": "Start a design | CommonGround",
+      "description": "Start a design for {name} from the park as it is now, or from empty ground."
+    },
+    "describe": {
+      "title": "Describe a design | CommonGround",
+      "description": "Say what {name} should have, and get a layout on the real terrain."
+    },
+    "describePreview": {
+      "title": "Generated starting point | CommonGround",
+      "description": "A layout for {name} made from your description. Open it in the editor."
+    },
+    "gallery": {
+      "title": "Designs for {name} | CommonGround",
+      "description": "Browse submitted designs for {name} and open one to explore it in 3D."
+    },
+    "design": {
+      "title": "{title} | CommonGround",
+      "description": "A resident design for {name}. Explore it in 3D and share it with neighbours."
+    },
+    "vote": {
+      "title": "Vote on designs | CommonGround",
+      "description": "Vote up or down on resident designs for {name}, one design at a time."
+    },
+    "leaderboard": {
+      "title": "Leaderboard | CommonGround",
+      "description": "See how resident designs for {name} rank by votes."
+    }
+  },
+  "landing": {
+    "heading": "Jonathan Rogers Park",
+    "line": "Mount Pleasant, Vancouver.",
+    "design": "Design a park",
+    "vote": "Vote on designs",
+    "imageAlt": "3D render of Jonathan Rogers Park today, with its lawn, the community garden, the field house and a row of cedars",
+    "stats": "{designs}, {votes} votes",
+    "statsDesigns": {
+      "one": "{count} design",
+      "other": "{count} designs"
+    }
+  },
+  "login": {
+    "heading": "Log in",
+    "lede": "These are mock personas, not real accounts.",
+    "personaLabel": "Log in as",
+    "bcsc": "Log in as",
+    "asPersona": "Log in as {name}",
+    "sampleName": "Molly Swingset",
+    "demoTag": "Demo login",
+    "failed": "Log in did not work. Try again."
+  },
+  "staffLogin": {
+    "heading": "Planner log in",
+    "lede": "Log in as the park planner for this demo.",
+    "personaLabel": "Log in as",
+    "button": "Log in with IDIR",
+    "codeLabel": "Access code",
+    "codeHelp": "Ask the project lead for the code.",
+    "codeError": "That access code is not right. Look at it and try again."
+  },
+  "selfReport": {
+    "heading": "About you",
+    "lede": "Answer 2 questions.",
+    "fsaLabel": "First 3 characters of your postal code",
+    "fsaHelp": "For example, V5T",
+    "fsaError": "Enter a letter, a number and a letter, like V5T.",
+    "ageLabel": "Age range",
+    "ageBands": {
+      "under-18": "Under 18",
+      "18-29": "18 to 29",
+      "30-44": "30 to 44",
+      "45-64": "45 to 64",
+      "65-plus": "65 and over",
+      "prefer-not": "Prefer not to say"
+    },
+    "save": "Save answers",
+    "saveError": "Your answers were not saved. Try again or skip.",
+    "skip": "Skip"
+  },
+  "projects": {
+    "heading": "Projects",
+    "empty": "No projects are open for design. New ones show on this page when a Planner opens them.",
+    "status": {
+      "open": "Open",
+      "closed": "Closed"
+    },
+    "meta": {
+      "one": "{count} design",
+      "other": "{count} designs"
+    },
+    "closes": "{designs}, closes {date}"
+  },
+  "project": {
+    "designCount": {
+      "one": "{count} design",
+      "other": "{count} designs"
+    },
+    "noDesigns": "No designs are submitted yet.",
+    "area": "{area} ha park.",
+    "startDesign": "Start a design",
+    "gallery": "All designs",
+    "vote": "Vote on designs",
+    "leaderboard": "Leaderboard",
+    "brief": "What the planners ask for",
+    "baselineAlt": "Picture of {name} as it is today",
+    "deadline": {
+      "open": "Send your design by {date}.",
+      "openNoDate": "Design open.",
+      "closed": "Design closed."
+    }
+  },
+  "staff": {
+    "heading": "Projects you run",
+    "lede": "Close a project to stop new designs and votes. Reopen it to start them again.",
+    "empty": "No projects yet. Start one to open it for designs."
+  },
+  "errors": {
+    "heading": "This page did not load",
+    "body": "Try again, or go to the home page.",
+    "notFoundHeading": "Page not found",
+    "notFoundBody": "Look at the address.",
+    "projects": "Go to the projects list",
+    "home": "Go to the home page",
+    "retry": "Try again"
+  },
+  "failure": {
+    "pageLoad": "This page did not load. Try again, or go to the home page.",
+    "signedOut": "You are signed out. Sign in again to save; your work is kept on this device.",
+    "signIn": "Sign in again",
+    "savedElsewhere": "This design was saved in another tab or on another device. Pick the version to keep.",
+    "changedDuringSubmit": "Your design changed while it was checked. Submit it again.",
+    "designTooLarge": "This design is too large to save. Remove a few items, then submit again.",
+    "tooManyVotes": "You voted too many times just now. Try again in {seconds} seconds.",
+    "tooManySignIn": "Too many sign-in tries. Try again in {seconds} seconds.",
+    "serverError": "Something went wrong on our side. Try again.",
+    "offline": "Saving paused. Changes are kept on this device.",
+    "projectClosed": "This project is closed to new designs. Vote on designs instead.",
+    "editingClosedProject": "The project is closed, so you cannot submit this design. You can still view it."
+  },
+  "newDesign": {
+    "heading": "Start a design for {name}",
+    "baseline": "Start from the park as it is",
+    "baselineHelp": "Copies the park as it is now. Existing trees stay locked.",
+    "blank": "Start from empty ground",
+    "blankHelp": "Nothing is placed.",
+    "describe": "Describe your park in words",
+    "describeHelp": "Say what you want, and get a layout to edit.",
+    "failed": "The design did not start. Try again.",
+    "closed": "This project is closed to new designs."
+  },
+  "editor": {
+    "heading": "Design {name}",
+    "brief": "Brief",
+    "briefSelected": "Selected: {name}. {kind}, {cost} each.",
+    "save": {
+      "saved": "All changes saved",
+      "pending": "Saving soon",
+      "saving": "Saving",
+      "paused": "Saving paused. Changes are kept on this device.",
+      "failed": "Your last change did not save. Keep editing to try again.",
+      "conflict": "This design was saved in another tab or on another device. Pick the version to keep.",
+      "keepMine": "Keep my changes",
+      "useSaved": "Use the saved version"
+    },
+    "submit": "Submit design",
+    "help": "Help",
+    "showShortcuts": "Keyboard shortcuts",
+    "viewer": {
+      "canvasLabel": "3D editor for the park design",
+      "viewControls": "View",
+      "resetView": "Reset view",
+      "topDown": "Top-down",
+      "birdsEye": "Bird's eye",
+      "compareWithToday": "Compare with today",
+      "loadingMessage": "Loading terrain from NRCan HRDEM",
+      "webGlMissing": "This browser cannot show the 3D view. The design pictures still work.",
+      "webGlGalleryLink": "See the design pictures"
+    },
+    "categories": {
+      "tree": "Trees",
+      "shrub": "Shrubs",
+      "path": "Paths",
+      "water": "Water",
+      "play": "Play",
+      "seating": "Seating",
+      "sports": "Sports",
+      "garden": "Gardens",
+      "dog": "Dogs",
+      "lighting": "Lighting",
+      "washroom": "Washrooms",
+      "parking": "Parking",
+      "ground": "Ground cover",
+      "plaza": "Plazas",
+      "amenity": "Amenities"
+    },
+    "palette": {
+      "heading": "Add to the park",
+      "paint": "Paint mode",
+      "paintHelp": "Places one on each click until you press Esc.",
+      "terraformFold": "Add to the park",
+      "groups": {
+        "plants": "Plants",
+        "paths": "Paths",
+        "play": "Play",
+        "seating": "Seating",
+        "garden": "Garden",
+        "amenities": "Amenities"
+      },
+      "costPerM2": "{cost}/m²",
+      "costPerModule": "{cost}/bed"
+    },
+    "tools": {
+      "label": "Tools",
+      "select": "Select",
+      "path": "Path",
+      "area": "Area",
+      "terraform": "Terraform",
+      "snap": "Snap to 0.5 m grid",
+      "snapHelp": "Hold Alt to place freely while you drag.",
+      "itemsList": "Items list",
+      "shortcuts": "Shortcuts"
+    },
+    "toolbar": {
+      "label": "Selection",
+      "rotate": "Rotate 15 degrees",
+      "duplicate": "Duplicate",
+      "delete": "Delete",
+      "locked": "Locked"
+    },
+    "reasons": {
+      "lockedFootprint": "On {name}, which is locked",
+      "forbiddenZone": "Inside {name}, a closed zone",
+      "tooSteep": "Ground is too steep for {name}",
+      "unknownItem": "This item is not in the catalog",
+      "outsidePark": "Outside the park"
+    },
+    "notices": {
+      "locked": "{name} is locked. The planner kept it in place.",
+      "areaTooSmall": "Areas need {min} m² or more. Drag a bigger rectangle.",
+      "pathTooShort": "A path needs 2 points. Click once more.",
+      "rejected": "Nothing placed. {reason}.",
+      "pathHint": "Double-click or press Enter to finish.",
+      "areaHint": "Drag a rectangle on the ground.",
+      "cornerHint": "A click near an edge adds a corner.",
+      "placing": "Placing {name}. Press Esc to stop."
+    },
+    "properties": {
+      "heading": "Properties",
+      "many": "{count} selected",
+      "kind": "Kind",
+      "cost": "Cost",
+      "x": "East (m)",
+      "y": "North (m)",
+      "rotation": "Rotation (degrees)",
+      "area": "Area",
+      "areaValue": "{area} m²",
+      "areaSummary": "{area} m², {plots} plots",
+      "plots": "Plots",
+      "length": "Length",
+      "lengthValue": "{length} m",
+      "addCorner": "Add corner"
+    },
+    "itemsList": {
+      "heading": "Items",
+      "empty": "No items yet. Add one below or from the palette.",
+      "position": "at {x}, {y}",
+      "place": "{name}, {zone}",
+      "placeOfMany": "{name}, {zone} ({index} of {count})",
+      "zones": {
+        "north": "north edge",
+        "north-east": "north-east corner",
+        "east": "east edge",
+        "south-east": "south-east corner",
+        "south": "south edge",
+        "south-west": "south-west corner",
+        "west": "west edge",
+        "north-west": "north-west corner",
+        "centre": "centre"
+      },
+      "locked": "Locked",
+      "nudge": "Move {name} 0.5 m",
+      "north": "North",
+      "south": "South",
+      "east": "East",
+      "west": "West",
+      "delete": "Delete {name}",
+      "addHeading": "Add an item",
+      "addItem": "Item",
+      "addX": "East (m)",
+      "addY": "North (m)",
+      "addButton": "Add item",
+      "rotate": "Rotate 15 degrees, {name}",
+      "duplicate": "Duplicate {name}"
+    },
+    "shortcuts": {
+      "heading": "Keyboard shortcuts",
+      "close": "Close",
+      "keyColumn": "Press",
+      "actionColumn": "To",
+      "rows": {
+        "toolSelect": {
+          "keys": "V",
+          "action": "Select tool"
+        },
+        "toolPath": {
+          "keys": "P",
+          "action": "Path tool"
+        },
+        "toolArea": {
+          "keys": "G",
+          "action": "Area tool"
+        },
+        "itemsList": {
+          "keys": "L",
+          "action": "Show or hide the Items list"
+        },
+        "finish": {
+          "keys": "Enter",
+          "action": "Finish the path"
+        },
+        "backspace": {
+          "keys": "Backspace",
+          "action": "Remove the last path point"
+        },
+        "cancel": {
+          "keys": "Esc",
+          "action": "Stop placing or drawing"
+        },
+        "paintExit": {
+          "keys": "Right-click",
+          "action": "Stop paint mode"
+        },
+        "delete": {
+          "keys": "Delete",
+          "action": "Delete the selection"
+        },
+        "duplicate": {
+          "keys": "Ctrl+D",
+          "action": "Duplicate the selection"
+        },
+        "rotateIncrease": {
+          "keys": "R",
+          "action": "Rotate 15 degrees"
+        },
+        "rotateDecrease": {
+          "keys": "Shift+R",
+          "action": "Rotate back 15 degrees"
+        },
+        "undo": {
+          "keys": "Ctrl+Z",
+          "action": "Undo"
+        },
+        "redo": {
+          "keys": "Ctrl+Y",
+          "action": "Redo"
+        },
+        "toggleSnap": {
+          "keys": "N",
+          "action": "Turn snap to grid on or off"
+        },
+        "altSnap": {
+          "keys": "Alt",
+          "action": "Place freely while held"
+        },
+        "camera": {
+          "keys": "Arrow keys",
+          "action": "Move the camera"
+        },
+        "shortcuts": {
+          "keys": "?",
+          "action": "Show this list"
+        }
+      }
+    },
+    "hints": {
+      "camera": "Drag to turn, scroll to zoom",
+      "path": "Click points, then press Enter",
+      "dismiss": "Dismiss"
+    },
+    "smallScreen": {
+      "heading": "The editor needs a bigger screen",
+      "body": "Designing a park needs a screen at least 1024 px wide. You can vote on designs from any screen.",
+      "link": "Vote on designs"
+    },
+    "terraform": {
+      "heading": "Terraform",
+      "modeLabel": "Brush",
+      "modes": {
+        "raise": "Raise",
+        "lower": "Lower",
+        "smooth": "Smooth",
+        "flatten": "Flatten",
+        "level-item": "Level under item"
+      },
+      "radius": "Radius (m)",
+      "strength": "Strength",
+      "selectItemHint": "Select one item to level the ground under it.",
+      "readoutHeading": "Earthworks",
+      "cut": "Cut: {value}",
+      "fill": "Fill: {value}",
+      "net": "Net: {value}",
+      "trucks": "Haul: {value}",
+      "disturbed": "Disturbed: {value}",
+      "hatchKey": "Red hatching marks ground you cannot change."
+    },
+    "meters": {
+      "heading": "Design targets",
+      "showMe": "Show me",
+      "blockingHeading": "Fix these before you submit",
+      "blocksSubmission": "Blocks submitting",
+      "status": {
+        "ok": "Met",
+        "warn": "Off target",
+        "fail": "Not met"
+      },
+      "groups": {
+        "budget": "Budget and planting",
+        "access": "Access and slopes",
+        "features": "Features and counts",
+        "earthworks": "Earthworks"
+      },
+      "labels": {
+        "budget": "Budget",
+        "canopy": "Tree canopy at maturity",
+        "impervious": "Hard surfaces",
+        "requiredFeatures": "Required features",
+        "forbiddenZones": "Closed zones",
+        "slopes": "Path slopes",
+        "counts": "Item counts",
+        "terraform": "Grading limits",
+        "treeProtection": "Trees at risk",
+        "haul": "Soil haul",
+        "disturbed": "Disturbed ground",
+        "gardenPlots": "Garden plots"
+      },
+      "haulValue": "{trips} truck trips",
+      "disturbedValue": "{percent} of the park",
+      "gardenPlotsValue": "{plots} plots",
+      "ofTarget": "{value} of {target}"
+    }
+  },
+  "catalog": {
+    "bigleaf-maple": "Bigleaf maple",
+    "red-alder": "Red alder",
+    "douglas-fir": "Douglas fir",
+    "western-red-cedar": "Western red cedar",
+    "garry-oak": "Garry oak",
+    "flowering-cherry": "Flowering cherry",
+    "vine-maple": "Vine maple",
+    "salal": "Salal",
+    "red-flowering-currant": "Red flowering currant",
+    "path-asphalt": "Asphalt path",
+    "path-gravel": "Gravel path",
+    "path-boardwalk": "Boardwalk",
+    "pond": "Pond",
+    "rain-garden": "Rain garden",
+    "playground-structure": "Play structure",
+    "swings": "Swing set",
+    "spray-pad": "Spray pad",
+    "outdoor-fitness-station": "Fitness station",
+    "bench": "Bench",
+    "picnic-table": "Picnic table",
+    "basketball-half-court": "Basketball half court",
+    "ball-diamond-backstop": "Ball diamond backstop",
+    "tennis-court": "Tennis court",
+    "community-garden": "Community garden",
+    "off-leash-area": "Dog off-leash area",
+    "path-light": "Path light",
+    "washroom-building": "Washroom",
+    "drinking-fountain": "Drinking fountain",
+    "waste-bin": "Waste bin",
+    "bike-rack": "Bike rack",
+    "parking-lot-small": "Small parking lot",
+    "lawn": "Lawn",
+    "meadow": "Meadow",
+    "plaza": "Plaza",
+    "hedge": "Hedge",
+    "boulder-seat": "Boulder seat",
+    "log-seat": "Log seat",
+    "planter": "Planter",
+    "compost-bin": "Compost bin",
+    "wayfinding-sign": "Signpost",
+    "recycling-bin": "Recycling bin",
+    "gazebo": "Gazebo"
+  },
+  "gallery": {
+    "heading": "Designs",
+    "empty": "No designs yet.",
+    "emptyAction": "Design the park",
+    "closed": "This project is closed to new designs.",
+    "cardLabel": "Open {title}",
+    "thumbnailAlt": "Thumbnail of {title}",
+    "vote": "Vote on designs",
+    "facts": "Tree canopy {canopy}, cost {cost}"
+  },
+  "designPage": {
+    "byline": "By {author}. {up} up, {down} down.",
+    "votesOnly": "{up} up, {down} down.",
+    "legendHeading": "What is in this design",
+    "inspectHint": "Select an item.",
+    "costLine": "The design costs {cost}.",
+    "detailName": "Name",
+    "detailCost": "Cost",
+    "noPrice": "Cost depends on its size",
+    "itemGroup": "{name} x{count}",
+    "itemCount": "x{count}",
+    "costEach": "{cost} each",
+    "share": "Share",
+    "shareCopied": "Link copied.",
+    "shareText": "See this design for {name}",
+    "submitted": "Design submitted. It is in the voting queue now.",
+    "makeVersion": "Make a new version",
+    "edit": "Edit design",
+    "backToGallery": "All designs",
+    "viewerLabel": "3D view of the park design",
+    "loading": "Loading the 3D view",
+    "yourVoteHeading": "Your vote",
+    "yourVoteUp": "Vote up",
+    "yourVoteDown": "Vote down",
+    "yourVoteSaved": "Vote saved.",
+    "yourVoteError": "Your vote was not saved. Try again.",
+    "yourVoteUpCurrent": "You voted up.",
+    "yourVoteDownCurrent": "You voted down."
+  }
+}

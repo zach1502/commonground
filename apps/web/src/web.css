@@ -1,0 +1,189 @@
+/* Page layout for the web app. Components style themselves in packages/ui. */
+.web-main {
+  display: block;
+}
+
+.web-main:focus {
+  outline: none;
+}
+
+/* Holds the page; hidden while a slow load shows its skeleton in the same place. */
+.web-outlet {
+  display: contents;
+}
+
+.web-outlet[hidden] {
+  display: none;
+}
+
+/* Content starts on the same left edge as the BC header logo: the header's 1100 px column. */
+.web-page {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--page-column);
+  margin: 0 auto;
+  padding: var(--layout-padding-xlarge) var(--layout-padding-medium);
+}
+
+.web-landing {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-large);
+  padding-bottom: var(--layout-padding-large);
+}
+
+/* The render runs edge to edge under the title block; its sky matches the viewer's fill. */
+.web-landing__hero img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.web-landing__stats {
+  margin: 0;
+  max-inline-size: var(--measure-reading);
+  color: var(--typography-color-secondary);
+}
+
+.web-form {
+  max-width: 28rem;
+}
+
+.web-label {
+  font: var(--typography-bold-small-body);
+}
+
+/* Matches the BC radio group label on /login, so both log in pages read the same. */
+.web-field-label {
+  font: var(--typography-regular-small-body);
+}
+
+.web-strong {
+  font: var(--typography-bold-large-body);
+}
+
+.web-empty {
+  max-width: var(--measure-reading);
+  margin: 0;
+}
+
+.web-list {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--measure-reading);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.web-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-xsmall);
+  padding: var(--layout-padding-medium) 0;
+  border-bottom: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+/* A single row, or the last of several, needs no trailing rule; spacing closes the list. */
+.web-list:not(.web-list--staff) .web-list__item:last-child {
+  border-bottom: none;
+}
+
+/* Short groups of choices read as a group through spacing, with no rule between them. */
+.web-list--plain {
+  gap: var(--layout-margin-large);
+}
+
+.web-list--plain .web-list__item {
+  padding: 0;
+  border-bottom: none;
+}
+
+.web-list__link {
+  font: var(--typography-bold-large-body);
+  color: var(--typography-color-link);
+}
+
+.web-list__meta {
+  margin: 0;
+  font: var(--typography-regular-body);
+  color: var(--typography-color-secondary);
+}
+
+/* Staff rows: name, status, Insights and Close in shared columns grouped to the left, so the
+   row items sit in a tight set and line up rather than stretch across the whole page. */
+.web-list--staff {
+  display: grid;
+  grid-template-columns:
+    minmax(0, max-content) max-content
+    minmax(0, max-content) minmax(0, max-content);
+  justify-content: start;
+  column-gap: var(--layout-margin-large);
+  max-width: none;
+}
+
+.web-list__item--staff {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
+  column-gap: var(--layout-margin-large);
+  align-items: center;
+}
+
+/* Each cell may shrink below its content, and a long unbroken name wraps rather than push the
+   row past the viewport. Applies at every width and any project count. */
+.web-list__item--staff > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* No rule under the last row: the list ends on space, not a hairline. */
+.web-list--staff .web-list__item--staff:last-of-type {
+  border-block-end: 0;
+}
+
+.web-list__action {
+  white-space: nowrap;
+}
+
+/* In a staff row the action shares a shrinkable column, so its label wraps like the name. */
+.web-list__item--staff .web-list__action {
+  white-space: normal;
+}
+
+.web-list__error {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .web-list--staff,
+  .web-list__item--staff {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .web-list__item--staff {
+    align-items: flex-start;
+    gap: var(--layout-margin-small);
+  }
+}
+
+.web-heading-2 {
+  margin: var(--layout-margin-large) 0 var(--layout-margin-small);
+  font: var(--typography-bold-h3);
+  line-height: var(--line-height-heading);
+}
+
+/* The styleguide's sample vote card for the card advance: a small stage with one line on it. */
+.web-vote__stage.web-styleguide__stage {
+  display: grid;
+  place-items: center;
+  max-inline-size: 20rem;
+  aspect-ratio: 8 / 5;
+}
+
+.web-styleguide__card {
+  margin: 0;
+}

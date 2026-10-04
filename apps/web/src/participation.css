@@ -1,0 +1,288 @@
+/* Voting layout. Split from web.css to stay in budget. design.css has the design page. */
+
+/* The vote page fills the window under the header, so the vote buttons sit at the bottom of the
+   screen in the thumb zone and never need a scroll. The header height matches the editor's. */
+.web-vote {
+  --site-header-height: 4.0625rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  box-sizing: border-box;
+  inline-size: 100%;
+  max-inline-size: var(--page-column);
+  min-block-size: calc(100dvh - var(--site-header-height));
+  margin-inline: auto;
+  padding: var(--layout-padding-small) var(--layout-padding-medium);
+}
+
+/* The card sits at the bottom of the window, in the thumb zone. When the picture is shorter than
+   the room it has, the spare space opens above the card and never between the card's parts. */
+.web-vote__batch {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--layout-margin-small);
+}
+
+.web-vote__title {
+  margin: 0;
+  font: var(--typography-bold-small-body);
+}
+
+/* "1 of 5" and the design's name share one line, so the picture starts high on a phone. */
+.web-vote__bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--layout-margin-small);
+}
+
+/* The stage takes the picture's shape from its known size, so the park fills it and nothing moves
+   as the image loads. On a short window it narrows, so the card still fits with no scroll. The
+   chrome is the header, title, progress line, design name, View in 3D and vote buttons. */
+.web-vote__stage {
+  --vote-chrome: 23rem;
+
+  position: relative;
+  flex: none;
+  aspect-ratio: var(--vote-stage-ratio);
+  inline-size: min(100%, calc((100dvh - var(--vote-chrome)) * var(--vote-stage-ratio)));
+  overflow: hidden;
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-light-blue);
+  touch-action: none;
+}
+
+/* On a phone the card script sets the stage height, so the card fills the window: the window
+   less the header, title, view buttons, chips region and vote buttons (vote-card-layout.ts). */
+.web-vote__stage[data-fit='window'] {
+  inline-size: 100%;
+  block-size: var(--vote-stage-block);
+  aspect-ratio: auto;
+}
+
+.web-vote__poster {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+
+.web-vote__poster-note {
+  max-inline-size: var(--measure-reading);
+  margin: 0;
+  padding: var(--layout-padding-medium);
+}
+
+/* View in 3D, or Show picture, and Compare with today sit under the picture, so it never
+   clips them. */
+.web-vote__open-model {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+}
+
+/* The vote card's controls are 44 by 44 px at every width (DESIGN vote card targets), so View
+   in 3D, Compare with today, Walk the park and the View menu meet the target size on a 390 px
+   phone. The small class is named so this wins over the small button's own height in any
+   stylesheet order. */
+.web-vote__open-model .bcds-react-aria-Button,
+.web-vote__open-model .bcds-react-aria-Button.small {
+  min-block-size: var(--touch-target-min);
+  min-inline-size: var(--touch-target-min);
+}
+
+.web-vote__poster-wait {
+  position: absolute;
+  inset: 0;
+}
+
+/* The phone card fills the window exactly, so its buttons need no sticky backstop there. */
+
+/* Nothing covers the vote buttons at the window's bottom edge, so focus needs no room below
+   them and the page does not scroll when they take focus. */
+.web-vote__controls--sticky :where(button) {
+  scroll-margin-block: 0;
+}
+
+/* One line of progress and hint over the vote buttons. On a phone the reason chips open as a
+   sheet over the buttons (ui vote.css), so this block keeps its height after a vote. */
+.web-vote__controls {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+  background: var(--surface-color-background-white);
+}
+
+/* Under the reasons sheet the vote buttons keep their box but do not show, so Next is the one
+   filled button on the screen. */
+.web-vote__actions[aria-hidden='true'] {
+  visibility: hidden;
+}
+
+.web-vote__line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 var(--layout-margin-small);
+}
+
+/* On a narrow stage the scene's preset buttons would cover the park, so the View menu under
+   the stage presses them instead (view-presets-menu.tsx). The menu opens as one row under View,
+   over the line and the vote buttons, so it stays off the picture and inside the window. While
+   walking the stage says 'walk', so Back to overview and the turn buttons stay visible. */
+.web-vote__stage[data-presets='menu'] [role='group'] {
+  visibility: hidden;
+}
+
+.web-vote__view-menu {
+  position: relative;
+  margin-inline-start: auto;
+}
+
+.web-vote__views {
+  position: absolute;
+  inset-block-start: calc(100% + var(--layout-margin-xsmall));
+  inset-inline-end: 0;
+  z-index: 2;
+  display: flex;
+  padding: var(--layout-padding-xsmall);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-white);
+  box-shadow: var(--elevation-low);
+}
+
+.web-vote__views .bcds-react-aria-Button {
+  white-space: nowrap;
+}
+
+/* Show picture, Compare with today and View share one row at 360 px. Walk the park does not fit
+   beside them, so it takes its own line under the first two, as wide as that pair. */
+@media (max-width: 479px) {
+  .web-vote__open-model .bcds-react-aria-Button.small {
+    padding-inline: var(--layout-padding-small);
+  }
+
+  .web-vote__open-model[data-walk='offered'] {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+  }
+
+  .web-vote__open-model[data-walk='offered'] .web-vote__walk {
+    grid-column: 1 / span 2;
+  }
+
+  .web-vote__open-model[data-walk='offered'] .web-vote__walk .bcds-react-aria-Button {
+    inline-size: 100%;
+  }
+
+  .web-vote__open-model[data-walk='offered'] .web-vote__view-menu {
+    grid-row: 1;
+    grid-column: 3;
+    justify-self: end;
+  }
+}
+
+/* With room beside the stage the vote buttons go to the bottom of the window and the footer
+   follows. The reason chips show inline in place of the vote buttons. */
+@media (min-width: 768px) {
+  /* The vote buttons stick as a backstop, so on a short window they stay above the fold line.
+     The reason chips do not stick, so they never cover View in 3D. */
+  .web-vote__controls--sticky {
+    position: sticky;
+    inset-block-end: 0;
+    flex: 1 0 auto;
+  }
+
+  .web-vote__controls--sticky .web-vote__actions {
+    margin-block-start: auto;
+  }
+
+  .web-vote__actions[aria-hidden='true'] {
+    display: none;
+  }
+}
+
+.web-vote__hint {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+/* Swiping needs a touch screen, so a mouse or trackpad never sees the hint. */
+@media not (pointer: coarse) {
+  .web-vote__hint {
+    display: none;
+  }
+}
+
+.web-vote__end,
+.web-vote__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-medium);
+  padding-block: var(--layout-padding-medium);
+}
+
+.web-vote__voted,
+.web-vote__closes {
+  margin: 0;
+}
+
+/* Your votes in the batch, one ruled row per design. */
+.web-vote__results {
+  align-self: stretch;
+  max-inline-size: var(--measure-reading);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-block-start: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-vote__result {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: var(--layout-margin-small);
+  padding-block: var(--layout-padding-xsmall);
+  border-block-end: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-vote__result-thumb {
+  display: block;
+  inline-size: 5rem;
+  block-size: auto;
+  aspect-ratio: 8 / 5;
+  border-radius: var(--layout-border-radius-small);
+  background: var(--theme-gray-30);
+}
+
+.web-vote__result-vote {
+  color: var(--typography-color-secondary);
+}
+
+/* Change opens the vote editor under its row, across the full width. */
+.web-vote__result-editor,
+.web-vote__result-status {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.web-vote__end-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+}
+
+/* The outgoing card's still copy during a vote advance; it sits over the next design and leaves. */
+.web-vote__ghost {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: var(--surface-color-background-light-blue);
+}

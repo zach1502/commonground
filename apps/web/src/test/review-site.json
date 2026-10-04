@@ -1,0 +1,117 @@
+{
+  "project": {
+    "id": "jrp",
+    "name": "Jonathan Rogers Park",
+    "phase": "open",
+    "status": "open",
+    "closesAt": "2026-10-31",
+    "parcel": {
+      "id": "jrp-parcel",
+      "name": "Jonathan Rogers Park",
+      "origin": {
+        "lat": 49.26,
+        "lon": -123.1
+      },
+      "polygon": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 90,
+          "y": 0
+        },
+        {
+          "x": 90,
+          "y": 90
+        },
+        {
+          "x": 0,
+          "y": 90
+        }
+      ]
+    }
+  },
+  "design": {
+    "id": "d1",
+    "projectId": "jrp",
+    "title": "Shady corner",
+    "status": "submitted",
+    "versionOf": null,
+    "author": {
+      "id": "u-gail",
+      "displayName": "Gail Marigold"
+    },
+    "document": {
+      "version": 1,
+      "items": [
+        {
+          "id": "bench-1",
+          "catalogId": "bench",
+          "position": {
+            "x": 10,
+            "y": 10
+          },
+          "rotationDeg": 0,
+          "locked": false
+        },
+        {
+          "id": "maple-1",
+          "catalogId": "bigleaf-maple",
+          "position": {
+            "x": 45,
+            "y": 45
+          },
+          "rotationDeg": 0,
+          "locked": true
+        }
+      ],
+      "paths": [
+        {
+          "id": "path-1",
+          "surface": "gravel",
+          "widthM": 2,
+          "points": [
+            {
+              "x": 5,
+              "y": 80
+            },
+            {
+              "x": 85,
+              "y": 80
+            }
+          ]
+        }
+      ],
+      "areas": [
+        {
+          "id": "lawn-1",
+          "catalogId": "lawn",
+          "polygon": [
+            {
+              "x": 60,
+              "y": 10
+            },
+            {
+              "x": 80,
+              "y": 10
+            },
+            {
+              "x": 80,
+              "y": 30
+            },
+            {
+              "x": 60,
+              "y": 30
+            }
+          ],
+          "locked": false
+        }
+      ],
+      "gradeDelta": {
+        "cells": []
+      },
+      "zones": []
+    }
+  }
+}

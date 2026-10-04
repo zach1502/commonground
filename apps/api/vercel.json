@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "cd ../.. && pnpm install --frozen-lockfile",
+  "buildCommand": "cd ../.. && pnpm turbo run build --filter=@parkshape/api",
+  "regions": ["yul1"],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "{dist/**,../../packages/db/drizzle/**,../../packages/terrain/fixtures/**}"
+    }
+  },
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+}

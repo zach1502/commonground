@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The app has no favicon; an empty one stops the browser asking for /favicon.ico. -->
+    <link rel="icon" href="data:," />
+    <!-- The vote and project loaders call the API first; open that connection with the HTML. -->
+    <link rel="preconnect" href="%VITE_API_URL%" crossorigin="use-credentials" />
+    <!--
+      The vote page's modules, session, queue and first poster start with the HTML, not after
+      the entry chunk.
+      The landing and project pages link to it, so they fetch its modules once they have loaded.
+      The build writes the plan in place of the marker (src/build/vote-preload.ts).
+      Every other page preloads the two BC Sans subsets. The vote page does not: its largest
+      paint is the poster, and font preloads would hold two of the six connections its modules
+      need. Its text shows in the fallback face until the stylesheet's fonts arrive.
+    -->
+    <script>
+      (function (plan, api) {
+        var path = location.pathname;
+        var vote = /^\/projects\/([^/]+)\/vote\/?$/.exec(path);
+        if (!vote) {
+          ['bold', 'regular'].forEach(function (weight) {
+            var font = document.createElement('link');
+            font.setAttribute('rel', 'preload');
+            font.setAttribute('href', '/fonts/bc-sans-' + weight + '-latin.woff2');
+            font.setAttribute('as', 'font');
+            font.setAttribute('type', 'font/woff2');
+            font.setAttribute('crossorigin', 'anonymous');
+            document.head.appendChild(font);
+          });
+        }
+        if (plan === null) return;
+        function add(rel, href, as) {
+          var link = document.createElement('link');
+          link.setAttribute('rel', rel);
+          link.setAttribute('href', href);
+          if (as === 'fetch') link.setAttribute('crossorigin', 'use-credentials');
+          if (as === 'image') link.setAttribute('fetchpriority', 'high');
+          if (as) link.setAttribute('as', as);
+          document.head.appendChild(link);
+        }
+        function addChunks(rel) {
+          plan.chunks.forEach(function (chunk) {
+            add(rel, chunk);
+          });
+        }
+        if (vote) {
+          addChunks('modulepreload');
+          add('preload', api + '/me', 'fetch');
+          // src/routing/early-queue.ts takes this request, so the loader does not send another.
+          var queue = fetch(api + '/projects/' + vote[1] + '/queue?n=' + plan.queueSize, {
+            credentials: 'include',
+          })
+            .then(function (response) {
+              return response.ok ? response.json() : null;
+            })
+            .catch(function () {
+              return null;
+            });
+          window.parkshapeEarlyQueue = { projectId: vote[1], queue: queue };
+          queue.then(function (batch) {
+            if (batch && batch.poster) add('preload', batch.poster.url, 'image');
+          });
+        } else if (/^\/(projects\/[^/]+\/?)?$/.test(path)) {
+          addEventListener('load', function () {
+            addChunks('prefetch');
+          });
+        }
+      })(/* vote-preload */ null, '%VITE_API_URL%');
+    </script>
+    <title>Jonathan Rogers Park | CommonGround</title>
+    <meta
+      name="description"
+      content="Design a new Jonathan Rogers Park in Mount Pleasant, Vancouver, and vote on designs from your neighbours."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Jonathan Rogers Park | CommonGround" />
+    <meta property="og:image" content="/og/park.png" />
+    <meta
+      property="og:image:alt"
+      content="3D render of Jonathan Rogers Park with a loop path, garden beds, a pond and trees along the edges"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

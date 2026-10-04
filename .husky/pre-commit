@@ -1,0 +1,11 @@
+# Type-aware ESLint reads workspace types from each package's built declarations.
+pnpm turbo run build --output-logs=errors-only
+pnpm lint-staged
+
+# Run tests related to the change only when TypeScript files are staged.
+if git diff --cached --name-only --diff-filter=ACMR | grep -qE '\.(ts|tsx)$'; then
+  pnpm vitest --changed --run
+fi
+
+# Repo rules on the staged files; ends with the REMINDERS block.
+pnpm preflight --quick

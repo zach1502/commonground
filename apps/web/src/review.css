@@ -1,0 +1,235 @@
+/* Review mode: the 3D view first, then the composer and the Elements list. At 1024 px and up
+   the list and composer sit in a right sidebar beside the view. */
+.web-review {
+  display: grid;
+  gap: var(--layout-margin-medium);
+  box-sizing: border-box;
+  inline-size: 100%;
+  padding-block-end: var(--layout-padding-xlarge);
+}
+
+.web-review__head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small) var(--layout-margin-medium);
+  align-items: baseline;
+  justify-content: space-between;
+  padding-inline: var(--layout-padding-medium);
+}
+
+.web-review__title {
+  margin: 0;
+  font: var(--typography-bold-h2);
+  line-height: var(--line-height-heading);
+}
+
+.web-review__stage {
+  position: relative;
+  block-size: 55vh;
+  min-block-size: 16rem;
+  overflow: hidden;
+  background: var(--surface-color-background-light-blue);
+}
+
+.web-review__side {
+  display: grid;
+  gap: var(--layout-margin-medium);
+  align-content: start;
+  padding-inline: var(--layout-padding-medium);
+}
+
+.web-review__composer {
+  display: grid;
+  gap: var(--layout-margin-small);
+  padding: var(--layout-padding-medium);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-white);
+}
+
+.web-review__heading {
+  margin: 0;
+  font: var(--typography-bold-h4);
+}
+
+.web-review__form {
+  display: grid;
+  gap: var(--layout-margin-small);
+}
+
+.web-review__kinds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.web-review__legend {
+  margin-block-end: var(--layout-margin-xsmall);
+  padding: 0;
+  font: var(--typography-bold-small-body);
+}
+
+.web-review__kinds .ps-chip:focus-within {
+  outline: var(--layout-border-width-medium) solid var(--surface-color-border-active);
+  outline-offset: var(--layout-border-width-small);
+}
+
+.web-review__kind-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.web-review__note {
+  box-sizing: border-box;
+  inline-size: 100%;
+  padding: var(--layout-padding-small);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+  border-radius: var(--layout-border-radius-medium);
+  font: var(--typography-regular-body);
+  resize: vertical;
+}
+
+.web-review__count,
+.web-review__privacy,
+.web-review__status {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.web-review__alert {
+  margin: 0;
+  font: var(--typography-bold-small-body);
+  color: var(--typography-color-danger);
+}
+
+.web-review__comments,
+.web-review__rows {
+  display: grid;
+  gap: var(--layout-margin-xsmall);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.web-review__comment {
+  display: grid;
+  gap: var(--layout-margin-xsmall);
+  padding-block: var(--layout-padding-small);
+  border-block-start: var(--layout-border-width-small) solid var(--surface-color-border-light);
+}
+
+.web-review__comment > :last-child {
+  justify-self: start;
+}
+
+.web-review__comment-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+  align-items: center;
+  margin: 0;
+  font: var(--typography-regular-small-body);
+}
+
+.web-review__author,
+.web-review__kind {
+  font: var(--typography-bold-small-body);
+}
+
+.web-review__comment-text,
+.web-review__reply p {
+  margin: 0;
+}
+
+.web-review__reply {
+  padding-inline-start: var(--layout-padding-small);
+  border-inline-start: var(--layout-border-width-medium) solid var(--surface-color-border-dark);
+}
+
+.web-review__reply-label {
+  font: var(--typography-bold-small-body);
+}
+
+.web-review__list-heading {
+  margin: 0;
+  font: var(--typography-bold-h4);
+}
+
+/* The category chips sit under the heading and wrap; the rows below keep their order. */
+.web-review__filter {
+  margin-block: var(--layout-margin-small);
+}
+
+.web-review__group-heading {
+  margin-block: var(--layout-margin-small) var(--layout-margin-xsmall);
+  font: var(--typography-bold-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.web-review__row {
+  display: flex;
+  box-sizing: border-box;
+  inline-size: 100%;
+  min-block-size: var(--touch-target-min);
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--layout-margin-small);
+  padding: var(--layout-padding-small) var(--layout-padding-medium);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-light);
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-white);
+  font: var(--typography-regular-body);
+  color: var(--typography-color-primary);
+  text-align: start;
+  cursor: pointer;
+}
+
+.web-review__row[aria-pressed='true'] {
+  border: var(--layout-border-width-medium) solid var(--surface-color-border-dark);
+  background: var(--surface-color-background-light-blue);
+}
+
+.web-review__row:focus-visible {
+  outline: var(--layout-border-width-medium) solid var(--surface-color-border-active);
+  outline-offset: var(--layout-border-width-small);
+}
+
+.web-review__row-count {
+  font: var(--typography-bold-body);
+}
+
+.web-review__empty {
+  margin: 0;
+}
+
+@media (width >= 64rem) {
+  .web-review {
+    grid-template-columns: minmax(0, 1fr) 24rem;
+    grid-template-rows: auto 1fr;
+  }
+
+  .web-review__head {
+    grid-column: 1 / -1;
+  }
+
+  .web-review__stage {
+    block-size: calc(100vh - 12rem);
+  }
+
+  .web-review__side {
+    max-block-size: calc(100vh - 12rem);
+    padding-inline: 0 var(--layout-padding-medium);
+    overflow-y: auto;
+  }
+}
+
+/* While a walk is on, a short phone stage grows so the walk pad and the map leave room to see. */
+.web-design__stage:has([data-walk-pad]),
+.web-review__stage:has([data-walk-pad]) {
+  block-size: 70vh;
+}

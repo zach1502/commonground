@@ -1,0 +1,45 @@
+/* The BC Design System tokens and BC Sans, then the CommonGround domain palette and aliases. */
+@import '@bcgov/design-tokens/css/variables.css';
+@import '@bcgov/bc-sans/css/BC_Sans.css';
+
+:root {
+  /* Domain palette: scene and maps only. Values match packages/scene/src/palette. */
+  --domain-terrain-grass: #6b8f4e;
+  --domain-terrain-meadow: #8fa86a;
+  --domain-soil: #8a6a4a;
+  --domain-soil-dark: #5e4632;
+  --domain-water: #3f7fa6;
+
+  /* Status aliases over the BC support tokens. */
+  --status-ok: var(--support-border-color-success);
+  --status-ok-surface: var(--support-surface-color-success);
+  --status-warn: var(--support-border-color-warning);
+  --status-warn-surface: var(--support-surface-color-warning);
+  --status-fail: var(--support-border-color-danger);
+  --status-fail-surface: var(--support-surface-color-danger);
+  --status-info: var(--support-border-color-info);
+  --status-info-surface: var(--support-surface-color-info);
+
+  /* The one shadow, for floating toolbars and menus. */
+  --elevation-low: var(--surface-shadow-small);
+
+  /* Visible focus ring shared by every focusable element. */
+  --focus-ring-width: var(--layout-border-width-medium);
+  --focus-ring-color: var(--surface-color-border-active);
+
+  /* Reading measure for body text. */
+  --measure-reading: 72ch;
+
+  /* Minimum touch target for phone-path controls (WCAG 2.5.5, 44 by 44 px). */
+  --touch-target-min: 44px;
+
+  /* Unitless line heights: 1.4 to 1.5 for body text, 1.1 to 1.25 for headings of 24 px and up. */
+  --line-height-body: 1.5;
+  --line-height-heading: 1.2;
+
+  /* The one content column: the BC header's 1100 px plus its side padding. */
+  --page-column: calc(1100px + 2 * var(--layout-padding-medium));
+
+  /* Room kept clear above and below a focused control, so sticky parts never cover it. */
+  --focus-scroll-margin: var(--layout-margin-huge);
+}

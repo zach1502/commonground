@@ -1,0 +1,99 @@
+/* The only animation CSS in the app. 150 ms for small changes, 250 ms for panels. */
+:root {
+  --motion-duration-small: 150ms;
+  --motion-duration-medium: 250ms;
+  --motion-easing-entry: cubic-bezier(0.05, 0.7, 0.1, 1);
+  --motion-easing-exit: cubic-bezier(0.3, 0, 1, 1);
+  --motion-easing-move: cubic-bezier(0.2, 0, 0, 1);
+  --motion-easing: var(--motion-easing-entry);
+  --motion-offset-dialog: 8px;
+}
+
+.ps-motion-fill {
+  transition: width var(--motion-duration-medium) var(--motion-easing);
+}
+
+/* A meter's fill takes its status colour over 150 ms while its width moves over 250 ms. */
+.ps-motion-status {
+  transition:
+    width var(--motion-duration-medium) var(--motion-easing),
+    background-color var(--motion-duration-small) var(--motion-easing);
+}
+
+/* A control that turns on or off, such as a reason chip, changes its edge over 150 ms. */
+.ps-motion-state {
+  transition: border-color var(--motion-duration-small) var(--motion-easing);
+}
+
+.ps-motion-reveal {
+  animation: ps-reveal var(--motion-duration-small) var(--motion-easing);
+}
+
+/* A layer that arrives rises 8 px as it fades in; one that leaves fades out and holds there. */
+.ps-motion-enter {
+  animation: ps-enter var(--motion-duration-medium) var(--motion-easing-entry);
+}
+
+.ps-motion-exit {
+  animation: ps-exit var(--motion-duration-small) var(--motion-easing-exit) forwards;
+}
+
+/* The one loop: an indeterminate bar for a wait over 1 s. */
+.ps-motion-progress {
+  animation: ps-progress 1000ms linear infinite;
+}
+
+@keyframes ps-reveal {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ps-enter {
+  from {
+    opacity: 0;
+    transform: translateY(var(--motion-offset-dialog));
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes ps-exit {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes ps-progress {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(300%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ps-motion-fill,
+  .ps-motion-status,
+  .ps-motion-state,
+  .ps-motion-reveal,
+  .ps-motion-enter,
+  .ps-motion-exit,
+  .ps-motion-progress {
+    transition: none;
+    animation: none;
+  }
+}

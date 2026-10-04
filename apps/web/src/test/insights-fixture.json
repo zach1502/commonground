@@ -1,0 +1,418 @@
+{
+  "headline": {
+    "designsSubmitted": 3,
+    "uniqueVoters": 6,
+    "votesCast": 7
+  },
+  "features": [
+    {
+      "category": "tree",
+      "designsWithPercent": 66.7,
+      "averageCount": 1.3
+    },
+    {
+      "category": "shrub",
+      "designsWithPercent": 0,
+      "averageCount": 0
+    },
+    {
+      "category": "path",
+      "designsWithPercent": 33.3,
+      "averageCount": 0.3
+    },
+    {
+      "category": "water",
+      "designsWithPercent": 33.3,
+      "averageCount": 0.3
+    },
+    {
+      "category": "play",
+      "designsWithPercent": 0,
+      "averageCount": 0
+    },
+    {
+      "category": "seating",
+      "designsWithPercent": 0,
+      "averageCount": 0
+    },
+    {
+      "category": "garden",
+      "designsWithPercent": 33.3,
+      "averageCount": 0.3
+    },
+    {
+      "category": "dog",
+      "designsWithPercent": 0,
+      "averageCount": 0
+    }
+  ],
+  "heatmaps": [
+    {
+      "category": "path",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [1, 0, 0, 0, 0, 0.333, 0, 0, 0, 0, 0, 0]
+    },
+    {
+      "category": "tree",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0, 1, 0, 0, 0, 0, 0.333, 0, 0, 0, 0, 0]
+    },
+    {
+      "category": "seating",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0, 0, 1, 0, 0, 0, 0, 0.333, 0, 0, 0, 0]
+    },
+    {
+      "category": "play",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0, 0, 0, 1, 0, 0, 0, 0, 0.333, 0, 0, 0]
+    },
+    {
+      "category": "garden",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0.333, 0, 0]
+    },
+    {
+      "category": "dog",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.333, 0]
+    },
+    {
+      "category": "regrade",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0.333]
+    },
+    {
+      "category": "desireLines",
+      "width": 4,
+      "height": 3,
+      "cellM": 30,
+      "originLocal": {
+        "x": 0,
+        "y": 0
+      },
+      "values": [0.333, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+    }
+  ],
+  "baselineDiff": [
+    {
+      "featureId": "oak-1",
+      "kind": "item",
+      "label": "Garry oak",
+      "movedPercent": 33.3,
+      "removedPercent": 0,
+      "resizedPercent": 0,
+      "where": "north"
+    },
+    {
+      "featureId": "oak-2",
+      "kind": "item",
+      "label": "Garry oak",
+      "where": "north",
+      "movedPercent": 0,
+      "removedPercent": 0,
+      "resizedPercent": 0
+    },
+    {
+      "featureId": "garden-1",
+      "kind": "area",
+      "label": "Community garden",
+      "movedPercent": 0,
+      "removedPercent": 33.3,
+      "resizedPercent": 66.7,
+      "where": "south-east"
+    }
+  ],
+  "compliance": [
+    {
+      "key": "budget",
+      "ok": 1,
+      "warn": 1,
+      "fail": 1
+    },
+    {
+      "key": "canopy",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "impervious",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "requiredFeatures",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "forbiddenZones",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "slopes",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "counts",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "terraform",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    },
+    {
+      "key": "treeProtection",
+      "ok": 3,
+      "warn": 0,
+      "fail": 0
+    }
+  ],
+  "earthworks": {
+    "binM3": 50,
+    "bins": [
+      {
+        "fromM3": -50,
+        "toM3": 0,
+        "count": 1
+      },
+      {
+        "fromM3": 0,
+        "toM3": 50,
+        "count": 1
+      },
+      {
+        "fromM3": 50,
+        "toM3": 100,
+        "count": 0
+      },
+      {
+        "fromM3": 100,
+        "toM3": 150,
+        "count": 1
+      }
+    ]
+  },
+  "reasons": {
+    "overall": [
+      {
+        "reason": "play",
+        "count": 0
+      },
+      {
+        "reason": "trees",
+        "count": 6
+      },
+      {
+        "reason": "paths",
+        "count": 6
+      },
+      {
+        "reason": "too-expensive",
+        "count": 1
+      }
+    ],
+    "up": [
+      {
+        "reason": "play",
+        "count": 0
+      },
+      {
+        "reason": "trees",
+        "count": 6
+      },
+      {
+        "reason": "paths",
+        "count": 6
+      },
+      {
+        "reason": "too-expensive",
+        "count": 0
+      }
+    ],
+    "down": [
+      {
+        "reason": "play",
+        "count": 0
+      },
+      {
+        "reason": "trees",
+        "count": 0
+      },
+      {
+        "reason": "paths",
+        "count": 0
+      },
+      {
+        "reason": "too-expensive",
+        "count": 1
+      }
+    ],
+    "byDesign": [
+      {
+        "designId": "d1",
+        "title": "Shady loop",
+        "votes": 6,
+        "counts": [
+          {
+            "reason": "trees",
+            "count": 6
+          },
+          {
+            "reason": "paths",
+            "count": 5
+          }
+        ]
+      },
+      {
+        "designId": "d2",
+        "title": "Open lawn",
+        "votes": 1,
+        "counts": [
+          {
+            "reason": "too-expensive",
+            "count": 1
+          }
+        ]
+      },
+      {
+        "designId": "d3",
+        "title": "Garden corner",
+        "votes": 0,
+        "counts": []
+      }
+    ]
+  },
+  "comments": {
+    "total": 2,
+    "byDesign": [
+      {
+        "designId": "d1",
+        "title": "Shady loop",
+        "comments": [
+          {
+            "voteId": "v2",
+            "displayName": "Molly Swingset",
+            "text": "Keep the garden plots by the lane.",
+            "updatedAt": "2026-09-25T12:05:00.000Z"
+          },
+          {
+            "voteId": "v1",
+            "displayName": "Kevin Kickabout",
+            "text": "Room for a pickup game.",
+            "updatedAt": "2026-09-25T12:00:00.000Z"
+          }
+        ]
+      }
+    ]
+  },
+  "engagement": {
+    "byFsa": [
+      {
+        "group": "V5T",
+        "count": 9,
+        "suppressed": false
+      },
+      {
+        "group": "V6A",
+        "count": null,
+        "suppressed": true
+      },
+      {
+        "group": null,
+        "count": null,
+        "suppressed": true
+      }
+    ],
+    "byAgeBand": [
+      {
+        "group": "under-18",
+        "count": null,
+        "suppressed": true
+      },
+      {
+        "group": "18-29",
+        "count": null,
+        "suppressed": true
+      },
+      {
+        "group": "30-44",
+        "count": 8,
+        "suppressed": false
+      },
+      {
+        "group": "45-64",
+        "count": null,
+        "suppressed": true
+      },
+      {
+        "group": "65-plus",
+        "count": null,
+        "suppressed": true
+      },
+      {
+        "group": "prefer-not",
+        "count": null,
+        "suppressed": true
+      },
+      {
+        "group": null,
+        "count": null,
+        "suppressed": true
+      }
+    ]
+  }
+}

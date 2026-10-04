@@ -1,0 +1,80 @@
+{
+  "review": {
+    "action": "Review this design",
+    "seeComments": "See comments",
+    "back": "Back to the design",
+    "meta": {
+      "title": "Comments on {title} | CommonGround",
+      "description": "Comments on each item of a resident design for {name}."
+    },
+    "composer": {
+      "legend": "Your comment",
+      "text": "Add a note (optional)",
+      "count": "{count} of {max} characters",
+      "privacy": "Comments show on this design with your name.",
+      "add": "Add comment",
+      "save": "Save comment",
+      "cancel": "Cancel",
+      "kindMissing": "No kind is picked. Pick one to add your comment.",
+      "signIn": "Sign in to comment"
+    },
+    "kind": {
+      "keep": "Keep",
+      "move": "Move",
+      "change": "Change",
+      "remove": "Remove",
+      "question": "Question"
+    },
+    "list": {
+      "heading": "Elements",
+      "filter": "Show",
+      "all": "All",
+      "item": "Items",
+      "path": "Paths",
+      "area": "Areas",
+      "row": {
+        "one": "{label}, {count} comment",
+        "other": "{label}, {count} comments"
+      }
+    },
+    "chip": {
+      "one": "{count} comment on {name}",
+      "other": "{count} comments on {name}"
+    },
+    "comments": {
+      "edit": "Edit",
+      "resolved": "Resolved",
+      "reply": "Planner reply"
+    },
+    "lastVersion": "On the last version",
+    "empty": "No comments yet. Tap an item or pick one from the list.",
+    "added": "Comment added on {label}",
+    "saved": "Comment saved on {label}",
+    "closedNote": "Commenting closed on {date}.",
+    "closedNoDate": "Commenting is closed.",
+    "failure": {
+      "load": "Comments did not load. Try again.",
+      "tooLong": "Comment is over {max} characters. Shorten it to send.",
+      "plainText": "Comments take plain text only. Remove the tags to send.",
+      "closed": "Commenting closed on {date}. Your comment was not sent.",
+      "closedNoDate": "Commenting is closed. Your comment was not sent.",
+      "tooMany": "You sent too many comments just now. Try again in {seconds} seconds."
+    }
+  },
+  "walk": {
+    "start": "Walk the park",
+    "exit": "Back to overview",
+    "exitEditor": "Back to editing",
+    "next": "Next entrance",
+    "mouseLook": "Mouse look",
+    "turnLeft": "Turn left",
+    "turnRight": "Turn right",
+    "run": "Run",
+    "surface": "Walk view",
+    "keys": "Arrow keys or W, A, S and D walk. Shift or Run turns running on and off. Drag to look around.",
+    "touchKeys": "Drag the round pad to walk. Tap Run to go faster. Drag the view to look around.",
+    "joystick": "Walk pad",
+    "startAt": "Entrance {index} of {count}",
+    "near": "Near {label}, {n} m ahead"
+  }
+}

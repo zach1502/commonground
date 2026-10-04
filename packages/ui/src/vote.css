@@ -1,0 +1,112 @@
+/* The vote buttons and the reason chips that follow a vote. */
+.ps-vote-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--layout-margin-small);
+}
+
+/* Three equal buttons with the label on one line at 360 px. */
+.ps-vote-buttons .bcds-react-aria-Button.medium {
+  min-height: var(--touch-target-min);
+  width: 100%;
+  padding-inline: var(--layout-padding-small);
+  white-space: nowrap;
+}
+
+/* With a mouse and room to spare, equal thirds stretch short labels, so each button takes its
+   label's width and the row starts on the text edge, in the same DOM order. */
+@media (min-width: 1024px) {
+  .ps-vote-buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .ps-vote-buttons .bcds-react-aria-Button.medium {
+    width: auto;
+    padding-inline: var(--layout-padding-medium);
+  }
+}
+
+.ps-reason-chips {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+}
+
+/* On a phone the chips open as a bottom sheet over the vote buttons, which are not needed
+   while it is open, so the page under it keeps its layout. Wider windows show them inline. */
+@media (max-width: 767px) {
+  .ps-reason-chips--sheet {
+    position: fixed;
+    inset-block-end: 0;
+    inset-inline: 0;
+    z-index: 2;
+    box-sizing: border-box;
+    padding: var(--layout-padding-medium);
+    border-block-start: var(--layout-border-width-small) solid var(--surface-color-border-default);
+    border-start-start-radius: var(--layout-border-radius-medium);
+    border-start-end-radius: var(--layout-border-radius-medium);
+    background: var(--surface-color-background-white);
+    box-shadow: var(--elevation-low);
+  }
+}
+
+.ps-reason-chips__choices {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+}
+
+.ps-reason-chips__heading {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+/* Skip reasons and Next split the row like the vote buttons, so Next sits under the thumb where
+   Vote up was. */
+.ps-reason-chips__actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--layout-margin-small);
+}
+
+.ps-reason-chips__actions .bcds-react-aria-Button.medium {
+  min-height: var(--touch-target-min);
+  width: 100%;
+}
+
+.ps-reason-chips__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-small);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ps-chip {
+  display: inline-flex;
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--layout-margin-xsmall);
+  min-height: var(--touch-target-min);
+  padding: var(--layout-padding-small) var(--layout-padding-medium);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-medium);
+  border-radius: var(--layout-border-radius-medium);
+  font: var(--typography-regular-body);
+  color: var(--typography-color-primary);
+  background: var(--surface-color-background-white);
+  cursor: pointer;
+}
+
+/* The chosen edge is 2 px, so the padding gives back 1 px a side and the chip keeps its height. */
+.ps-chip--on {
+  padding: calc(var(--layout-padding-small) - var(--layout-border-width-small))
+    calc(var(--layout-padding-medium) - var(--layout-border-width-small));
+  border: var(--layout-border-width-medium) solid var(--surface-color-border-dark);
+}
+
+.ps-chip__check {
+  flex: none;
+}

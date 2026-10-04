@@ -1,0 +1,159 @@
+/* B.C. Design System Button and InlineAlert styles, copied from
+   @bcgov/design-system-react-components 0.8.1 for native elements: react-aria's data-hovered,
+   data-pressed and data-disabled become :hover, :active and :disabled. The hover and pressed colours
+   live in motion/press.css, so every press state sits in the motion home. */
+
+.bcds-react-aria-Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--layout-padding-small);
+  min-height: 24px;
+  min-width: 24px;
+  border: none;
+  border-radius: var(--layout-border-radius-medium);
+  cursor: pointer;
+  font: var(--typography-regular-body);
+}
+
+.bcds-react-aria-Button:disabled {
+  cursor: not-allowed;
+}
+
+.bcds-react-aria-Button:focus-visible {
+  outline: solid var(--layout-border-width-medium) var(--surface-color-border-active);
+  outline-offset: var(--layout-margin-hair);
+  box-shadow: 0 0 0 var(--layout-border-width-medium) var(--surface-color-background-white);
+}
+
+.bcds-react-aria-Button.small {
+  min-height: 32px;
+  padding: var(--layout-padding-none) 0.75rem;
+  font: var(--typography-regular-small-body);
+}
+
+.bcds-react-aria-Button.medium {
+  min-height: 40px;
+  padding: var(--layout-padding-none) var(--layout-padding-medium);
+}
+
+/* The touch variant meets the 44 by 44 px target the vote card and other phone-path controls need. */
+.bcds-react-aria-Button.large {
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  padding: var(--layout-padding-none) var(--layout-padding-medium);
+}
+
+.bcds-react-aria-Button.primary {
+  background: var(--surface-color-primary-button-default);
+  color: var(--typography-color-primary-invert);
+}
+
+.bcds-react-aria-Button.primary.danger {
+  background-color: var(--surface-color-primary-danger-button-default);
+}
+
+.bcds-react-aria-Button.primary:disabled {
+  background-color: var(--surface-color-primary-danger-button-disabled);
+  color: var(--typography-color-disabled);
+}
+
+.bcds-react-aria-Button.secondary {
+  background-color: var(--surface-color-secondary-button-default);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+  color: var(--typography-color-primary);
+}
+
+.bcds-react-aria-Button.secondary:disabled {
+  background-color: var(--surface-color-secondary-button-disabled);
+  border-color: var(--surface-color-border-default);
+  color: var(--typography-color-disabled);
+}
+
+.bcds-react-aria-Button.tertiary {
+  background-color: var(--surface-color-tertiary-button-default);
+  color: var(--typography-color-primary);
+}
+
+.bcds-react-aria-Button.tertiary:disabled {
+  background-color: var(--surface-color-tertiary-button-default);
+  color: var(--typography-color-disabled);
+}
+
+/* An alert is prose, so it stops at the reading measure even in a wide column. */
+.bcds-Inline-Alert {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--layout-margin-small);
+  max-inline-size: var(--measure-reading);
+  padding: var(--layout-padding-medium) var(--layout-padding-large);
+}
+
+.bcds-Inline-Alert--container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bcds-Inline-Alert--container > .title {
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+}
+
+.bcds-Inline-Alert--container > .description {
+  font: var(--typography-regular-body);
+  color: var(--typography-color-primary);
+}
+
+.bcds-Inline-Alert--icon {
+  display: inline-flex;
+  align-self: flex-start;
+  padding-top: var(--layout-padding-xsmall);
+}
+
+.bcds-Inline-Alert--icon > svg {
+  min-width: var(--icons-size-medium);
+  height: var(--icons-size-medium);
+}
+
+.bcds-Inline-Alert.info {
+  background-color: var(--support-surface-color-info);
+  border: var(--layout-border-width-small) solid var(--support-border-color-info);
+  border-radius: var(--layout-border-radius-medium);
+}
+
+.bcds-Inline-Alert.info > .bcds-Inline-Alert--icon {
+  color: var(--icons-color-info);
+}
+
+.bcds-Inline-Alert.success {
+  background-color: var(--support-surface-color-success);
+  border: var(--layout-border-width-small) solid var(--support-border-color-success);
+  border-radius: var(--layout-border-radius-medium);
+}
+
+.bcds-Inline-Alert.success > .bcds-Inline-Alert--icon {
+  color: var(--icons-color-success);
+}
+
+.bcds-Inline-Alert.warning {
+  background-color: var(--support-surface-color-warning);
+  border: var(--layout-border-width-small) solid var(--support-border-color-warning);
+  border-radius: var(--layout-border-radius-medium);
+}
+
+.bcds-Inline-Alert.warning > .bcds-Inline-Alert--icon {
+  color: var(--icons-color-warning);
+}
+
+.bcds-Inline-Alert.danger {
+  background-color: var(--support-surface-color-danger);
+  border: var(--layout-border-width-small) solid var(--support-border-color-danger);
+  border-radius: var(--layout-border-radius-medium);
+}
+
+.bcds-Inline-Alert.danger > .bcds-Inline-Alert--icon {
+  color: var(--icons-color-danger);
+}

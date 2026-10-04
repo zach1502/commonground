@@ -1,0 +1,82 @@
+/* The staff brief and the project page, plus the landing figure that has no other home. */
+
+.web-project__brief {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  max-inline-size: var(--measure-reading);
+}
+
+.web-project__brief p {
+  margin: 0;
+}
+
+.web-project__brief-heading {
+  margin: 0;
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+}
+
+/* The editor's right column gives no padding, so the brief takes the panel padding itself. */
+.web-brief {
+  margin-block-end: var(--layout-margin-medium);
+  padding: 0 var(--layout-padding-medium) var(--layout-padding-small);
+  border-block-end: var(--layout-border-width-small) solid var(--surface-color-border-default);
+}
+
+.web-brief__summary {
+  min-block-size: 44px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font: var(--typography-bold-body);
+  color: var(--typography-color-primary);
+}
+
+.web-brief__summary:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-width);
+}
+
+.web-brief__text {
+  margin: 0;
+  font: var(--typography-regular-body);
+  color: var(--typography-color-secondary);
+}
+
+/* The park facts and the design count sit under the project page buttons. */
+.web-project__facts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-xsmall);
+  max-inline-size: var(--measure-reading);
+}
+
+.web-project__facts p {
+  margin: 0;
+}
+
+.web-project__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--layout-margin-medium);
+}
+
+/* The park as it is today, at reading width, above the two buttons. */
+.web-project__today {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: var(--measure-reading);
+  block-size: auto;
+  border-radius: var(--layout-border-radius-medium);
+  background: var(--surface-color-background-light-blue);
+}
+
+/* The landing picture and its caption; the figure keeps the picture edge to edge. */
+.web-landing__figure {
+  margin: 0;
+}
+
+.web-landing__figure figcaption {
+  padding-block: var(--layout-padding-small) var(--layout-padding-large);
+}

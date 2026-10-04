@@ -1,0 +1,14 @@
+{
+  "total_count": 1,
+  "results": [
+    {
+      "mapid": "FA052",
+      "name": "Elisabeth Rogers Community Garden",
+      "number_of_plots": 56,
+      "geo_point_2d": {
+        "lon": -123.10722312,
+        "lat": 49.26450808
+      }
+    }
+  ]
+}

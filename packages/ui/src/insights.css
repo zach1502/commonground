@@ -1,0 +1,110 @@
+/* Charts and controls for the planner insights page. */
+.ps-chart {
+  margin: 0;
+  max-inline-size: 48rem;
+}
+
+.ps-chart__drawing {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+/* The 1 px edge shows the full length even when a bar is only a few percent long. The drawing
+   scales with its box, so the edge keeps 1 px at any width. */
+.ps-chart__track {
+  fill: var(--surface-color-background-light-gray);
+  stroke: var(--surface-color-border-default);
+  stroke-width: var(--layout-border-width-small);
+  vector-effect: non-scaling-stroke;
+}
+
+/* Bars are grey data, so blue stays for actions and links. */
+.ps-chart__bar {
+  fill: var(--surface-color-border-dark);
+}
+
+.ps-chart__label,
+.ps-chart__value {
+  font-family: var(--typography-font-families-bc-sans);
+  font-size: var(--typography-font-size-small-body);
+  fill: var(--typography-color-primary);
+  dominant-baseline: middle;
+}
+
+.ps-chart__axis {
+  stroke: var(--surface-color-border-medium);
+  stroke-width: 1;
+}
+
+.ps-chart__axis-label {
+  margin: var(--layout-margin-xsmall) 0 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-chart__caption {
+  margin-block-start: var(--layout-margin-small);
+  max-inline-size: var(--measure-reading);
+  font: var(--typography-regular-body);
+  color: var(--typography-color-secondary);
+}
+
+.ps-segmented {
+  display: inline-flex;
+  flex-wrap: wrap;
+  /* Each option draws its own box and overlaps its neighbours by one border, so a row that
+     wraps keeps a line on every side. */
+  padding-block-start: var(--layout-border-width-small);
+  padding-inline-start: var(--layout-border-width-small);
+}
+
+.ps-segmented__option {
+  min-block-size: 44px;
+  margin-block-start: calc(-1 * var(--layout-border-width-small));
+  margin-inline-start: calc(-1 * var(--layout-border-width-small));
+  padding: var(--layout-padding-xsmall) var(--layout-padding-medium);
+  border: var(--layout-border-width-small) solid var(--surface-color-border-dark);
+  font: var(--typography-regular-body);
+  color: var(--typography-color-primary);
+  background: var(--surface-color-background-white);
+  cursor: pointer;
+}
+
+.ps-segmented__option:first-child {
+  border-start-start-radius: var(--layout-border-radius-medium);
+  border-end-start-radius: var(--layout-border-radius-medium);
+}
+
+.ps-segmented__option:last-child {
+  border-start-end-radius: var(--layout-border-radius-medium);
+  border-end-end-radius: var(--layout-border-radius-medium);
+}
+
+.ps-segmented__option--on {
+  color: var(--typography-color-primary-invert);
+  background: var(--surface-color-primary-default);
+}
+
+.ps-segmented__option:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: calc(-1 * var(--focus-ring-width));
+}
+
+.ps-opacity-slider__label {
+  display: block;
+  margin-block-end: var(--layout-margin-xsmall);
+  font: var(--typography-regular-label);
+  color: var(--typography-color-primary);
+}
+
+.ps-opacity-slider__row {
+  display: flex;
+  align-items: center;
+  gap: var(--layout-margin-small);
+}
+
+.ps-opacity-slider__row input {
+  inline-size: 12rem;
+  accent-color: var(--surface-color-primary-default);
+}

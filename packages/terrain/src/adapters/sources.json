@@ -1,0 +1,32 @@
+[
+  {
+    "source": "NRCan HRDEM",
+    "dataset": "hrdem-mosaic-1m (DTM asset only)",
+    "licence": "Open Government Licence - Canada",
+    "url": "https://open.canada.ca/data/en/dataset/0fe65119-e96e-4a57-8bfe-9d9245fba06b"
+  },
+  {
+    "source": "NRCan MRDEM",
+    "dataset": "mrdem-30 (DTM asset only)",
+    "licence": "Open Government Licence - Canada",
+    "url": "https://open.canada.ca/data/en/dataset/18752265-bda3-498c-a4ba-9dfe68cb98da"
+  },
+  {
+    "source": "Vancouver Open Data",
+    "dataset": "parks-polygon-representation, public-trees, community-gardens-and-food-trees, parks-special-features, public-streets, sidewalk-condition-rating, bikeways, right-of-way-widths, parking-meters, disability-parking",
+    "licence": "Open Government Licence - Vancouver",
+    "url": "https://opendata.vancouver.ca/"
+  },
+  {
+    "source": "TransLink",
+    "dataset": "GTFS static feed: stops.txt and feed_info.txt only",
+    "licence": "TransLink GTFS data licence: limited and revocable, used by permission of TransLink",
+    "url": "https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources/gtfs/gtfs-data"
+  },
+  {
+    "source": "OpenStreetMap",
+    "dataset": "Overpass API: landuse=allotments, leisure=garden, leisure=pitch, building",
+    "licence": "ODbL 1.0 (review only; not shown as fact without a planner check)",
+    "url": "https://www.openstreetmap.org/copyright"
+  }
+]

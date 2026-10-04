@@ -1,0 +1,112 @@
+/* Loading, empty and error states, the count time and shared table rules. */
+.ps-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-margin-small);
+}
+
+/* Static grey blocks. No shimmer: a skeleton reports a wait, it does not move. */
+.ps-skeleton__block {
+  display: block;
+  inline-size: 100%;
+  block-size: var(--typography-line-heights-xdense);
+  border-radius: var(--layout-border-radius-small);
+  background: var(--theme-gray-30);
+}
+
+.ps-skeleton__block--heading {
+  inline-size: 60%;
+  max-inline-size: 24rem;
+  block-size: var(--typography-line-heights-xxsparse);
+}
+
+.ps-skeleton__block--line {
+  max-inline-size: var(--measure-reading);
+}
+
+.ps-skeleton__block--button {
+  inline-size: 10rem;
+  block-size: var(--touch-target-min);
+}
+
+.ps-skeleton__block--row {
+  block-size: var(--layout-margin-xlarge);
+}
+
+.ps-skeleton__block--thumb {
+  inline-size: 4rem;
+  block-size: 2.5rem;
+}
+
+.ps-skeleton__block--card {
+  aspect-ratio: 8 / 5;
+  block-size: auto;
+  border-radius: var(--layout-border-radius-medium);
+}
+
+.ps-skeleton__block--poster {
+  flex: 1 1 auto;
+  block-size: 100%;
+  min-block-size: 10rem;
+  border-radius: var(--layout-border-radius-medium);
+}
+
+.ps-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--layout-margin-small);
+  max-inline-size: var(--measure-reading);
+}
+
+.ps-empty__text {
+  margin: 0;
+}
+
+.ps-counted-at {
+  margin: 0;
+  font: var(--typography-regular-small-body);
+  color: var(--typography-color-secondary);
+}
+
+/* Tables: 1 px rules, numbers on the right in tabular figures, a header row that sticks. */
+.ps-table {
+  inline-size: 100%;
+  border-collapse: collapse;
+}
+
+.ps-table caption {
+  padding-block-end: var(--layout-padding-small);
+  font: var(--typography-bold-small-body);
+  text-align: start;
+}
+
+.ps-table th,
+.ps-table td {
+  padding: var(--layout-padding-small);
+  border-block-end: var(--layout-border-width-small) solid var(--surface-color-border-default);
+  text-align: start;
+  vertical-align: middle;
+}
+
+.ps-table thead th {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+  font: var(--typography-bold-small-body);
+  background: var(--surface-color-background-white);
+  border-block-end-color: var(--surface-color-border-medium);
+}
+
+.ps-table .ps-table__num {
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+
+.ps-table td.ps-table__num {
+  white-space: nowrap;
+}
+
+.ps-alert__action {
+  margin-block-start: var(--layout-margin-small);
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@parkshape/api-client",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./msw": {
+      "@parkshape/source": "./src/generated/msw.ts",
+      "types": "./dist/generated/msw.d.ts",
+      "import": "./dist/generated/msw.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "generate": "openapi-typescript ../../apps/api/openapi.json -o src/generated/schema.ts && tsx scripts/generate-msw.ts"
+  },
+  "dependencies": {
+    "@parkshape/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "msw": "2.15.0",
+    "openapi-typescript": "7.13.0",
+    "tsx": "4.23.15"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "threshold": 3,
+  "minTokens": 50,
+  "format": ["typescript", "tsx", "javascript", "css"],
+  "ignore": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/coverage/**",
+    "**/.turbo/**",
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.test.js",
+    "tools/preflight/fixtures/**",
+    "**/generated/**"
+  ],
+  "reporters": ["console"],
+  "gitignore": true
+}

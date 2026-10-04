@@ -1,0 +1,230 @@
+{
+  "type": "FeatureCollection",
+  "links": [
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://datacube.services.geo.ca/pgstac/api/"
+    },
+    {
+      "rel": "self",
+      "type": "application/geo+json",
+      "href": "https://datacube.services.geo.ca/pgstac/api/search"
+    }
+  ],
+  "features": [
+    {
+      "id": "mrdem",
+      "bbox": [-178.634083456441, 33.63960835766788, -8.498079497441832, 85.14750471001705],
+      "type": "Feature",
+      "links": [
+        {
+          "rel": "collection",
+          "type": "application/json",
+          "href": "https://datacube.services.geo.ca/pgstac/api/collections/mrdem-30"
+        },
+        {
+          "rel": "parent",
+          "type": "application/json",
+          "href": "https://datacube.services.geo.ca/pgstac/api/collections/mrdem-30"
+        },
+        {
+          "rel": "root",
+          "type": "application/json",
+          "href": "https://datacube.services.geo.ca/pgstac/api/"
+        },
+        {
+          "rel": "self",
+          "type": "application/geo+json",
+          "href": "https://datacube.services.geo.ca/pgstac/api/collections/mrdem-30/items/mrdem"
+        }
+      ],
+      "assets": {
+        "dsm": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dsm.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": ["data"],
+          "title": "Digital Surface Model (COG) / Mod\u00e8le num\u00e9rique de surface (COG)",
+          "description": "Digital Surface Model derived from the HRDEM Mosaic and the GLO-30 version of the Copernicus DEM. / Mod\u00e8le num\u00e9rique de surface bas\u00e9 sur la mosa\u00efque des MNEHR ainsi que sur la version GLO-30 du MNE Copernicus."
+        },
+        "dtm": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dtm.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": ["data"],
+          "title": "Digital Terrain Model (COG) / Mod\u00e8le num\u00e9rique de terrain (COG)",
+          "description": "Digital Terrain Model derived from the HRDEM Mosaic and the GLO-30 version of the Copernicus DEM. / Mod\u00e8le num\u00e9rique de terrain bas\u00e9 sur la mosa\u00efque des MNEHR ainsi que sur la version GLO-30 du MNE Copernicus."
+        },
+        "source": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-source.tif",
+          "type": "image/tiff",
+          "roles": ["metadata"],
+          "title": "Digital Terrain and Surface Model source / Source du mod\u00e8le num\u00e9rique de terrain et de surface",
+          "description": "Data source used per pixel for the Digital Terrain and Surface Model. / Source de donn\u00e9es utilis\u00e9e par cellule pour la cr\u00e9ation du mod\u00e8le num\u00e9rique de terrain et de surface."
+        },
+        "dsm-vrt": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dsm.vrt",
+          "type": "application/xml",
+          "roles": ["metadata"],
+          "title": "Digital Surface Model (VRT) / Mod\u00e8le num\u00e9rique de surface (VRT)",
+          "description": "Digital Surface Model derived from the HRDEM Mosaic and the GLO-30 version of the Copernicus DEM. / Mod\u00e8le num\u00e9rique de surface bas\u00e9 sur la mosa\u00efque des MNEHR ainsi que sur la version GLO-30 du MNE Copernicus."
+        },
+        "dtm-vrt": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dtm.vrt",
+          "type": "application/xml",
+          "roles": ["metadata"],
+          "title": "Digital Terrain Model (VRT) / Mod\u00e8le num\u00e9rique de terrain (VRT)",
+          "description": "Digital Terrain Model derived from the HRDEM Mosaic and the GLO-30 version of the Copernicus DEM. / Mod\u00e8le num\u00e9rique de terrain bas\u00e9 sur la mosa\u00efque des MNEHR ainsi que sur la version GLO-30 du MNE Copernicus."
+        },
+        "thumbnail": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-thumbnail.png",
+          "type": "image/png",
+          "roles": ["thumbnail"],
+          "title": "Thumbnail / Vignette",
+          "description": "Thumbnail of the MRDEM coverage. / Vignette montrant la couverture du produit MRDEM."
+        },
+        "source-vrt": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-source.vrt",
+          "type": "application/xml",
+          "roles": ["metadata"],
+          "title": "Digital Terrain and Surface Model source (VRT) / Source du mod\u00e8le num\u00e9rique de terrain et de surface (VRT)",
+          "description": "Data source used per pixel for the Digital Terrain and Surface Model. / Source de donn\u00e9es utilis\u00e9e par cellule pour la cr\u00e9ation du mod\u00e8le num\u00e9rique de terrain et de surface."
+        },
+        "hillshade-dsm": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dsm-hillshade.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": ["data"],
+          "title": "Shaded Relief of the Digital Surface Model (COG) / Relief ombr\u00e9 du mod\u00e8le num\u00e9rique de surface (COG)",
+          "description": "A relief representation of the Digital Surface Model which enhances the illumination and shadow variations, according to elevation, slope and a light source. / Une repr\u00e9sentation en relief du mod\u00e8le num\u00e9rique de surface qui met en valeur les variations d'\u00e9clairage et d'ombre, en fonction de l'altitude, de la pente et d'une source lumineuse."
+        },
+        "hillshade-dtm": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dtm-hillshade.tif",
+          "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+          "roles": ["data"],
+          "title": "Shaded Relief of the Digital Terrain Model (COG) / Relief ombr\u00e9 du mod\u00e8le num\u00e9rique de terrain (COG)",
+          "description": "A relief representation of the Digital Terrain Model  which enhances the illumination and shadow variations, according to elevation, slope and a light source. / Une repr\u00e9sentation en relief du mod\u00e8le num\u00e9rique de terrain qui met en valeur les variations d'\u00e9clairage et d'ombre, en fonction de l'altitude, de la pente et d'une source lumineuse."
+        },
+        "hillshade-dsm-vrt": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dsm-hillshade.vrt",
+          "type": "application/xml",
+          "roles": ["metadata"],
+          "title": "Shaded Relief of the Digital Surface Model (VRT) / Relief ombr\u00e9 du mod\u00e8le num\u00e9rique de surface (VRT)",
+          "description": "A relief representation of the Digital Surface Model which enhances the illumination and shadow variations, according to elevation, slope and a light source. / Une repr\u00e9sentation en relief du mod\u00e8le num\u00e9rique de surface qui met en valeur les variations d'\u00e9clairage et d'ombre, en fonction de l'altitude, de la pente et d'une source lumineuse."
+        },
+        "hillshade-dtm-vrt": {
+          "href": "https://canelevation-dem.s3.ca-central-1.amazonaws.com/mrdem-30/mrdem-30-dtm-hillshade.vrt",
+          "type": "application/xml",
+          "roles": ["metadata"],
+          "title": "Shaded Relief of the Digital Terrain Model (VRT) / Relief ombr\u00e9 du mod\u00e8le num\u00e9rique de terrain (VRT)",
+          "description": "A relief representation of the Digital Terrain Model which enhances the illumination and shadow variations, according to elevation, slope and a light source. / Une repr\u00e9sentation en relief du mod\u00e8le num\u00e9rique de terrain qui met en valeur les variations d'\u00e9clairage et d'ombre, en fonction de l'altitude, de la pente et d'une source lumineuse."
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-63.47762092700426, 33.63960835766788],
+            [-62.00563311566524, 35.82682403506532],
+            [-60.40379994053636, 38.015416451677716],
+            [-58.656475172153066, 40.19841320950095],
+            [-56.74592622870407, 42.36787026223395],
+            [-54.6521409751542, 44.514748764447766],
+            [-52.35268785388657, 46.62877564966326],
+            [-49.822684061352874, 48.69828909781416],
+            [-47.03495581707956, 50.71007357686303],
+            [-43.96051365016978, 52.649195192336286],
+            [-40.569511822008714, 54.49885772483497],
+            [-36.832905058041135, 56.240313966854984],
+            [-32.725034703267106, 57.85288595358744],
+            [-28.227326945063485, 59.31416928788851],
+            [-23.33310373058902, 60.6005142836829],
+            [-18.053128263036964, 61.6878765936592],
+            [-12.420928141257438, 62.55309265243701],
+            [-8.498079497441832, 62.996222689349295],
+            [-8.937494821388986, 63.899983598621425],
+            [-10.444296784015236, 66.60213963608703],
+            [-12.310003298568045, 69.28035538861627],
+            [-14.675441990458662, 71.92107803002921],
+            [-17.76226537334912, 74.50623071462483],
+            [-21.935695576918768, 77.0099454679995],
+            [-27.82716866555647, 79.39190178236487],
+            [-36.57020896857123, 81.58293212488493],
+            [-50.15665611317818, 83.45361986953534],
+            [-71.22124606119706, 84.75951028803516],
+            [-99.21193275679069, 85.14750471001705],
+            [-125.7463800197233, 84.46012449862401],
+            [-144.4280382683699, 82.95706575777197],
+            [-156.34835113890693, 80.9748588632586],
+            [-164.10680070203304, 78.71882255761969],
+            [-169.41309679897245, 76.29621542885609],
+            [-173.22235615577154, 73.76562303976755],
+            [-176.07098916705004, 71.16217099824362],
+            [-178.27353981561922, 68.50899118509544],
+            [-178.634083456441, 68.00391926341527],
+            [-172.98900347794267, 67.33871866026041],
+            [-166.4988959059392, 66.26885967300744],
+            [-160.58504562418878, 64.9538792618153],
+            [-155.2625124104207, 63.42781549176836],
+            [-150.51059261012614, 61.72351970554669],
+            [-146.2872403184632, 59.871154026885556],
+            [-142.54043013214596, 57.89755220969481],
+            [-139.215810934404, 55.82614102919753],
+            [-136.26122114440886, 53.677165859429145],
+            [-133.62897523920594, 51.46804614143602],
+            [-131.2767405840275, 49.213758914778275],
+            [-129.16760472597818, 46.92719892357945],
+            [-127.26972513115592, 44.6194941852467],
+            [-125.55579761907178, 42.300272324230406],
+            [-124.0024762791388, 39.97788084049196],
+            [-122.58981380856021, 37.659567579610126],
+            [-121.4798411779295, 35.68403667620558],
+            [-121.07105728737811, 35.83008495746255],
+            [-118.1780330703258, 36.784942207291024],
+            [-115.18109594658794, 37.63528939326795],
+            [-112.08853495029494, 38.37358577795259],
+            [-108.9109725655224, 38.992946854363254],
+            [-105.66130685191337, 39.48734073371457],
+            [-102.35452002684424, 39.851776070357786],
+            [-99.00734860138927, 40.08246911144416],
+            [-95.63782565713154, 40.17697746652949],
+            [-92.26472223678337, 40.13428978148045],
+            [-88.90692895562633, 39.95486364365681],
+            [-85.5828277681847, 39.64060837540713],
+            [-82.3097053088694, 39.19481424062835],
+            [-79.1032530154513, 38.622034210150744],
+            [-75.9771867927219, 37.92792808384446],
+            [-72.94300305337943, 37.11908096520404],
+            [-70.00987180615543, 36.2028086724036],
+            [-67.18465382182566, 35.18696181264566],
+            [-63.47762092700426, 33.63960835766788]
+          ]
+        ]
+      },
+      "collection": "mrdem-30",
+      "properties": {
+        "created": "2024-06-18T15:43:03Z",
+        "updated": "2026-06-25T14:14:39.214381Z",
+        "datetime": "2026-06-22T12:00:00Z",
+        "proj:epsg": 3979,
+        "collection": "mrdem-30",
+        "proj:shape": [166668, 185220],
+        "proj:geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [3056580.0, -1000020.0],
+              [3056580.0, 4000020.0],
+              [-2500020.0, 4000020.0],
+              [-2500020.0, -1000020.0],
+              [3056580.0, -1000020.0]
+            ]
+          ]
+        },
+        "proj:transform": [-2500020.0, 30.0, 0.0, 4000020.0, 0.0, -30.0]
+      },
+      "stac_version": "1.0.0",
+      "stac_extensions": ["https://stac-extensions.github.io/projection/v1.0.0/schema.json"]
+    }
+  ],
+  "numberMatched": 1,
+  "numberReturned": 1
+}

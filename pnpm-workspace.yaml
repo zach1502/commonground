@@ -1,0 +1,28 @@
+packages:
+  - apps/*
+  - packages/*
+  - tools/*
+
+# esbuild's postinstall validates its platform binary; Vite needs it.
+allowBuilds:
+  esbuild: true
+  # msw's postinstall copies a browser worker into a public dir; the Node handlers do not need it.
+  msw: false
+  # eslint-import-resolver-typescript depends on it; the script only checks the native binding.
+  unrs-resolver: true
+
+# Added by pnpm 12: these turbo builds are newer than the default minimum release age.
+minimumReleaseAgeExclude:
+  - '@turbo/darwin-64@2.11.4'
+  - '@turbo/darwin-arm64@2.11.4'
+  - '@turbo/linux-64@2.11.4'
+  - '@turbo/linux-arm64@2.11.4'
+  - '@turbo/windows-64@2.11.4'
+  - '@turbo/windows-arm64@2.11.4'
+  - turbo@2.11.4
+
+# Node 20.18 lacks require(esm), which Vite 7+ and jsdom 27+ depend on. Vitest accepts
+# vite ^6 || ^7 || ^8 and any jsdom, so pin both transitive copies to the app versions.
+overrides:
+  jsdom: 26.1.0
+  vite: 6.4.3

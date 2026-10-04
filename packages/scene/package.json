@@ -1,0 +1,72 @@
+{
+  "name": "@parkshape/scene",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "@parkshape/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./editor": {
+      "@parkshape/source": "./src/editor-entry.ts",
+      "types": "./dist/editor-entry.d.ts",
+      "import": "./dist/editor-entry.js"
+    },
+    "./thumbnail": {
+      "@parkshape/source": "./src/thumbnail-entry.ts",
+      "types": "./dist/thumbnail-entry.d.ts",
+      "import": "./dist/thumbnail-entry.js"
+    },
+    "./viewer": {
+      "@parkshape/source": "./src/viewer-entry.ts",
+      "types": "./dist/viewer-entry.d.ts",
+      "import": "./dist/viewer-entry.js"
+    },
+    "./plan": {
+      "@parkshape/source": "./src/plan-entry.ts",
+      "types": "./dist/plan-entry.d.ts",
+      "import": "./dist/plan-entry.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.test.json && tsc -p dev && tsc -p e2e",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "dev": "vite",
+    "test:e2e": "playwright test",
+    "render-hero": "tsx e2e/render-hero.ts"
+  },
+  "dependencies": {
+    "@parkshape/core": "workspace:*",
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.18.0",
+    "@react-three/postprocessing": "2.19.1",
+    "postprocessing": "6.39.5",
+    "three": "0.172.0",
+    "zod": "4.6.5",
+    "zustand": "5.0.15"
+  },
+  "devDependencies": {
+    "@bcgov/bc-sans": "2.1.2",
+    "@bcgov/design-tokens": "5.0.0",
+    "@playwright/test": "1.63.0",
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/react": "16.3.3",
+    "@types/react": "18.3.31",
+    "@types/react-dom": "18.3.7",
+    "@types/three": "0.172.0",
+    "@vitejs/plugin-react": "4.7.0",
+    "fast-check": "4.10.2",
+    "jsdom": "26.1.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "6.4.3"
+  },
+  "peerDependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}

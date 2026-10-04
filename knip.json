@@ -1,0 +1,31 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "ignore": ["tools/preflight/fixtures/**", "packages/api-client/src/generated/schema.ts"],
+  "ignoreExportsUsedInFile": true,
+  "ignoreDependencies": ["@parkshape/.*", "@commitlint/cli"],
+  "workspaces": {
+    ".": {},
+    "apps/api": {
+      "entry": ["src/entry.*.ts", "src/adapters/metrics-worker.ts", "api/index.js"]
+    },
+    "apps/web": {
+      "entry": ["e2e/*.setup.ts"],
+      "ignoreDependencies": ["@bcgov/design-tokens"]
+    },
+    "packages/*": {},
+    "tools/*": {},
+    "packages/ui": {
+      "ignoreDependencies": ["@bcgov/design-tokens"]
+    },
+    "tools/asset-pipeline": {
+      "entry": ["dev/lineup.ts", "thumbs/main.ts"],
+      "ignoreDependencies": ["react", "react-dom"]
+    },
+    "tools/seed": {
+      "entry": ["src/thumbnail-page/main.ts"]
+    },
+    "packages/db": {
+      "entry": ["src/migrate-cli.ts"]
+    }
+  }
+}

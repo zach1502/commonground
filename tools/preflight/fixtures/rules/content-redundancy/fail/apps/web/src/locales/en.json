@@ -1,0 +1,12 @@
+{
+  "chart": {
+    "note": "This shows votes per design."
+  },
+  "canopy": {
+    "label": "Tree canopy",
+    "help": "Tree canopy shows the tree canopy"
+  },
+  "submit": {
+    "help": "Click Submit to submit your design."
+  }
+}
